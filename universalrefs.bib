@@ -3,25 +3,38 @@
 
 %% Created for Alston D'Souza at 2018-09-23 11:27:34 +0530
 
-
 %% Saved with string encoding Unicode (UTF-8)
+%The different types of documents, and their citations are given below. 
 
+% 1) Supreme Court Order (there are two formats here; follow one).
+% a) 
 @jurisdiction{sc1994_tataVuoi,
   title =        {Tata Cellular vs Union of India},
-  institution =  {Supreme court of India},
+  institution =  {Supreme court of India},  % (Sometimes in supreme court cases instead of the institution field, you may want to use corporate author.)
+  year =         {1994},
+  number =       {1994 [6] SCC 651},
+  url =          {https://indiankanoon.org/doc/884513/},
+  urldate =      {2017-04-03}
+}
+ 
+% or
+
+%@jurisdiction{sc1994_tataVuoi,
+  title =        {Tata Cellular vs Union of India},
+  author =  {{Supreme court of India}},
   year =         {1994},
   number =       {1994 [6] SCC 651},
   url =          {https://indiankanoon.org/doc/884513/},
   urldate =      {2017-04-03}
 }
 
-
-
+% 2) Parliamentary Law
 @legislation{trai_act,
   title =        {Telecom Regulatory Authority of India Act, 1997},
   shorttitle =   {TRAI Act, 1997}
 }
 
+% 3) Subordinate law from a Regulator
 @legislation{sebi1996_fiireg,
   title =        {SEBI (Foreign Institutional Investors) Regulations,
                   1995},
@@ -33,7 +46,7 @@
   urldate =      {2014-05-16}
 }
 
-
+% 4) Newspaper Citations
 @webpage{Darroch2017,
 	Author = {Darroch, Gordon},
 	Date-Added = {2018-09-23 05:56:01 +0000},
@@ -43,6 +56,7 @@
 	Title = {Netherlands 'will pay the price' for blocking Turkish visit -- Erdo{\u g}an},
 	Url = {https://www.theguardian.com/world/2017/mar/12/netherlands-will-pay-the-price-for-blocking-turkish-visit-erdogan}}
 
+% 5) Report from the government or any other institution
 @techreport{ced2017regulationandeconomy,
 	Date-Added = {2018-09-22 19:32:29 +0530},
 	Date-Modified = {2018-09-23 10:20:33 +0530},
@@ -52,7 +66,8 @@
 	Url = {Https://Bit.Ly/2Mzuqh6},
 	Year = {2017},
 	Bdsk-Url-1 = {Https://Bit.Ly/2Mzuqh6}}
-
+	
+% 6) 	Research papers
 @article{stigler1971theory,
 	Author = {Stigler, George J},
 	Date-Added = {2018-09-22 17:26:46 +0530},
@@ -65,6 +80,17 @@
 	Year = {1971},
 	Bdsk-Url-1 = {https://bit.ly/2NiECrp}}
 
+% 7) Books
+@book{emery2000administrative,
+	Author = {Emery, James J and Spence, Melvin T Jr and Wells, Louis T Jr and Buehrer, Timothy S},
+	Date-Added = {2018-09-22 17:07:20 +0530},
+	Date-Modified = {2018-09-22 17:11:10 +0530},
+	Publisher = {The World Bank},
+	Title = {Administrative barriers to foreign investment: Reducing red tape in Africa},
+	Url = {https://bit.ly/2xgutAo},
+	Year = {2000},
+	Bdsk-Url-1 = {https://bit.ly/2xgutAo}}
+	
 @article{shleifer1993corruption,
 	Author = {Shleifer, Andrei and Vishny, Robert W},
 	Date-Added = {2018-09-22 17:25:34 +0530},
@@ -114,15 +140,6 @@
 	Year = {2005},
 	Bdsk-Url-1 = {https://bit.ly/2QBJ4Q7}}
 
-@book{emery2000administrative,
-	Author = {Emery, James J and Spence, Melvin T Jr and Wells, Louis T Jr and Buehrer, Timothy S},
-	Date-Added = {2018-09-22 17:07:20 +0530},
-	Date-Modified = {2018-09-22 17:11:10 +0530},
-	Publisher = {The World Bank},
-	Title = {Administrative barriers to foreign investment: Reducing red tape in Africa},
-	Url = {https://bit.ly/2xgutAo},
-	Year = {2000},
-	Bdsk-Url-1 = {https://bit.ly/2xgutAo}}
 
 @article{djankov2002regulation,
 	Author = {Djankov, Simeon and La Porta, Rafael and Lopez-de-Silanes, Florencio and Shleifer, Andrei},
