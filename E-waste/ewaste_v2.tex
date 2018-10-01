@@ -69,7 +69,8 @@
 		\hypersetup{
 		colorlinks,
 		linkcolor = black,
-		citecolor = blue}
+		citecolor = CCSbrown,
+		urlcolor = black}
 		\usepackage{blindtext}
 		
               %Tables 
@@ -347,8 +348,9 @@
           %table1         
 \begin{table}[htpb]
 \caption{Official Cost of Acquiring CTE and CTO}
-\begin{tabular}{ l  c  c  c }
-\thead{\normalsize{State}} & \thead{\normalsize{Licence}} & \thead{\normalsize{Cost in Rs.}\\ \scriptsize\textit{(For Investment Between 1 and 10 crores)}} & \thead{\normalsize{Official Time Taken}\\ \scriptsize\textit{(in days)}} \\
+\begin{tabular}{ l  l  r  r }
+ \multicolumn{1}{p{7em}}{State} & \multicolumn{1}{p{7em}}{Licence} & \multicolumn{1}{p{11.5em}}{Cost in Rs. \footnotesize\textit{(For Investment Between 1 and 10 crores)}} & \multicolumn{1}{p{8.75em}}{{Official Time Taken} \raggedleft\footnotesize\textit{(in days)}}\\ 
+
 \hline
 Uttar Pradesh & CTE + CTO & 1,17,000 & 40-60\\ 
 Haryana & CTE + CTO & 3,84,000 & 20-40\\
@@ -453,8 +455,9 @@ Haryana & CTE + CTO & 3,84,000 & 20-40\\
 \raggedright
 \caption{Actual Working and Optimum Recycling Capacity of Surveyed Firms}
 \begin{tabular}{ l  r  r }
-\thead{\small{Name of Recycling Firm}} & \thead{\small{Optimum Capacity} \\ \scriptsize\textit{(in tonnes)}} & \thead{\small{Capacity Utilised} \\ \small{for 2017-18} \\ \scriptsize\textit{(in tonnes)}} \\
-\hline 
+    \multicolumn{1}{p{7em}}{\raggedright{Name of Recycling Firm}} & \multicolumn{1}{p{8.5em}}{Optimum Capacity \raggedleft\footnotesize\textit{(in tonnes)}} & \multicolumn{1}{p{9.5em}}{Capacity Utilised for 2017-18 \raggedleft\footnotesize\textit{(in tonnes)}} \\
+          \hline
+
 Namo E-Waste Management, Faridabad & 5,796 & 870 \\
 SMS Enterprises, Pace City, Gurgaon & 360 & 8 \\
 Greeniva Recycler, Hapur & 1,500 & 700 \\
@@ -474,7 +477,7 @@ Total & 26,256 & 10,478  \\
 \raggedright
 \caption{Price Comparison between Authorised and Informal Recyclers}
 \begin{tabular}{ l  r  r }
-\thead{\normalsize{Item}} & \thead{\normalsize{Authorised Recycler} \\ \footnotesize\textit{Rs. per unit}} & \thead{\normalsize{Informal Recycler} \\ \footnotesize\textit{Rs. per unit}} \\
+ \multicolumn{1}{p{7em}}{\centering{Item}} & \multicolumn{1}{p{10em}}{Authorised Recyclers \raggedleft\footnotesize\textit{(Rs. per unit)}} & \multicolumn{1}{p{9.5em}}{\centering{Informal Recyclers} \raggedleft\footnotesize\textit{(Rs. per unit)}} \\
 \hline
 
 HP Laptop (i3/i5) & 1,133.3 & 4,642.9\\
@@ -537,7 +540,7 @@ Fax Machine & 40  & 197.9 \\
          
          %Appendix 4
              \newpage       
-             \section*{Appendix 4: Questionnaire Administered to Authorised Recyclers}
+             \section*{Appendix 4: Questionnaire Administered to \\ Authorised Recyclers}
              \addcontentsline{toc}{section}{Appendix 3: Questionnaire Administered to Authorised Recyclers}
                     \setstretch{0.5}
                     \begin{mdframed}[backgroundcolor=gray!20]
