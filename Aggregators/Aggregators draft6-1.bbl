@@ -1,0 +1,644 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{aghionpaper}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=7c80c989fdd0b446cc5cdac1d9584afe}{%
+           family={Aghion},
+           familyi={A\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ed9af717325c56c0e9be8e651728a31c}{%
+           family={Algan},
+           familyi={A\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b910b20c3047e727c567264db8798baa}{%
+           family={Cahuc},
+           familyi={C\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=73d7bf2d3105674f373111fc7356eec3}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{fb729f6ef6c1efba92738ec98909537c}
+      \strng{fullhash}{00cf29472ca3bffe6a4ad77b43a62730}
+      \strng{bibnamehash}{00cf29472ca3bffe6a4ad77b43a62730}
+      \strng{authorbibnamehash}{00cf29472ca3bffe6a4ad77b43a62730}
+      \strng{authornamehash}{fb729f6ef6c1efba92738ec98909537c}
+      \strng{authorfullhash}{00cf29472ca3bffe6a4ad77b43a62730}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{number}{3}
+      \field{title}{Regulation and distrust}
+      \field{volume}{125}
+      \field{year}{2010}
+      \field{pages}{1015\bibrangedash 1049}
+      \range{pages}{35}
+    \endentry
+    \entry{BotsmanR}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6d8d1fc079128ef4ee537b5b080bb746}{%
+           family={Botsman},
+           familyi={B\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Penguin}%
+      }
+      \strng{namehash}{6d8d1fc079128ef4ee537b5b080bb746}
+      \strng{fullhash}{6d8d1fc079128ef4ee537b5b080bb746}
+      \strng{bibnamehash}{6d8d1fc079128ef4ee537b5b080bb746}
+      \strng{authorbibnamehash}{6d8d1fc079128ef4ee537b5b080bb746}
+      \strng{authornamehash}{6d8d1fc079128ef4ee537b5b080bb746}
+      \strng{authorfullhash}{6d8d1fc079128ef4ee537b5b080bb746}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Who Can You Trust?: How Technology Brought Us Together: and Why It Could Drive Us Apart}
+      \field{title}{Evolution of Trust}
+      \field{year}{2017}
+    \endentry
+    \entry{ChaddahP}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a575178ba741276b1170ec60dd7260b6}{%
+           family={Chaddah},
+           familyi={C\bibinitperiod},
+           given={Pankajl},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Zomato Blog}%
+      }
+      \strng{namehash}{a575178ba741276b1170ec60dd7260b6}
+      \strng{fullhash}{a575178ba741276b1170ec60dd7260b6}
+      \strng{bibnamehash}{a575178ba741276b1170ec60dd7260b6}
+      \strng{authorbibnamehash}{a575178ba741276b1170ec60dd7260b6}
+      \strng{authornamehash}{a575178ba741276b1170ec60dd7260b6}
+      \strng{authorfullhash}{a575178ba741276b1170ec60dd7260b6}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{5}
+      \field{title}{Trust, But Verify}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2OuiaLP
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2OuiaLP
+      \endverb
+    \endentry
+    \entry{Chaturvedinews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5b04e3c64fa3478189ef83ca9bfa9393}{%
+           family={Chaturvedi},
+           familyi={C\bibinitperiod},
+           given={Anumeha},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b04e3c64fa3478189ef83ca9bfa9393}
+      \strng{fullhash}{5b04e3c64fa3478189ef83ca9bfa9393}
+      \strng{bibnamehash}{5b04e3c64fa3478189ef83ca9bfa9393}
+      \strng{authorbibnamehash}{5b04e3c64fa3478189ef83ca9bfa9393}
+      \strng{authornamehash}{5b04e3c64fa3478189ef83ca9bfa9393}
+      \strng{authorfullhash}{5b04e3c64fa3478189ef83ca9bfa9393}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{journaltitle}{The Economic Times}
+      \field{month}{1}
+      \field{title}{Hotel Industry Seeks Uniformity in Regulations}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2xP4SzD
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xP4SzD
+      \endverb
+    \endentry
+    \entry{dai2012optimal}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=9567748aab7be09cc024898ad29c2f39}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Weijia},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3a31a7765476087644161560f478afd8}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Ginger\bibnamedelima Z},
+           giveni={G\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=36255f46a3db02aede0d8e43b6809f26}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jungmin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=267b0e6bcab608a51779b5a6e41b162a}{%
+           family={Luca},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{92f5f13b4b9d439a19dc4de8369b3750}
+      \strng{fullhash}{dd3ce0d564aca6adbd9b12c9aeaf5dc2}
+      \strng{bibnamehash}{dd3ce0d564aca6adbd9b12c9aeaf5dc2}
+      \strng{authorbibnamehash}{dd3ce0d564aca6adbd9b12c9aeaf5dc2}
+      \strng{authornamehash}{92f5f13b4b9d439a19dc4de8369b3750}
+      \strng{authorfullhash}{dd3ce0d564aca6adbd9b12c9aeaf5dc2}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Optimal aggregation of consumer ratings: an application to yelp. com}
+      \field{year}{2012}
+    \endentry
+    \entry{EYreport}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=35ee57eb41a63d4b53194ab9cd2651cd}{%
+           family={Ernst},
+           familyi={E\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=2752eb0ac8acf8103acd2a8c17364acd}{%
+           family={LLP},
+           familyi={L\bibinitperiod},
+           given={Young},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4366f1c71cf64b48a6d437ede7ea775d}
+      \strng{fullhash}{4366f1c71cf64b48a6d437ede7ea775d}
+      \strng{bibnamehash}{4366f1c71cf64b48a6d437ede7ea775d}
+      \strng{authorbibnamehash}{4366f1c71cf64b48a6d437ede7ea775d}
+      \strng{authornamehash}{4366f1c71cf64b48a6d437ede7ea775d}
+      \strng{authorfullhash}{4366f1c71cf64b48a6d437ede7ea775d}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Rise of the Sharing Economy}
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/jiec.12619
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/jiec.12619
+      \endverb
+    \endentry
+    \entry{ert2016trust}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=a89bd66252531e23133143895d7eea16}{%
+           family={Ert},
+           familyi={E\bibinitperiod},
+           given={Eyal},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=997885bbcaea3d3a036ffd6564e82359}{%
+           family={Fleischer},
+           familyi={F\bibinitperiod},
+           given={Aliza},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=69f271726af318fea2c64be5aefc3524}{%
+           family={Magen},
+           familyi={M\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{52737f3c52042e8f21bb603c0393d13d}
+      \strng{fullhash}{52737f3c52042e8f21bb603c0393d13d}
+      \strng{bibnamehash}{52737f3c52042e8f21bb603c0393d13d}
+      \strng{authorbibnamehash}{52737f3c52042e8f21bb603c0393d13d}
+      \strng{authornamehash}{52737f3c52042e8f21bb603c0393d13d}
+      \strng{authorfullhash}{52737f3c52042e8f21bb603c0393d13d}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tourism Management}
+      \field{title}{Trust and reputation in the sharing economy: The role of personal photos in Airbnb}
+      \field{volume}{55}
+      \field{year}{2016}
+      \field{pages}{62\bibrangedash 73}
+      \range{pages}{12}
+    \endentry
+    \entry{hu2017self}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=9c646bcc3ad6cdb93043a792e87b0f17}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b067d191f8420c8ae5b1be7420fdb6a}{%
+           family={Pavlou},
+           familyi={P\bibinitperiod},
+           given={Paul\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2f4cc163c8766d4437008ea260208de8}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Society for Information Management}%
+        {The Management Information Systems Research Center}%
+      }
+      \strng{namehash}{6179318382854cca9215c157d3220ebd}
+      \strng{fullhash}{6179318382854cca9215c157d3220ebd}
+      \strng{bibnamehash}{6179318382854cca9215c157d3220ebd}
+      \strng{authorbibnamehash}{6179318382854cca9215c157d3220ebd}
+      \strng{authornamehash}{6179318382854cca9215c157d3220ebd}
+      \strng{authorfullhash}{6179318382854cca9215c157d3220ebd}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIS Quarterly}
+      \field{number}{2}
+      \field{title}{On self-selection biases in online product reviews}
+      \field{volume}{41}
+      \field{year}{2017}
+      \field{pages}{449\bibrangedash 471}
+      \range{pages}{23}
+    \endentry
+    \entry{ivanova2017can}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f903ee15460bab484df0c847bb9cfdfe}{%
+           family={Ivanova},
+           familyi={I\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e5b49909dc8d307cbb820b8af58f40da}{%
+           family={Scholz},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{11a278468c683c380528765f66eaa43d}
+      \strng{fullhash}{11a278468c683c380528765f66eaa43d}
+      \strng{bibnamehash}{11a278468c683c380528765f66eaa43d}
+      \strng{authorbibnamehash}{11a278468c683c380528765f66eaa43d}
+      \strng{authornamehash}{11a278468c683c380528765f66eaa43d}
+      \strng{authorfullhash}{11a278468c683c380528765f66eaa43d}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Decision Support Systems}
+      \field{title}{How can online marketplaces reduce rating manipulation? A new approach on dynamic aggregation of online ratings}
+      \field{volume}{104}
+      \field{year}{2017}
+      \field{pages}{64\bibrangedash 78}
+      \range{pages}{15}
+    \endentry
+    \entry{Kalra2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=fadad619c133568d39d13a7b021a2900}{%
+           family={Kalra},
+           familyi={K\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=835da07bf97f7e693d1ea4b8256f64ac}{%
+           family={Dave},
+           familyi={D\bibinitperiod},
+           given={Paresh},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c97c22cb37a7e0e7ca2af418f3ad065}
+      \strng{fullhash}{6c97c22cb37a7e0e7ca2af418f3ad065}
+      \strng{bibnamehash}{6c97c22cb37a7e0e7ca2af418f3ad065}
+      \strng{authorbibnamehash}{6c97c22cb37a7e0e7ca2af418f3ad065}
+      \strng{authornamehash}{6c97c22cb37a7e0e7ca2af418f3ad065}
+      \strng{authorfullhash}{6c97c22cb37a7e0e7ca2af418f3ad065}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{journaltitle}{Livemint}
+      \field{month}{10}
+      \field{title}{Meru Files New Complaints against Uber, Ola with CCI}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2y53eJt
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2y53eJt
+      \endverb
+    \endentry
+    \entry{koopman2014sharing}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=7b8faebc0371e4d1505ddac6dccdd70a}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1a3be144fa9cf972f34f01e0d08c2af9}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d6abd4ad0fbb9ffc7e6a2312a020b7a9}{%
+           family={Thierer},
+           familyi={T\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {HeinOnline}%
+      }
+      \strng{namehash}{84ab2ce73e3486adb6cba8b810c09ee5}
+      \strng{fullhash}{84ab2ce73e3486adb6cba8b810c09ee5}
+      \strng{bibnamehash}{84ab2ce73e3486adb6cba8b810c09ee5}
+      \strng{authorbibnamehash}{84ab2ce73e3486adb6cba8b810c09ee5}
+      \strng{authornamehash}{84ab2ce73e3486adb6cba8b810c09ee5}
+      \strng{authorfullhash}{84ab2ce73e3486adb6cba8b810c09ee5}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Bus. Entrepreneurship \& L.}
+      \field{title}{The sharing economy and consumer protection regulation: The case for policy change}
+      \field{volume}{8}
+      \field{year}{2014}
+      \field{pages}{529}
+      \range{pages}{1}
+    \endentry
+    \entry{luca2016reviews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=267b0e6bcab608a51779b5a6e41b162a}{%
+           family={Luca},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{267b0e6bcab608a51779b5a6e41b162a}
+      \strng{fullhash}{267b0e6bcab608a51779b5a6e41b162a}
+      \strng{bibnamehash}{267b0e6bcab608a51779b5a6e41b162a}
+      \strng{authorbibnamehash}{267b0e6bcab608a51779b5a6e41b162a}
+      \strng{authornamehash}{267b0e6bcab608a51779b5a6e41b162a}
+      \strng{authorfullhash}{267b0e6bcab608a51779b5a6e41b162a}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reviews, reputation, and revenue: The case of Yelp. com}
+      \field{year}{2016}
+    \endentry
+    \entry{luca2016fake}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=267b0e6bcab608a51779b5a6e41b162a}{%
+           family={Luca},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=42e6ba35a246dc11fef06a3cd92db504}{%
+           family={Zervas},
+           familyi={Z\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{95c86ddb528c94c37d7f1526b2a1f986}
+      \strng{fullhash}{95c86ddb528c94c37d7f1526b2a1f986}
+      \strng{bibnamehash}{95c86ddb528c94c37d7f1526b2a1f986}
+      \strng{authorbibnamehash}{95c86ddb528c94c37d7f1526b2a1f986}
+      \strng{authornamehash}{95c86ddb528c94c37d7f1526b2a1f986}
+      \strng{authorfullhash}{95c86ddb528c94c37d7f1526b2a1f986}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Science}
+      \field{number}{12}
+      \field{title}{Fake it till you make it: Reputation, competition, and Yelp review fraud}
+      \field{volume}{62}
+      \field{year}{2016}
+      \field{pages}{3412\bibrangedash 3427}
+      \range{pages}{16}
+    \endentry
+    \entry{PTI2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=732fb432ac72880ffca54bb6302c9203}{%
+           family={PTI},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{fullhash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{bibnamehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{authorbibnamehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{authornamehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{authorfullhash}{732fb432ac72880ffca54bb6302c9203}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{Livemint}
+      \field{month}{8}
+      \field{title}{India Business Growing at Over 100\% Year-on-Year: Uber}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2NcL9yR
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NcL9yR
+      \endverb
+    \endentry
+    \entry{PTI2018}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=732fb432ac72880ffca54bb6302c9203}{%
+           family={PTI},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{fullhash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{bibnamehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{authorbibnamehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{authornamehash}{732fb432ac72880ffca54bb6302c9203}
+      \strng{authorfullhash}{732fb432ac72880ffca54bb6302c9203}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{The Economic Times}
+      \field{month}{4}
+      \field{title}{India One of Our Healthiest Markets: Uber CEO}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2zGhvhL
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2zGhvhL
+      \endverb
+    \endentry
+    \entry{thierer2015internet}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=d6abd4ad0fbb9ffc7e6a2312a020b7a9}{%
+           family={Thierer},
+           familyi={T\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7b8faebc0371e4d1505ddac6dccdd70a}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=64d3e2f9512bf5f4153e416ceb5fe0cb}{%
+           family={Hobson},
+           familyi={H\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f0425ed3a17c998faf27adec42f10a03}{%
+           family={Kuiper},
+           familyi={K\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {HeinOnline}%
+      }
+      \strng{namehash}{48c0e4016d911140169bd6bd41226314}
+      \strng{fullhash}{d234c38ed0dea29d8b8358af694ea07e}
+      \strng{bibnamehash}{d234c38ed0dea29d8b8358af694ea07e}
+      \strng{authorbibnamehash}{d234c38ed0dea29d8b8358af694ea07e}
+      \strng{authornamehash}{48c0e4016d911140169bd6bd41226314}
+      \strng{authorfullhash}{d234c38ed0dea29d8b8358af694ea07e}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{U. Miami L. Rev.}
+      \field{title}{How the internet, the sharing economy, and reputational feedback mechanisms solve the lemons problem}
+      \field{volume}{70}
+      \field{year}{2015}
+      \field{pages}{830}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+  \missing{11-14}
+  \missing{2015}
+  \missing{Brito 2012}
+  \missing{Dudely}
+  \missing{Fang et al. 2015}
+  \missing{Feeney et al. 2015; Lee et al. 2008}
+  \missing{GoyalD2012}
+  \missing{GoyalD2017}
+  \missing{Hamari et al.}
+  \missing{Hancock 2001}
+  \missing{Kriston et al. 2010; Belk 2014; Martin et al. 2011; Rifkin 2015; Leismann et al. 2013}
+  \missing{Laghate 2017}
+  \missing{Martin et al. 2011; Costain et al. 2012; Steininger et al. 1996}
+  \missing{Narang17}
+\endrefsection
+\endinput
+
