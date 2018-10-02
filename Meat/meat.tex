@@ -3,7 +3,8 @@
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[utf8]{inputenc}
-% \renewcommand{\baselinestretch}{1.0} 
+    \newcommand\tabitem{\makebox[1em][r]{\textbullet~}}
+
 %MARGINS
 \usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
 % \geometry{a4paper, total={170mm,257mm}, left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm}
@@ -26,7 +27,11 @@
 % \lhead{Guides and tutorials}
 \rfoot{Centre for Civil Society \hspace{1mm} \textbar \hspace{1mm} www.ccs.in \hspace{2mm} \thepage}
 % \lfoot{ \leftmark } % get the section heading on the footer 
+
+
 %Tables
+\usepackage{multicol}
+\usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{subfig}
 \captionsetup{aboveskip=14pt,}
@@ -40,6 +45,7 @@
 \definecolor{CCSgrey}{RGB}{167, 169, 172}
 \definecolor{CCSblack}{RGB}{64, 64, 65} 
 %Heading colours 
+\usepackage{array}
 \usepackage{sectsty}
 \usepackage{titlesec}
 \chapterfont{\color{blue}} % sets colour of chapters font
@@ -126,14 +132,15 @@ India houses the largest number of livestock in the world \parencite{sharmanews}
 
 India produced 7.4 million tonnes (MT) of meat in 2016 to 2017 \parencite{dahreport} while its meat production grew by 8.48\% in 2016 to 2017 \parencite{dah1report}. The domestic market in India for non-vegetarian food is large: 71\% of Indians over the age of 15 identify as non-vegetarians as of 2012 \parencite{mspireport}. \\
 
-The meat export industry of India is also among the largest in the world. Buffalo meat surpassed basmati rice to become the largest agricultural export of India and fetched India Rs. 25,000 crore in 2017 to 2018 \parencite{apedastats}. According to the Department of Animal Husbandry, Dairying and Fisheries, in 2017, India ranked second in the world on exports of buffalo and fifth for sheep and goat.\\
+The meat export industry of India is also among the largest in the world. Buffalo meat surpassed basmati rice to become the largest agricultural export of India and fetched India Rs. 25,000 crore in 2017 to 2018 \parencite{apedastats}. According to the Department of Animal Husbandry, Dairying and Fisheries, in 2017, India ranked second in the world on exports of buffalo and fifth for sheep and goat.\\ 
+
 Figure 1 shows that total meat production in India has nearly quadrupled in the last two decades.\\
 
-Figure 1
-\begin{figure}
+%Figure 1
+\begin{figure}[H]
 \centering
-\includegraphics[height = 4.25in]{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 1.jpg}
-%\caption[Optional Caption]{Figure 1: Total Meat Production in India From 1998-99 to 2016-17 \\ [\parencite{cmiestats}]}}
+\includegraphics[height = 3.8in]{Fig 1.jpg}
+\caption{Total Meat Production in India From 1998-99 to 2016-17 \parencite{cmiestats}}
 \end{figure}
 
 However, the industry imposes significant negative externalities on the environment and is at the centre of emerging public health and hygiene concerns \parencite{praderepaper}. There are also several socio-cultural and religious constraints on the production and consumption of meat in India. All these, coupled with the need for ethical treatment of animals, attract government interventions in the sector. \\
@@ -151,11 +158,12 @@ Finally, the entry barriers to new businesses create difficulties in opening and
 This paper examines the regulatory challenges with a focus on its impact on the small meat traders in Delhi. It describes the perceptions of various stakeholders and explores gaps between on-paper and on-ground policy. It also explores the licensing and inspections of slaughterhouses and meat shops—while scrutinizing the last two stages of the supply chain of meat in Delhi in greater detail.\\
 
 There are four stages in the supply chain of meat. First, the rearing of animals on farms—the meat that is consumed in Delhi is mostly reared on farms in Haryana and Uttar Pradesh; second, the transportation and sale of these animals to a trader in a market or a murga mandi; third, the slaughter of these traded animals in a slaughterhouse; and fourth, the sale of meat that is extracted from the slaughtered animal in a meat shop. Figure 2 represents the supply chain of meat and the focus of our study. \\
-Figure 2
+
+%Figure 2
 \begin{figure}[H]
 \centering
-\includegraphics{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 2.jpg}
-\caption[Optional Caption]{Figure 2: Supply Chain of Meat in Delhi}
+\includegraphics[width=5.5in]{Fig 2.jpg}
+\caption{Supply Chain of Meat in Delhi}
 \end{figure} 
 
 The study of regulatory challenges with the slaughter of animals is based on secondary research and semi-structured interviews with individuals who are directly (business owners and exporters of livestock) or indirectly (journalists, lawyers and advocacy group members) involved in the meat industry of Delhi. We also interviewed officers of the relevant regulatory agencies such as the FSSAI and the Veterinary Department of the South Delhi Municipal Corporation (SDMC).\\
@@ -274,31 +282,58 @@ To operate a meat shop in Delhi, the shopkeeper requires the following three lic
 \item Weights and Measurements certificate from the DWM.
 \end{enumerate}
 
-% Table generated by Excel2LaTeX from sheet 'Sheet1'
-\begin{table}[htbp]
-  \centering
-  \caption{Add caption}
-    \begin{tabular}{p{5.145em}p{7.855em}cccc}
-    \textbf{Food Safety and Standards Authority of India, Department of Food Safety, Government of Delhi NCT} & \multicolumn{1}{r}{} &       &       &       &  \\
-    The FSSAI regulates meat shops by laying down procedural requirements while listing tools and facilities each shop should have to ensure hygiene in storage and processing alongside quality control mechanisms. There are three categories within this, the details of which are listed below. & \multicolumn{1}{r}{} &       &       &       &  \\
-    Central License & Turnover more than Rs. 20 crores & 7,500 & \multicolumn{1}{c}{\multirow{3}[0]{*}{Up to 5 years}} & 60    & 18 \\
-    State License & Turnover between Rs. 12 lakhs and Rs. 20 crores & 2,000 &       & 60    & 18 \\
-    Registration Certificate & Turnover up to Rs. 12 Lakhs & 100   &       & 7     & 7 \\
-    \end{tabular}%
-  \label{tab:addlabel}%
-\end{table}%
+%TABLE 1 p{2cm}>{\raggedright}p{3.5cm}>{\raggedright}p{3.5cm}>{\raggedright\arraybackslash}p{6cm}
+%\newpage
+\begin{longtable}{>{\raggedright}p{2.5cm}>{\raggedright}p{2.5cm}>{\raggedright}p{2.5cm}>{\raggedright}p{2.5cm}>{\raggedright}p{2.5cm}>{\raggedright\arraybackslash}p{2.5cm}}
+\caption{Details of Licences Required to Operate a Meat Shop in Delhi} \\
+License Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & Number of Documents Required \\
+\midrule
+\endfirsthead
+%License Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & Number of Documents Required \\
+\endhead
+\midrule
+\endlastfoot
+
+\multicolumn{6}{l}{Municipal Corporation of Delhi} \\
+\midrule
+\multicolumn{6}{p{16.5cm}}{The Veterinary Licence certifies the structural stability of the establishment alongside its compliance with a few regulations on food quality and standards.
+ The primary distinction between this licence and a General Trade License issued to other shops is that the establishments of Veterinary License holders are inspected by veterinarians rather than a health inspector.} \\
+\midrule
+Veterinary License & All businesses dealing in buffalo meat halal, pork, mutton, chicken, fish and cattle/dairy farms & "2,400 (license fee), \\
+300 (processing fee), \\
+500 (registration fee)" & Up to 31 March every year & 60 & 15 \\
+\midrule
+\multicolumn{6}{p{16.5cm}}{Food Safety and Standards Authority of India, Department of Food Safety, Government of Delhi NCT} \\
+\midrule
+\multicolumn{6}{p{16.5cm}}{The FSSAI regulates meat shops by laying down procedural requirements while listing tools and facilities each shop should have to ensure hygiene in storage and processing alongside quality control mechanisms. There are three categories within this, the details of which are listed below.} \\
+\midrule
+Central License & Turnover more than Rs. 20 crores & 7,500 & Up to 5 years & 60 & 18 \\
+State License & Turnover between Rs. 12 lakhs and Rs. 20 crores & 2,000 &  & 60 & 18 \\
+Registration Certificate & Turnover up to Rs. 12 Lakhs & 100 &  & 7 & 7 \\
+\midrule
+\multicolumn{6}{p{16.5cm}}{Department of Weights and Measures, Government of Delhi NCT} \\
+\midrule
+\multicolumn{6}{p{16.5cm}}{The certificate of Weights and Measures is issued to ensure the standardization of weights used in the shop. It mentions the kinds of weights used in the shop alongside their respective quantity, both of which determine the fees to be paid to obtain this certificate. For inspections under this, only the display of a valid certificate in a prominent position in the shop is seen.} \\
+Cerificate of Weights and Measures & Any business using standardized weights for their business & "5-30  \\
+(Depending on size and number of weights used)" & 5 & -- & Form A-3 \\
+
+\end{longtable}
+
+
 
 Although licences are mandatory for businesses, they choose to remain unlicensed. Studies find that it is more cost-effective for them to stay unlicensed at their scale of operations because regulatory compliance would otherwise render them uneconomical \parencite{desotopaper} \parencite{duttapaper} \parencite{laportapaper}. In our survey of meat shops of Delhi, we witnessed similar claims and circumstances. Our findings are presented below. \\
 
 \subsubsection{Licences Acquired by Respondents}
 Of the 52 shops in the sample, 9 were completely unlicensed. Only three shops had all the necessary licences while the remaining had incomplete combinations.\\
 
-Figure 3
+% Figure 3
 \begin{figure}[H]
 \centering
-\includegraphics{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 3.jpg}
-\caption[Optional Caption]{Figure 3: Percentage of Licensed, Partially Licensed and Unlicensed Respondents (n = 52)}
+\includegraphics[width=5.5in]{Fig 3.jpg}
+\caption{Percentage of Licensed, Partially Licensed and Unlicensed Respondents (n = 52)}
 \end{figure} 
+
+
 
 A majority of the licenced establishments only had a Veterinary licence. Numerous shop owners, when asked about the Food Licence, were unaware of it. Thus, despite being easier to obtain (see Figure 4), the Food Licence had not been obtained by 72.5\% of the respondents. The Weights and Measurements Certificate, which only requires the submission of one form, was also not obtained by 87\% of the respondents. \\
 
@@ -320,12 +355,14 @@ All the licence required to run a meat shop formally cost between Rs. 600 and Rs
 
 To understand the perceived level of difficulty in acquiring these licence, we interviewed 33 licence holders (Figure 4).\\
 
-Figure 4
+% Figure 4
 \begin{figure}[H]
 \centering
-\includegraphics{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 4.jpg}
-\caption[Optional Caption]{Figure 4: Perceived Level of Difficulty in Obtaining Licences\footnote{ The remaining respondents found it difficult to obtain these licences. We did not conduct a perception survey for the WMC because very few respondents had obtained it.}}
+\includegraphics[width=5.5in]{Fig 4.jpg}
+\caption[Perceived Level of Difficulty in Obtaining Licences] {Perceived Level of Difficulty in Obtaining Licences \protect\footnotemark}
 \end{figure} 
+\footnotetext{ The remaining respondents found it difficult to obtain these licences. We did not conduct a perception survey for the WMC because very few respondents had obtained it.}
+
 
 While the Veterinary Licence was seen to be more difficult to obtain than the Food Licence, a greater number of respondents chose to obtain it over the Food licence. \\
 
@@ -338,7 +375,7 @@ Interaction with government officials while acquiring licences creates scope for
 Figure 5
 \begin{figure}[H]
 \centering
-\includegraphics{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 5.jpg}
+\includegraphics{Fig 5.jpg}
 \caption[Optional Caption]{Figure 5: Amount in Rupees Paid to Obtain Veterinary Licence (n = 18)}
 \end{figure} 
 
@@ -362,7 +399,7 @@ Inspectors from the SDMC claimed to inspect every establishment once a year. How
 Figure 6
 \begin{figure}[H]
 \centering
-\includegraphics{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 6.jpg}
+\includegraphics{Fig 6.jpg}
 \caption[Optional Caption]{Figure 6: Claimed Frequency of Inspections Per Month (n = 52)}
 \end{figure} 
 
@@ -387,7 +424,7 @@ A Veterinary Inspector from the Central Zone of the SDMC claimed to record his f
 Figure 7
 \begin{figure}[H]
 \centering
-\includegraphics{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 7.jpg}
+\includegraphics{Fig 7.jpg}
 \caption[Optional Caption]{Figure 7: Lack of Awareness of Transparency and Procedural Fairness Parameters \footnote{ These were binary response questions. The remaining respondents said yes.} (n = 43)}
 \end{figure} 
 
@@ -413,10 +450,10 @@ However, the choice between these deterrence tools is left to the inspector. Whi
 
 The three-step process does not apply to unlicensed \footnote{ Refers to the Veterinary License of MCD.} meat shops. The MCD has the power to directly issue a closure notice to these shops.\\
 
-Figure 8
+%Figure 8
 \begin{figure}[H]
 \centering
-\includegraphics{C:/Users/Dell/Desktop/CCS/TEX/New Folder/Fig 8.jpg}
+\includegraphics{Fig 8.jpg}
 \caption[Optional Caption]{Figure 8: Notices Issued to Licenced Meat Shops (n = 43) \footnote{None of the respondents in our sample were given a show cause notice instead of a \textit{challan}.}}
 \end{figure}
 
@@ -429,6 +466,46 @@ The objective of meat shop inspections is to ensure their compliance with regula
 The findings from our inspection are presented in Table 2. \\
 
 %TABLE
+
+\begin{longtable}{>{\raggedright}p{5cm}>{\raggedright\arraybackslash}p{10cm}}
+\caption{Percentage of Shops not Complying with Certain Regulations} \\ 
+\% Shops not Complying & Inspection Requirement \\
+\toprule
+\endfirsthead
+\% Shops not Complying & Inspection Requirement \\
+\toprule
+\endhead
+\endfoot
+\hline
+\endlastfoot
+
+90-100 & \tabitem Pedal dustbin \\
+ & \tabitem Display no smoking and no spitting signboards prominently \\
+ \midrule
+80-90 & \tabitem Free from undesirable odour, smoke, dust and other contaminants \\
+ &  \tabitem Cleanliness of the shop and surrounding areas leading up to the shop \\
+ & \tabitem Fly proofing of the shop \\
+ & \tabitem Hides, hooves, skins and heads will not be allowed to be stored in the premises at any time \\
+\midrule
+60-80 & \tabitem Strict prohibition of the slaughtering of an animal or a bird within the premise \\
+ & \tabitem Display-type refrigerator \\
+ & \tabitem Provision of geyser \\
+\midrule
+40-60 & \tabitem Self-closing door with small sliding window \\
+ & \tabitem Signboard with the type of meat sold listed \\
+\midrule
+20-40 & \tabitem Wash basin with liquid soap dispenser and nail brushes \\
+ & \tabitem Refrigerator/deep refrigerator/cold storage for raw meat \\
+ & \tabitem Rails with non-corrosive metal hooks to hang carcasses \\
+ & \tabitem Fan and exhaust fan to ensure cross ventilation \\
+ & \tabitem Dark glass to prevent visibility of goods inside the shop from outside \\
+ & \tabitem Sloped floor \\
+\midrule
+0-20 & \tabitem Hardwood block \\
+ & \tabitem Marble top \\
+
+\end{longtable}
+
 
 While the primary purpose was to observe the efficacy of the inspection process, substantive concerns on the responsiveness of regulation also emerged. For example, checklists specify regulations meat shop owners saw as incompatible with prevalent business practices and customer needs. \\
 
