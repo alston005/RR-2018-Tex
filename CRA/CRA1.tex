@@ -38,7 +38,8 @@
                     \usepackage{subfig}
                     \captionsetup{aboveskip=14pt,}
                     \captionsetup[table]{singlelinecheck = false}
-                    \newcommand{\tabitem}{~~\llap{\textbullet}~~} %new
+                     \newcommand\tabitem{\makebox[1em][r]{\textbullet~}}
+                     \usepackage{longtable}
                     
                     %Coloured Boxes
                     \usepackage{xcolor}
@@ -105,7 +106,7 @@
                     	[0.1mm]
                     	{\Large New Delhi, India} \\
     	[2.0cm]
-    	\includegraphics[width = 75mm]{/Users/pushyami/Desktop/LatexR/RR Papers/RR-2018-Tex/CRA/unnamed.png}
+    	\includegraphics[width = 75mm]{unnamed.png}
       
                     	\end{center}
                     \end{titlepage}
@@ -225,9 +226,62 @@
                  
                  The pollution potential index takes into account the emissions of an enterprise (air pollutants), effluents (water pollutants), hazardous waste generated and consumption of resources. The pollution potential index is calculated based on the number and quantity of pollutants typically released by each industry. The current system assumes that each enterprise within an industry type would discharge similar amounts of effluents, emissions and waste and consume similar types and quantities of resources. The score for any industry ranges from 0 to 100, where a higher score indicates a higher pollution potential. \\
                  
-                 %table1
+                 %TABLE 1
+
+
+%\begin{tabular}{p{2cm}p{2cm}p{4cm}p{6cm}}
+
+\begin{longtable}{p{2cm}>{\raggedright}p{3.5cm}>{\raggedright}p{3.5cm}>{\raggedright\arraybackslash}p{6cm}}
+\caption{xyxxxxx} \\
+Risk Category & Pollution Index Score & Validity Period of CTE/CTO & Examples of Activities \\
+\midrule
+\endfirsthead
+Risk Category & Pollution Index Score & Validity Period of CTE/CTO & Examples of Activities \\
+\midrule
+\endhead
+\endfoot
+\endlastfoot
+
+Red & 60-100 & 5 years & \tabitem Healthcare establishments. \\
+ &  &  &   \tabitem Automobile manufacturing \\
+  &  &  &  \tabitem Slaughterhouses \\
+Orange & 41-59 & 10 years &  \tabitem Bakery and confectionary units with a production capacity of more than 1 tonne per day with an oven or furnace  \\
+ &  &  & \tabitem Hotels with less than t stars or more than 20, but less than 100 beds \\
+ &  &  & \tabitem Food and food processing, including fruit and vegetable processing.  \\
+Green & 21-40 & 15 years & \tabitem Bakery and confectionary units with a production capacity of less than 1 tonne per day with a gas or electric oven \\
+ &  &  &  \tabitem Hotels up to 20 rooms and without boilers \\
+ &  &  & \tabitem Digital printing on polyvinyl chloride clothes \\
+White & 0-20 & CTE/CTO not required & \tabitem Repairing electric motors and generators using a dry mechanical process \\
+ &  &  & \tabitem Blending and packing of tea \\
+ &  &  & \tabitem Packing of powdered milk \\
+
+\end{longtable}
+
                                   
                  In addition to the risk categories assigned by the CPCB, DPCC uses another set of risk categories for industries—I, II(a) and II(b)—to determine the members of the committee that will issue CTE/CTO to each industry.\\
+                 
+        %TABLE 2
+
+\begin{longtable}{>{\raggedright}p{2cm}>{\raggedright}p{4cm}>{\raggedright}p{4cm}>{\raggedright\arraybackslash}p{4cm}}
+\caption{ABCDEEEE} \\
+Risk Category & Requirement of Pollution Control Devices & Members of the Committee That Issue CTE/ CTO & DecisionMaking Time Period \\
+\midrule
+\endfirsthead
+Risk Category & Requirement of Pollution Control Devices & Members of the Committee That Issue CTE/ CTO & DecisionMaking Time Period \\
+\midrule
+\endhead
+\endfoot
+\endlastfoot
+
+I & Does not require the installation of pollution control devices & SEEs of the concerned cell & Decision to issue CTE/CTO to be made within 7 days of receipt of the application \\
+ & & &  \\
+II(a) & Requires the installation of pollution control devices, such as the sewage or water treatment plants of Delhi Jal Board, common effluent treatment plants, power plants or municipal solid waste plants & \tabitem Chairman  \tabitem Member Secretary \\  \tabitem Two Engineering Professors \\ \tabitem Director, Department of Environment \\ \tabitem SEEs of the concerned cell \\ \tabitem EEs of the concerned cell 
+ & Decision to issue CTE/CTO to be made within 30 days of receipt of the application \\
+  & & & \\
+II(b) & Requires the installation of pollution control devices not listed under category II(a) & \tabitem Member Secretary \\ \tabitem SEEs of concerned cell \\ \tabitem  EEs of concerned cell & Decision to issue CTE/CTO to be made within 30 days of receipt of the application \\
+
+\end{longtable}
+         
                  
                  The system to assign industries a CPCB risk category (Red, Orange, Green or White) and a DPCC risk category [I, II(a) or II(b)] has been computerised. When an enterprise applies online for CTE or CTO from the DPCC, it is automatically assigned both risk categories based on its type of activity. Consents were earlier issued through a manual system and now are being issued via a computer interface based on the manual system. This essentially means that the manual system has merely been digitised but the basis for determining risk has not been computerised. \\
 
@@ -310,7 +364,32 @@
 	
 	The DPCC is also supposed to inform all enterprises of their risk category (DPCC 2016a). It is only when enterprises know their risk category can they comply with the standards pertaining to that risk category. \\
 	
-	%table3
+% TABLE 3
+
+\begin{longtable}{>{\raggedright}p{7.5cm}>{\raggedright\arraybackslash}p{7.5cm}}
+\caption{AMERICA IS THE GREATEST COUNTRY}\\
+Requirement & Findings \\
+\midrule
+\endfirsthead
+Requirement & Findings \\
+\midrule
+\endhead
+\endfoot
+\endlastfoot
+
+Inspection report is signed by a representative at the enterprise. Refusal to sign is also supposed to be noted. & 8/18 (44.4\%) enterprises were not asked to sign the inspection report; 6/18 (33.33\%) enterprises were not shown the inspection report once the inspection was completed. \\
+ & \\
+A formal notice detailing the corrective measures is sent to enterprises at a later date. & 7/18 (38.9\%) enterprises were not sent a formal notice. However, it is unclear whether these seven enterprises did not need corrective measures or whether the DPCC did not send the notice. \\
+ & \\
+DPCC to send a formal notice to all enterprises informing them of their risk category. & Only 11/30 (36.6\%) enterprises knew their risk category. \\
+ & 6/11 (54.54\%) enterprises were informed of their risk category through an official notice from the DPCC. \\
+ & \\
+& 3/11 (27.27\%) enterprises found out about their risk category by checking the DPCC website. \\
+ & \\
+All inspection reports have to be uploaded online on the DPCC portal within 24 hours of the inspection. & Inspection reports are currently being uploaded online. However, an SEE at the DPCC informed us that the timeline to upload inspection reports online is not strictly adhered to. \\
+
+\end{longtable}
+
 	
 	During our interviews at the DPCC, the SEEs also mentioned that all inspections are meant to be surprise inspections. These surprise inspections enable inspectors to catch enterprises violating the law off guard. Studies find that corrupt inspectors may warn enterprises before an investigation in exchange for a bribe, eliminating the element of surprise (Dechenaux 2014, p. 168). Five out of 17 (29.42\%) enterprises claimed that they were informed prior to inspection, often more than 24 hours prior to inspection. \\
 	
@@ -342,8 +421,9 @@
 		%table 4
 		
 		\subsection{Semi-Structured Interview with Senior Environmental Engineers at the Delhi Pollution Control Committee}
-		
-		\begin{enumerate}
+		  \setstretch{0.03}
+                    \begin{mdframed}[backgroundcolor=gray!20]
+		\begin{enumerate}[noitemsep,nolistsep]
 		\item{What does your job as an inspector entail? How is it different from the duties of a junior inspector?}
 		\item{Do you exclusively inspect establishments for air or water pollution? Alternatively, are there separate inspectors for air and water pollution?}
 		\item{Approximately how many inspections does the DPCC conduct per month?}
@@ -376,5 +456,6 @@
 		\item{Can a third party view the reports on the portal?}
 		\item{Who designed the DPCC website and portal? Can you put us in touch with them?}
 		\end{enumerate}
+		\end{mdframed}
 \end{document}
 \gitstash
