@@ -5,7 +5,6 @@
 		\usepackage[english]{babel}
 		\usepackage[utf8]{inputenc}
 		\usepackage[utf8]{inputenc}		
-
 		\usepackage{blindtext} 
 		                    
 %MARGINS
@@ -53,7 +52,7 @@
 
 
 %LISTS                    
-		\usepackage{enumitem}
+		\usepackage[shortlabels]{enumitem}
        
                     
  %DEFINING COLOURS
@@ -69,22 +68,19 @@
     		\sectionfont{\color{CCSbrown}}  %sets colour of section font
     		\subsectionfont{\color{CCSblack}} %sets colour of subsection font
     		\subsubsectionfont{\color{CCSblack}} %sets colour of subsubsection font
-    		
-		
-%BIBLIOGRAPHY and LINKS
-		\usepackage[authordate, backend=biber]{biblatex-chicago}
-		\addbibresource{ewaste_v2.bib} %need to change to restaurants bib
-		\usepackage{hyperref}
-		\hypersetup{
-			colorlinks,
-			linkcolor = black,
-			citecolor = blue}
-	
-		
+    			
 %ADDING PICTURES
 		\usepackage{graphicx}
 		\usepackage{float}
               
+%BIBLIOGRAPHY and LINKS
+		\usepackage[authordate, backend=biber]{biblatex-chicago}
+		\addbibresource{ewaste_v2.bib} %need to change to restaurants bib           
+ 		\usepackage{hyperref} 
+		\hypersetup{
+			colorlinks,
+			linkcolor = black,
+			citecolor = blue}               
   
 \begin{document}
                     
@@ -102,7 +98,7 @@
     	
                     	\line(1,0){200}\\
                     	[1in]
-                    	\Large {Parth Gupta, Rutvi Vadera, and Retika Vijay} \\ % ewaste has some off norm about line space after first author. can you please check and confirm convention; also i am removing small caps
+                    	\Large {Parth Gupta, Rutvi Vadera, and Retika Vijay} \\ % ewaste has some off norm about line space after first author. can you please check and confirm convention; also i am removing small caps. this way it fit on one line. also added 'and'
                     	[1.5cm]
                     	{\Large September 2018} \\
                     	[2.0cm]
@@ -156,16 +152,16 @@
    %=============TODO
    		% have not integrated refs to the doc yet. refs are still in brackets
 		% need to check for bold/italics/underline
-		% need to add figure/table labels for hyperrefs? hyperrefs were working in the morning, now are not
-		% need to add tables and figures
-		% i am unable to do nested numbered lists - tried manually and i have error alerts
+		% hyperrefs were working in the morning, now are not
+		% need to add tables
+		% do we need to hyperref tables/figures where referenced?
 		% unable to do enumerate A,B,C
-		% some footnotes are giving me an error: i have tried to hyperlink part of the footnote text. not sure what i am doing wrong. 
 		% should we indent paragraphs? i haven't and am using paragraph spacing to delineate paras
 		% i would like to change the styling of the title page: the title of the paper should be the most prominent, authors not in caps, authors/date/ccs should go slightly more to the bottom half of the page
 		% toc not compiling and showing repetitions
-		% do we need to hyperref tables where referenced?
 		% also should we do superscript for 'th' and how?
+		% need to check off alston's list
+		% figures are untidy. will help to rework the source files
 		
          
  
@@ -210,8 +206,7 @@ restaurant, followed by a \hyperref[end]{conclusion}.  %added a comma in sentenc
                     \label{intro}
                     Public interest theory of regulation postulates that regulation reduces market failures and ensures that those who enter the market bring in a high quality of goods and services (Hertog 2010, p. 3). Registration gives new companies a type of official 
 approval that they are reputable enough to engage in transactions with the general public and other businesses (SRI 1999, p. 14). Contrastingly, public choice theory argues that in practice, regulations work in favour of existing firms by limiting the entry of new firms 
-and ‘give officials the power to deny them and to collect bribes in return for providing the permits’ (Stigler 1971, p. 3)(Shleifer and Vishny 1993, p. 601). %we have a reference problem. stigler was not a public choice theorist though he did add to the school of 
-thought. 
+and ‘give officials the power to deny them and to collect bribes in return for providing the permits’ (Stigler 1971, p. 3)(Shleifer and Vishny 1993, p. 601). %we have a reference problem. stigler was not a public choice theorist though he did add to the school of thought. 
                     
                     Other researchers (Bardhan 1997, p. 1322) have argued that ways to circumvent regulations, such as payment of bribes, can sometimes be effective, in principle, if it aids the release of entrepreneurs from regulation, or reduces the delay in issuing of 
 licences. However this works out, the additional burden imposed on businesses is distortionary (Djankov 2002, p. 3) or subjects the entrepreneur to ‘some of the worst treatment imaginable... and presenting the investor with insurmountable delays or repeated 
@@ -233,7 +228,7 @@ and bars.\footnote{Street kiosks stalls were not included in the survey.} Our in
 tourist hotspots of India, ranked 4th in India for attracting foreign tourists and 15th for attracting domestic tourists, as of 2016 (India Tourism Statistics 2017).
                     
                     The paper is organised into four sections: licences required to start a restaurant in Delhi, the perception of restaurateurs of the multi-agency inspections regime, the challenges that the restaurateurs face in running their business and a conclusion. 
-%ire-edited intro. it was not flowing nicely and paras were currently too small. 
+% re-edited intro. it was not flowing nicely and paras were currently too small. 
             
                                         
 %======================Regulatory Framework for Restaurants in Delhi======================
@@ -253,6 +248,7 @@ online.
      
                    In contrast, it takes four licences in China and two in Turkey (Philip 2015). In Hong Kong (‘"Starting A Restaurant in Hong Kong’ 2018), the Food Business Operator (FBO) only has to acquire the General Restaurant Licence issued by the Hong Kong 
 Food and Environmental Hygiene Department before commencing operations.
+
 %Table 1: Time, Cost, Validity and Procedure of Mandatory Licences in Delhi
  %table 1 needs to go here. also table 1 has footnotes #7/8/9 from the word doc. 
                     
@@ -264,18 +260,17 @@ respondents termed the process of obtaining this licence as ‘difficult’ or �
                     An eating house can apply for three types of FSSAI Licences: Central Licence, State Licence and Registration Certificate. The licences are issued at two levels of the government. The Central Licence is issued by the FSSAI department at the Centre. 
 The State Licence and Registration Certificate are issued by the Department of Food Safety under the Government of Delhi.
                     
-                    The type of licence that an eating house must obtain depends on whether it plans to operate in more than one state and their turnover. However, discrepancies exist in the application criteria specified in the Food Safety and Standards Regulations 
+                    The type of licence an eating house must obtain depends on whether it plans to operate in more than one state and their turnover. However, discrepancies exist in the application criteria specified in the Food Safety and Standards Regulations 
 (FSSR) 2011 and the website of FSSAI. The FSSR 2011 requires that FBOs ‘operating in two or more states’ obtain a Central FSSAI Licence, whereas the website of FSSAI website states that FBOs with turnover more than 20 crores are required to obtain a 
-Central FSSAI Licence. \footnote{According to the FSSR 2011, Schedule I, Point 9, FBOs operating in two or more states have to apply for a Central FSSAI Licence.}\footnote{\href{https://bit.ly/2pbFEXM}{Central FSSAI Eligibility Criteria} (Accessed 31 June 
-2018)}.%need to check if the hyperlink of the footnote is correct
+Central FSSAI Licence.\footnote{According to the FSSR 2011, Schedule I, Point 9, FBOs operating in two or more states have to apply for a Central FSSAI Licence.} \footnote{\href{https://bit.ly/2pbFEXM}{Central FSSAI Eligibility Criteria} (Accessed 31 June 
+2018)}.
                     
                     It is unclear what a restaurant with a proposed turnover of over Rs. 20 crores but operating only in one state should do. %this para was highlighted in the paper. i don't know how to do this, or if we should. 
                     
 % Table 2: Conflicting Information Provided by the FSSR 2011 and the Website of FSSAI
 %table 2 needs to go here. table 2 has footnote 12, and hyperlink to FSSAI site. also can we not say 'fssai's website instead of website of fssai?   
                     
-                          
-                                         
+                                    
                     \subsubsection{Health Trade Licence}
                     Among the 13 licences we sought feedback on, the Health Trade Licence (HTL) was the second most difficult to obtain. Fifty-one out of 93 (55\%) respondents termed it as either ‘difficult’ or ‘very difficult’ to obtain (Figure 1). The Municipal Corporation 
 of Delhi (MCD) issues an HTL under Section 421 of The Delhi Municipal Corporation Act, 1957, to validate the safety and hygiene of a restaurant.
@@ -284,11 +279,7 @@ of Delhi (MCD) issues an HTL under Section 421 of The Delhi Municipal Corporatio
 that his application was stalled deliberately on various occasions on the pretext of ‘insufficient documents’ without any further clarification until he visited the office. Bribery was cited as a common practice. An interviewee stated, ‘bribery or commission payments is 
 the traditional way of doing business. You can’t do a thing without paying up in this business’.
                     
-                    According to the online application portal of Municipal Corporations, the validity of the HTL is 1 year.\footnote{\href{https://bit.ly/2Qzd92r}{Validity Chart of the HTL for SDMC} (Accessed 16 June 2018).}  %need to check if the hyperlink of the footnote is 
-correct. 
-                    However, that is in conflict with what the Municipal Corporations claim: the validity is ‘one financial year’, that is the licence is valid up to 31 March of each year, irrespective of the date of issue/date of generation of licence. As per the Twelfth Schedule 
-of The Delhi Municipal Corporation Act 1957, a fine of Rs. 100 can be levied in case of a non-renewal of the HTL. %this para was highlighted in the paper. i don't know how to do this, or if we should. also the last para here is joint with the previous para but i couldn't 
-figure out how not to have it as a comment since there was a comment at the end of the last footnote.    
+                    According to the online application portal of Municipal Corporations, the validity of the HTL is 1 year.\footnote{\href{https://bit.ly/2Qzd92r}{Validity Chart of the HTL for SDMC} (Accessed 16 June 2018).} However, that is in conflict with what the Municipal Corporations claim: the validity is ‘one financial year’, that is the licence is valid up to 31 March of each year, irrespective of the date of issue/date of generation of licence. As per the Twelfth Schedule of The Delhi Municipal Corporation Act 1957, a fine of Rs. 100 can be levied in case of a non-renewal of the HTL. %this para was highlighted in the paper. i don't know how to do this, or if we should.     
   
      
 		\subsubsection{Fire Safety Certificate}
@@ -302,36 +293,34 @@ FSC.\footnote{Floor area/1.5 sq. metres.}
 		
 		When a restaurateur applies for an HTL, it is the responsibility of the local municipal corporation to which they are applying to verify if the eating house falls under the category of ‘Assembly building’ and to direct the applicant to the DFS to apply for an 
 FSC.\footnote{The NCT of Delhi is governed by three Municipal Corporations: NDMC, the Delhi Cantonment Board, and the MCD. In 2012, the MCD was trifurcated into three smaller bodies: North Delhi Municipal Corporation, South Delhi Municipal Corporation 
-and East Delhi Municipal Corporation.} The local municipal corporation is the primary source for a restaurateur to find out if his/her eating house is an ‘Assembly building’, as people are not otherwise aware of the rules stipulated by the DFS. %footnote was mid-
-sentence in the original word doc
+and East Delhi Municipal Corporation.} The local municipal corporation is the primary source for a restaurateur to find out if his/her eating house is an ‘Assembly building’, as people are not otherwise aware of the rules stipulated by the DFS. %footnote was mid-sentence in the original word doc
 		
 		Slightly over a third of the establishments surveyed found the process of obtaining a fire safety certificate ‘difficult’ or ‘very difficult’ (Figure 1). 
 		
 		When the Khan Market Welfare Association fought the NDMC on the issue of sealing restaurants that did not have the FSC, the Delhi High Court observed that the NDMC had granted licences without ‘satisfying itself of the said criteria (of the NBC 
 2005)’ (Khan Market Welfare Association vs New Delhi Municipal Council \& Ors 2016, para 22), referring to the revised formula for identifying an ‘Assembly building’. Had the NDMC executed its responsibility and provided licence applicants with the proper 
-guidance, those eating houses qualifying as ‘Assembly buildings’ under the new formula would have applied and potentially secured an FSC.%this para was highlighted in the paper. i don't know how to do this, or if we should.
-		
- %Figure 1: Ease of Obtaining a Licence from the Food Safety and Standards Authority of India, South Delhi Municipal Corporation and Delhi Fire Services
-     
-                  
+guidance, those eating houses qualifying as ‘Assembly buildings’ under the new formula would have applied and potentially secured an FSC.%this para was highlighted in the paper. i don't know how to do this, or if we should.		
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[height = 3.5in]{Figure1.png}
+                    	\caption[Optional Caption]{Ease of Obtaining a Licence from the Food Safety and Standards Authority of India, South Delhi Municipal Corporation and Delhi Fire Services}
+		\end{figure}
+                
                    \subsubsection{Consent to Establish/Consent to Operate}
                    In September 2017, 21 restaurants were sealed in Hauz Khas Village, an urban village in South Delhi, for not having the necessary environment clearances—Consent to Establish (CTE) or Consent to Operate (CTO)—issued by the Delhi Pollution 
 Control Committee (DPCC) (Hindustan Times 2017). Although the magistrate argued that the establishments were served ‘closure notices about 4 months ago’, the owners denied being served the notices (ibid). On the contrary, one of the restaurant owners 
 claimed that he had applied for the DPCC certificate, but his application was put ‘on hold unnecessarily’ (ibid).\footnote{The confusion about the status of obtaining licences and closure notices, and the consequent sealing, affected not only restaurant owners but 
 also the employees of the establishments. ‘Sealing these eateries has not only led to big losses for the owners but has affected the livelihood of 700 employees as well’ (Javaid, 25 Sept 2017).} Some restaurateurs claimed that the recent introduction of the 
-digitisation process had created confusion among them about the renewal of licences, which delayed their usual procedure for getting their clearances renewed.
+digitisation process had created confusion among them about the renewal of licences, which delayed their usual procedure for getting their clearances renewed.% i dont understand the footnote in this. 
                    
                    Businesses such as eating houses that discharge sewage or effluents are required to obtain a CTE/CTO under Section 21 of the Air (Prevention and Control of Pollution) Act of 1981 and Section 25 of the Water (Prevention and Control of Pollution) Act 
 of 1974.\footnote{\href{https://bit.ly/2pbaWOw}{The Air (Prevention and Control of Pollution) Act, 1981} (Accessed 31 June 2018).} \footnote{\href{https://bit.ly/2xcUyRW}{The Water (Prevention and Control of Pollution) Act, 1974} (Accessed 3 July 2018).}  %need to 
 check if the hyperlink of the footnotes is correct. 
                    
                    Forty-two percent of survey respondents found the process for applying for the CTE/CTO either ‘difficult’ or ‘very difficult’. As against that, 23\% of respondents found it ‘easy’ or ‘very easy’ (Figure 2).
-              
+                          
                    \subsubsection{Shops and Establishment Certificate}
-                   The Shops and Establishment Certificate appears to be the easiest to obtain among all the others, with only 15\% (10 out of 65) respondents experiencing the process as ‘difficult’. It is issued by the Shops and Establishment Inspectorate within the 
-Office of the Labour Commissioner of Delhi under the Delhi Shops and Establishment Act 1954.
-                   
-                   The Act guarantees basic rights for employees, namely, working conditions, number of working hours in a week, holidays that the workers are entitled to, rights of women workers, intervals for rest and meals among other important rights.
+                   The Shops and Establishment Certificate (SEC) appears to be the easiest to obtain among all the others, with only 15\% (10 out of 65) respondents experiencing the process as ‘difficult’. It is issued by the Shops and Establishment Inspectorate within the Office of the Labour of Delhi under the Delhi Shops and Establishment Act 1954. The Act guarantees basic rights for employees, namely, working conditions, number of working hours in a week, holidays that the workers are entitled to, rights of women workers, intervals for rest and meals among other important rights.
          
          
                    \subsubsection{Eating House Licence}
@@ -346,9 +335,13 @@ needs to know what is happening inside an establishment. Delhi Police issues Eat
                    
                    Other metropolitan cities like Mumbai and Ahmedabad have done away with the Eating House Licence to facilitate ease of doing business (The Times of India 2018).\footnote{\href{https://bit.ly/2xiMwpL}{Circular No. BDD/384} issued by the Municipal 
 Corporation of Greater Mumbai (dated 7 November 2016).} \footnote{On 26 March 2018, the Gujarat State Assembly \href{https://bit.ly/2xktGyu}{passed} the Gujarat Police (Amendment) Act, 2018, which exempted restaurants and eateries from obtaining a licence 
-from the police to start their unit.} %need to check if the hyperlink of/in the footnotes is correct.
+from the police to start their unit.}
                    
-%Figure 2: Ease of Obtaining Licences from the DPCC, Department of Labour and Delhi Police
+ 			\begin{figure}[H]
+                    		\centering
+                    		\includegraphics[height = 3.5in]{Figure2.png}
+                    		\caption[Optional Caption]{Ease of Obtaining Licences from DPCC, Labour Department and Delhi Police}
+			\end{figure}
 
 		\subsubsection{Goods and Services Tax Registration}
 		The latest addition to the list, registration for the GST became mandatory since 1 July 2017, when the GST Act came into force. Most respondents (78\% of 84) found the process of GST registration ‘easy’ or ‘very easy’ (Figure 3).
@@ -357,17 +350,34 @@ from the police to start their unit.} %need to check if the hyperlink of/in the 
 		Local Municipal Corporations issue the Signage Licence according to the Outdoor Advertising Policy 2017 of the Environment Pollution (Prevention and Control) Authority. A Signage Licence is required for the self-advertising boards that restaurants put 
 up in front of their shops. A Signage Licence is needed to ensure that there are no instances of traffic hazards, obstacles to pedestrians, visual pollution or negative advertisements.\footnote{\href{https://bit.ly/2xdiNzk}{Delhi Outdoor Advertisement Policy 2008.}}
 		
-%Figure 3: Ease of Obtaining the GST Registration and Signage Licence from the South Delhi Municipal Corporation
-
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[height = 3.5in]{Figure3.png}
+                    	\caption[Optional Caption]{Ease of Obtaining the GST Registration and Signage Licence from the South Delhi Municipal Corporation}
+		\end{figure}
 		
 		\subsection{Service-specific Licences: Difficulties in Providing Value Addition}
 		
-		
 		A restaurant may obtain five licences depending on its offering. These are required if a restaurant chooses to serve alcohol, play live music or install a lift in the establishment. The most expensive of these is an Excise Licence (required for serving liquor) 
-with a mandatory increase of 10\% in the licence fee each year. \footnote{\href{https://bit.ly/2xoejoG}{Notification No. F.12(4)/Fin(Rev-I)/15-16.dsVI/587} from the Office of Commissioner of Excise (dated 29 July 2015).}
+with a mandatory increase of 10\% in the licence fee each year.\footnote{\href{https://bit.ly/2xoejoG}{Notification No. F.12(4)/Fin(Rev-I)/15-16.dsVI/587} from the Office of Commissioner of Excise (dated 29 July 2015).}
 		
 %Table 4: Time, Cost, Validity and Procedure of Service-Specific Licences in Delhi
 %this is listed as table 4 in the word doc but really it is table 3. should we be deducting points from the proofer for missing this?
+
+		\raggedright
+		\caption{Time, Cost, Validity and Procedure of Service-Specific Licences in Delhi}
+			\begin{tabular}{ l l l l l c c}
+			\bf{\thead{\footnotesize{Services}} & \bf{\thead{\footnotesize{Licences}} & \bf{\thead{\footnotesize{Time (Day)}} & \bf{\thead{\footnotesize{Official Cost (Rs.)}} & \bf{\thead{\footnotesize{Validity (Year)}} & \bf{\thead{\footnotesize{Online/Offline}} & \bf{\thead{\footnotesize{Issuing Government}} &\\
+			\hline
+				
+	Serving Alcohol		&	Approval from the Department of Tourism	&	21		10,000 (up to 100 seats)\\15,000 (100+ seats)											&5							&	Online		&	State 
+					&	L17/L17F Excise Licence				&	28		7,64,993 (50 seats)\\10,87,095 (50-100 seats)\\14,49, 459 (100-200 seats)\\18,52, 087 (200+ seats)	&1							&	Online		&	State 
+					&	Weights and Measures Licence			&	30		100 (Peg measures of 30 ml, 60 ml and 100 ml)										&2							&	Partially online	&	State 
+	Installing Lift		&	Lift Clearance 						&	7		520 (for speed up to 1m/s)\\770 (for speed up to 1.5 m/s)\\1,020 (for speed above 1.5 m/s)		&1							&	Online		&	State 
+	Playing Music		&	Music Licence						&	Varies	3,500 (Up to 30 seats)\\7,500 (30-50)\\10,000 (50+)										&1-3 years (as chosen by FBO) 	&	Offline		&	Private
+		
+		\end{tabular}
+		\end{table}  		
 		
 		\subsubsection{Approval from the Department of Tourism}
 		An approval from the Department of Tourism (DoT) is a prerequisite to obtaining a licence from the Department of Excise to sell liquor.
@@ -379,11 +389,10 @@ DoT is necessary to obtain an Excise Licence, the procedure to obtain the latter
 		\subsubsection{Excise Licence}
 		The Excise Licence was rated as the most difficult to obtain among the 13 licences we sought feedback on. Of the 41 respondents, 59\% rated it ‘difficult’ or ‘very difficult’ (Figure 4). Restaurants that serve liquor need to obtain the L-17/L-17F/L-18/L-18F 
 licences, issued under Section 20 of the Delhi Excise Act, 2009, by the Department of Excise, Government of Delhi.\footnote{L-17 is required to serve Indian liquor; L-17F is required to serve foreign liquor; L-18 is required to serve Indian wine, beer and alcopop; 
-L-18F is required to serve foreign wine, beer and alcopop.}%removed the spaces b/w l17 and f
+L-18F is required to serve foreign wine, beer and alcopop.} %removed the spaces b/w l17 and f
 		
 		In October 2016, the Government of Delhi directed the Department of Excise to not grant any new liquor licences to restaurants or retail vendors, as it believed that ‘the existing number of liquor vendors is enough to meet the demand of the city’ (Pandit 
 2016). There was a strong backlash against the move. The National Restaurant Association of India (NRAI) raised two concerns:
-		
 		\begin {enumerate}
 			\item Some restaurateurs had already invested in setting up their bars and paid the stipulated fee for acquiring the licence. The stalling resulted in a loss of business for these bar owners.
 			\item Not granting licences to restaurants that provide ‘safe and licensed premises for liquor service’ would aggravate the law and order situation, as more people would drink at retail vends, in cars or on the roads (ibid).
@@ -392,7 +401,7 @@ L-18F is required to serve foreign wine, beer and alcopop.}%removed the spaces b
 		The ban lasted for 7 months. It was revoked in June 2017 because the government was convinced that ‘barring restaurants from serving liquor would serve no purpose, as people would drink at other places and cause problems’ (Kaushika 2017).
 		
 		The Excise Licence is the most expensive of all licences with a mandatory increase of 10\% in the licence fee each year.\footnote{\href{https://bit.ly/2xoejoG}{Notification No. F.12(4)/Fin(Rev-I)/15-16.dsVI/587} from the Office of Commissioner of Excise 
-(dated 29 July 2015).} %check if footnote hyperlinking is correct
+(dated 29 July 2015).} 
 		
 		
 		\subsubsection{Weights and Measures Licence}
@@ -404,8 +413,12 @@ licence is to ensure that the customer is being served the right quantity of foo
 		Restaurateurs allege that inspecting officials extort money by wrongfully accusing the restaurant of serving an inadequate quantity of liquor. Officials are said to ask for a peg of whiskey, for instance, and pour it in a different beaker with etched 
 measurements. The inspector then alleges fraud over the slight difference in measurement observed (owing to the residual drops naturally left in the first container). This compels restaurateurs to cough up bribes to keep their certificates or licence.
 		
-%Figure 4: Ease of Obtaining Approvals to Sell and Serve Alcohol
-	
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[height = 3.5in]{Figure4.png}
+                    	\caption[Optional Caption]{Ease of Obtaining Approvals to Sell and Serve Alcohol}
+		\end{figure}
+	%i would like to change the bars to 'excise licenses' and remove the L-17 etc. neater. 
 	
 		\subsubsection{Lift Clearance}
 		The Lift Inspectorate of the Office of the Labour Commissioner of Delhi is responsible for issuing the lift clearance. The Delhi Lift Rules of 1942 specify the standards for the installation of lifts, inspection of standards and the penalty to be paid in case of 
@@ -418,7 +431,7 @@ damage done to any user. The clearance is issued only after inspections have bee
 		A music licence is necessary to play recorded music to protect the copyright of a music label or an artist. Phonographic Performance Limited, a non-governmental organisation, issues the music licence on behalf of the government, according to the 
 Copyright Act of 1957. Of the 41 respondents, 46\% labelled the process as ‘easy’ or ‘very easy’ to obtain, whereas only 10\% thought it was ‘difficult’ or ‘very difficult’.
 		
-		In May 2018, the Department of Excise, Delhi, dispatched a circular to resto-bars that ‘only live singing/playing of instruments by professionals’ was allowed and that recorded music was banned.\footnote{\href{https://bit.ly/2MzCM02} {Order No. 2(72)/Ex/
+		In May 2018, the Department of Excise, Delhi, dispatched a circular to restobars that ‘only live singing/playing of instruments by professionals’ was allowed and that recorded music was banned.\footnote{\href{https://bit.ly/2MzCM02} {Order No. 2(72)/Ex/
 Restt/Misc./2016-17/1567 (2018)} from the Office of Excise Commissioner, Delhi (dated 9 May 2018).} The blanket ban was to address the ‘nuisance caused by high volumes’, as most of the restobars are congregated near residential areas such as Hauz Khas 
 Village and Khan Market (Jain 2018).
 		
@@ -426,8 +439,11 @@ Village and Khan Market (Jain 2018).
 be played all day long; disallowing restobars from playing recorded music may not help reduce the ‘nuisance caused by high volumes’, as live music can be equally loud, if not louder; restaurants that don’t serve liquor do not come under the purview of excise rules 
 but can be a cause of nuisance; and the problem could be better addressed by proper regulations such as volume control, which would suit everyone’s interests (ibid).
 		
-%Figure 5: Ease of Obtaining Lift Clearance from the Department of Labour, Phonographic Performance Limited
-		
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[height = 3.5in]{Figure5.png}
+                    	\caption[Optional Caption]{Ease of Obtaining Lift Clearance from the Department of Labour, Phonographic Performance Limited}
+		\end{figure}	
 		
 		\subsection{Overall Ease of the Licensing Procedure and Costs Involved}
 		Fifty-six percent (51 out of 91) of the respondents found the overall licensing procedure difficult or very difficult to follow. Only 12\% (11 of 91) perceived the licensing procedure to be ‘easy’ or ‘very easy’, and the rest chose neutral. Out of 51 respondents 
@@ -452,7 +468,7 @@ many feel that paying a bribe is the only option to obtain a licence in time.
 monitoring compliance across functions, multiple departments have their own brigade of inspectors. Thus, inspections are carried out independently and have different policies governing their nature, scope and due process.
 		
 		The restaurant industry of Delhi has been a constant target of compliance crackdown, resulting in frequent sealing drives in upscale areas such as Hauz Khas, Khan Market, Defence Colony and Connaught Place. In February 2017, the NDMC shut down 
-21 rooftop resto-bars in Connaught Place in response to a partial collapse of a building in the market, citing the 'misuse of premises beyond sanction' under/Sections 250 and 252 of the NDMC Act, 1994 (The Times of India 2017). These restaurants were 
+21 rooftop restobars in Connaught Place in response to a partial collapse of a building in the market, citing the 'misuse of premises beyond sanction' under/Sections 250 and 252 of the NDMC Act, 1994 (The Times of India 2017). These restaurants were 
 operational for decades, without permission, until the event of the collapse. It triggered a knee-jerk response from other regulatory bodies, resulting in large-scale closures.
 		
 		In another instance of compliance crackdown, a recent round of sealings of restaurants have been conducted in the aftermath of the Kamala Mills tragedy in Khan Market for flouting fire safety rules and illegal constructions (Firstpost 2018). This 
@@ -469,7 +485,12 @@ significant questions below, that is, what are they expected to do when faults a
 marked the options of fixing the issue and paying a bribe together. It appears as if the restaurateurs are required to comply with the legal and extra-legal demands of the inspectors. The restaurateurs appear to have to fulfil multiple expectations of fixing the issue, 
 paying a formal challan and a bribe, simultaneously.
 
-%Figure 6: Responses of Restaurateurs on What They Are Expected To Do When Faults Are Found by Inspecting Officials in Their Restaurants
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[width = 6.5in]{Figure6.png}
+                    	\caption[Optional Caption]{Responses of Restaurateurs on What They Are Expected To Do When Faults Are Found by Inspecting Officials in Their Restaurants}
+		\end{figure}
+
 		
 		\subsubsection {What Do You Think Is the Intent of the Inspectors?}
 		\addcontentsline{toc}{subsubsection}{What Do You Think Is the Intent of the Inspectors?}
@@ -483,7 +504,11 @@ families to eat in the restaurant while off-duty and leave without paying the bi
 		
 		Only a very small percentage of the people believed that the inspectors intended to either facilitate the ease of doing business for the restaurants or ensure the welfare of the customers.
 
-%Figure 7: Perception of Restaurateurs on the Intention of the Inspectors and Payment of Bribes \footnote{The remaining respondents marked ‘No’.} edited the footnote. 
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[height = 3.5in]{Figure7.png}
+                    	\caption[Optional Caption]{Perception of Restaurateurs on the Intention of the Inspectors} %removed paying bribes from here. also need to try and redo this one so each option fits on one line
+		\end{figure}
 
 		\subsubsection {What Is Your Opinion of the Inspectors?}
 		\addcontentsline{toc}{subsubsection}{What Is Your Opinion of the Inspectors?}
@@ -495,8 +520,11 @@ possible. The inspectorates ought to perform the functions of information dissem
 and ‘Inspectors are professional’. A caveat added by those who agreed with these statements was that the inspectors had to be respectful to them, as they had to ask for a bribe from them. It is also telling that the restaurateurs mostly admitted to paying a bribe at 
 various stages of obtaining licences and inspections and still considered the conduct of the officials professional.
 		
-%Figure 8: Opinion of Restaurateurs About Inspectors
-
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[height = 3.5in]{Figure8.png}
+                    	\caption[Optional Caption]{Opinion of Restaurateurs About Inspectors} 
+		\end{figure}
 
 
 %======================OFT-REPEATED REGULATORY PAIN POINTS====================================
@@ -542,14 +570,12 @@ that there is no such ban, a closer reading of the revised circular simply revea
 		
 		Another example of arbitrary policy changes and rule revisions is the decision to temporarily halt the issue of new Excise Licences in 2016 (Pandit 2016). One of our respondents lamented that he had invested in setting up a restobar and complied with 
 all requirements but given the sudden policy change, had instead borne substantial losses. The lack of precise information is also why restaurateurs seek third-party ‘consultants’, increasing the cost that restaurateurs incur to set up their businesses. These 
-consultants are generally either law firms that charge an exorbitant fee for their legal services or \textit{Dalals} who stand in front of government offices.\footntote{Dalals refer to the agents or facilitators stationed outside government offices and buildings, who help 
+consultants are generally either law firms that charge an exorbitant fee for their legal services or \textit{Dalals} who stand in front of government offices.\footnote{Dalals refer to the agents or facilitators stationed outside government offices and buildings, who help 
 expedite paperwork in return for a fee.} Both these entities provide their services in return for a fee that serves as their income. A portion of that fee is also used to grease the hands of the relevant officials. Thus, bribery continues but is more targeted and precise.
 		
 		The erratic sealing drives on a variety of issues such as the use of terraces, the serving of hookah, the use of basements, etc. increase the uncertainty that restaurant businesses face. While many respondents understood that specific measures had to 
 be taken for the safety of the customers, what they could not understand was why their restaurants had been permitted to function for so long and why closure was the proposed solution instead of grandfathered remediation, liability insurance and damage 
 payments.
-		
-%are we hyphenating resto-bars? in some places yes, some places no. need to make consistent. 
 
 
 %================================CONCLUSION======================================
@@ -590,32 +616,6 @@ respective licences.
 		We can reduce the regulatory burden on the restaurant industry without compromising on the quality of safety that is ensured for the customers using the various avenues and methods available.
 
 
-
-		
-  %====================== Code examples for table and figures====================================                 
-                            
-          %table1         
-\begin{table}[htpb]
-\caption{Official Cost of Acquiring CTE and CTO}
-\begin{tabular}{ l  c  c  c }
-\thead{\normalsize{State}} & \thead{\normalsize{Licence}} & \thead{\normalsize{Cost in Rs.}\\ \scriptsize\textit{(For Investment Between 1 and 10 crores)}} & \thead{\normalsize{Official Time Taken}\\ \scriptsize\textit{(in days)}} \\
-\hline
-Uttar Pradesh & CTE + CTO & 1,17,000 & 40-60\\ 
-Haryana & CTE + CTO & 3,84,000 & 20-40\\
-
-\end{tabular}
-\end{table}
-                    
-                                        %Figure 4
-                    \begin{figure}[H]
-                    	\centering
-                    	\includegraphics[height = 4.7in]{/Users/tarinisudhakar/Documents/Coding/CCS-RRI-2018-master/fig4.png}
-                    	\caption[Optional Caption]{The Revitalised EPR Model}
-                    \end{figure}
-                    
-                                        While the EPR model was a step in the right direction, it is yet to fulfil its aim. The informal sector processes over 95\% of e-waste in India, often handling it roughly without appropriate safety measures \parencite{assochamstats}. Moreover, 
-it dumps the toxic residue without treating it properly.\\ 
-                    
                  
 %===================================BIBLIOGRAPHY=================================================              
                           
@@ -629,16 +629,31 @@ it dumps the toxic residue without treating it properly.\\
 	      
         
         %==================Appendix1
-        \newpage      
-             \section*{Appendix 1: Documents Required for Licences\footnote{Excluding the GST, Signage, Weights and Measures, Lift Clearance and Phonographic Performance Limited.}}
-             \label {Appendix1}
-             \addcontentsline{toc}{section}{Appendix 1: Documents Required for Licences}
+		\newpage      
+		\section*{Appendix 1: Documents Required for Licences\footnote{Excluding the GST, Signage, Weights and Measures, Lift Clearance and Phonographic Performance Limited.}}
+		\label {Appendix1}
+		\addcontentsline{toc}{section}{Appendix 1: Documents Required for Licences}
          
-%insert docs required image
-   
-   
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics{Appendix1 - pg1.png} 
+		\end{figure}
+
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics{Appendix1 - pg2.png} 
+		\end{figure}
+		
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics{Appendix1 - pg3.png} 
+		\end{figure}
+        
+        %not sure why it is showing '- pg3.png' on top of each of the three pages
+        
         
         %==================Appendix2
+		\newpage
 		\section*{Appendix 2: Methodology}
 		\label {Appendix2}
 		\addcontentsline{toc}{section}{Appendix 2: Methodology} 
@@ -649,10 +664,31 @@ and procedures and orders as part of our exploratory research.
 		\textit{Sample}: We surveyed 101 food service enterprises in the central and south zones of South Delhi Municipal Corporation (SDMC), as the area features many markets and restaurant clusters. The survey was primarily administered to the owners. In 
 case they were not available, we interviewed managers or members of the licensing department.
 
-%Table 4: Areas Covered Under SDMC        
+		\begin{table}[htpb]
+			\raggedright
+			\caption{Areas Covered Under SDMC}
+			\begin{tabular}{ l  c  c  l  c  c}
+			\bf{\thead{\normalsize{Area}} & \bf{\thead{\normalsize{Zone}} & \bf{\thead{\normalsize{Respondents}} & \bf{\thead{\normalsize{Area}} & \bf{\thead{\normalsize{Zone}} & \bf{\thead{\normalsize{Respondents}} \\
+			\hline
+				Adchini 			&	South		&	3				&	RK Puram			&	South	&	3	\\
+				Chhattarpur		&	South		&	5				&	Safdarjung Enclave	&	South	&	3	\\
+				Greater Kailash 1	&	South		&	5				&	Saket			&	South	&	3	\\
+				Green Park		&	South		&	5				&	Satya Niketan		&	South	&	11	\\
+				Hauz Khas Market	&	South		&	6				&	SDA Market		&	South	&	6	\\
+				Hauz Khas Village	&	South		&	7				&	Amar Colony		&	Central	&	3	\\
+				Humayunpur		&	South		&	4				&	Defence Colony	&	Central	&	3	\\
+				Kailash Colony		&	South		&	5				&	Greater Kailash 2	&	Central	&	7	\\
+				Katwaria Sarai		&	South		&	2				&	Lajpat Nagar 2		&	Central	&	2	\\
+				Malviya Nagar		&	South		&	7				&	New Friends Colony	&	Central	&	7	\\
+				Mehrauli			&	South		&	4							
+			\end{tabular}
+		\end{table}    
    		
+		%SO UGLY. Need to fix. 
+		
+		
 		We sought to survey restaurants along four parameters:
-		\begin{enumerate}[-,nosep]
+		\begin{enumerate}[nosep]
 			\item Does the restaurant serve non-vegetarian food?
 			\item Does the restaurant sell liquor?
 			\item Is the restaurant located in an urban village?\footnote{From time to time, rural settlements are shifted into the urban ambit and are declared as ‘urban villages’. A notification is issued under Clause (a) of Section 507 of The Delhi Municipal 
@@ -660,7 +696,11 @@ Corporation Act, 1957. At present, there are 135 urban villages in Delhi. Norms 
 			\item Is the restaurant part of a chain? \footnote{According to Federation of Indian Chambers of Commerce and Industry, restaurants with three or more outlets are a part of chains.}
 		\end{enumerate}
 
-%Figure 9: Parameters for the Survey
+		\begin{figure}[H]
+                    	\centering
+                    	\includegraphics[height = 3in]{Figure9.png}
+                    	\caption[Optional Caption]{Parameters for the Sample}%edited the caption 
+		\end{figure}
 
 		\textit{Survey Questionnaire}: The questionnaire (Appendix 3) consisted of five sections. First, we collected basic information on the respondent and the eating house. Second, we focused on the ease or difficulty in the process of obtaining licences and 
 approvals.\footnote{Questions on ease of obtaining approval from the DoT were added mid-way during our survey, as we only found out the need for these two during the course of administering the survey to restaurateurs.} The third section had questions on 
@@ -671,22 +711,21 @@ experience with the licence renewal process. Fourth, we captured the experience 
 application process, fee, eligibility, validity, renewal process and renewal fee of the licences and approvals under their ambit. We also asked them questions pertaining to the inspection procedure: frequency of inspections, number of inspectors, mandate of 
 inspectors, inspection checklists, inspection reports and if there was a grievance redressal system in case the restaurateur feels dissatisfied with the inspection process.
 		
-		Specific questions for certain departments included the following:
-		
-		\textit {Department of Excise}
-			\begin {enumerate}[-,nosep]
+		Specific questions for certain departments included the following:\\
+		\paragraph \textit {Department of Excise}
+			\begin {enumerate}[nosep]
 			\item How long does it take you to approve one purchase order? 
 			\item What is the rationale behind banning recorded music in these restaurants?
 			\item Restaurants are live streaming music. How does it solve the problem the order hoped to resolve?
 			\end {enumerate}
-		\textit {Department of Labour}
-			\begin {enumerate}[-,nosep]
+		\paragraph \textit {Department of Labour}
+			\begin {enumerate}[nosep]
 			\item Why is the website not working? 
 			\item Can the workers approach the department in case of any problems faced?
 			\item What is your relationship with the labour unions?
 			\end {enumerate}
-		\textit {Delhi Fire Services}
-		\begin {enumerate}[-,nosep]
+		\paragraph \textit {Delhi Fire Services}
+		\begin {enumerate}[nosep]
 		\item What is the average time within which the licence is received?
 		\item Restaurants in Khan Market were asked to obtain their licences in 15 days. Was that feasible for the department?
 		\end {enumerate}
@@ -695,11 +734,11 @@ inspectors, inspection checklists, inspection reports and if there was a grievan
        %==================Appendix 3  
 		\newpage
 		\section*{Appendix 3: Questionnaire for Restaurateurs}
-		\label {Appendix 3}
+		\label {Appendix3}
            	\addcontentsline{toc}{section}{Appendix 3: Questionnaire for Restaurateurs}
 	
-	\subsubsection* {Section 1: Restaurant Information}
-		\begin {enumerate}[-,nosep]
+	\paragraph {Section 1: Restaurant Information}
+		\begin {enumerate}[nosep]
 		\item Please state your name. (Optional)
 		\item Please state your designation: Owner, Manager, Other
 		\item What is your restaurant/bar name? (Optional)
@@ -711,11 +750,11 @@ inspectors, inspection checklists, inspection reports and if there was a grievan
 		\item State the location, market area or landmark of your restaurant or bar.
 		\end {enumerate}
 		
-	\subsubsection* {Section 2: Ease of Obtaining Licenses}
-		\begin {enumerate}
+	\paragraph {Section 2: Ease of Obtaining Licenses}
+		\begin {enumerate}[nosep]
 		\item How easy is it to obtain licences from the following department?\\ 
 		\textit{Very Easy, Easy, Neutral, Difficult, Very Difficult}
-			\begin {enumerate}[-,nosep]
+			\begin {enumerate}[nosep]
 			\item Food Safety and Standards Authority of India (FSSAI)
 			\item Municipal Corporation (Health Trade Licence)
 			\item Delhi Fire Services (Fire NOC/Fire Safety Certificate)
@@ -738,37 +777,37 @@ inspectors, inspection checklists, inspection reports and if there was a grievan
 		\item When you were applying for licences, did you pay a bribe? (Y/N)
 		\item What amount did you pay as a bribe? (Optional)
 		\item How did you apply for the licences?\\
-		\textit{By Myself, Third-Party Consultants, Both, Licensing Team}
+		\textit{Self, Consultants, Both, Licensing Team}
 		\end {enumerate}
 
-	\subsubsection* {Section 3: Application and Renewal of Licenses}
-		\begin {enumerate}[-,nosep]
-		\item Are you aware of the online application process? If yes, has it made the process easier?\\
-		\textit{Yes, I find the process easy; Yes, I find the process difficult; No, I am not aware}\\
+	\paragraph {Section 3: Application and Renewal of Licenses}
+		\begin {enumerate}[topsep=0pt, nosep]
+		\item Are you aware of the online application process? Has it made the process easier?\\
+		\textit{Yes, I find the process easy; Yes, I find the process difficult; No, I am not aware}
 		\item How simple do you find the online renewal process?\\
-		\textit{Very Easy, Easy, Neutral, Difficult, Very Difficult}\\
+		\textit{Very Easy, Easy, Neutral, Difficult, Very Difficult}
 		\item How simple do you find the frequent renewal of licences?\\
 		\textit{Very Easy, Easy, Neutral, Difficult, Very Difficult}
 		\end {enumerate}
 
-	\subsubsection* {Section 4: Inspections process}
-		\begin {enumerate} [-,nosep]
+	\paragraph {Section 4: Inspections process}
+		\begin {enumerate} [topsep=0pt, nosep]
 		\item What is the duration between two inspections?
-		\item Which four authorities or departments come for inspections the most number of times?
+		\item Which four authorities/departments come for inspections the most number of times?
 		\item Can you challenge the way any inspections are conducted or their findings? (Y/N)
 		\end {enumerate} 
 
-	\subsubsection* {Section 5: Perception about Inspectors}
-		\begin {enumerate}[-,nosep]
+	\paragraph {Section 5: Perception about Inspectors}
+		\begin {enumerate}[topsep=0pt, nosep]
 		\item What is your opinion about the inspectors? (Agree, Neutral, Disagree)
-			\begin {enumerate}[-,nosep]
+			\begin {enumerate}[nosep]
 			\item Inspectors are facilitators
 			\item Inspectors treat you respectfully
 			\item Inspectors are professional
 			\item I’m certain about the mandate of the inspectors
 			\end {enumerate}
-		\item What do you think is the intent of the inspectors? (You can select more than one option.)
-			\begin {enumerate}[-,nosep]
+		\item What do you think is the intent of the inspectors? (You can select more than one.)
+			\begin {enumerate}[nosep]
 			\item To facilitate the ease of conducting your business
 			\item To check for violations in the restaurant or bar
 			\item To ensure the welfare of your customers
@@ -778,11 +817,11 @@ inspectors, inspection checklists, inspection reports and if there was a grievan
 		\item Are you aware of what is expected of you before inspections are carried out?(Y/N)
 		\item My establishment faces overlapping regulations. (Agree, Neutral, Disagree)
 		\item What are you expected to do when faults are found during inspections? (You can select more than one option)\\
-		\textit{Fix the issue before the next inspection; Pay a challan; Pay a bribe; I am not expected to fix the issue}
-		\item Did you pay any bribes in the course of inspections after opening your restaurant? (Y/N)
+		\textit{Fix issue before next inspection; Pay challan; Pay bribe; Not expected to fix issue}
+		\item Did you pay bribes during inspections post opening restaurant? (Y/N)
 		\item Does the same inspector come for back-to-back inspections? (Y/N)
 		\item In your experience in starting and running a restaurant, what are the pain points that you encountered?
-		\item What reforms would you like to see being implemented with regard to regulatory compliances in the restaurant/bar industry?
+		\item What reforms would you like to see being implemented with regard to regulatory compliances in the industry?
 		\end {enumerate}
        
 
@@ -793,30 +832,19 @@ inspectors, inspection checklists, inspection reports and if there was a grievan
                     
 \end{document}
 
+    		
+  %====================== Code examples for table and figures====================================                 
+                            
+%table1         
+\begin{table}[htpb]
+\caption{Official Cost of Acquiring CTE and CTO}
+\begin{tabular}{ l  c  c  c }
+\thead{\normalsize{State}} & \thead{\normalsize{Licence}} & \thead{\normalsize{Cost in Rs.}\\ \scriptsize\textit{(For Investment Between 1 and 10 crores)}} & \thead{\normalsize{Official Time Taken}\\ \scriptsize\textit{(in days)}} \\
+\hline
+Uttar Pradesh & CTE + CTO & 1,17,000 & 40-60\\ 
+Haryana & CTE + CTO & 3,84,000 & 20-40\\
 
-  %==============Sample Code to use
-   % Table used in ewaste from Excel
-		\begin{table}[htpb]
-		\raggedright
-		\caption{Price Comparison between Authorised and Informal Recyclers}
-		\begin{tabular}{ l  r  r }
-		\thead{\normalsize{Item}} & \thead{\normalsize{Authorised Recycler} \\ \footnotesize\textit{Rs. per unit}} & 				\thead{\normalsize{Informal Recycler} \\ \footnotesize\textit{Rs. per unit}} \\
-		\hline
-
-			HP Laptop (i3/i5) & 1,133.3 & 4,642.9\\
-			Refrigerator (350 litres) & 683.3 & 3,514.3 \\
-			Air Conditioner (AC) (1.5 tonnes) & 2,058.3 & 2,835.7 \\
-			HP CPU (500 GB 16 GB RAM) & 351.6  & 2,253.6 \\
-			LED TV (32-40 inches) & 436.6 & 2,107.1 \\
-			LCD TV (32-40 inches) & 403.3 & 1,642.9 \\
-			Samsung Mobile S6 & 62.5 & 1,418.6 \\
-			Printer (HP 1010) & 75.8 & 828.6 \\
-			Computer Monitor (15-17 inches) & 302.6 & 371.4\\
-			CRT TV (Colour) & 127.5 & 325 \\
-			UPS/Stabiliser & 112.5 & 324.3 \\
-			Toshiba Hard Disk (500 GB/1 TB) & 28.6 & 221.3 \\
-			Fax Machine & 40  & 197.9 \\ 
-		\end{tabular}
-		\end{table}
-		
-%==============
+\end{tabular}
+\end{table}
+                    
+  %==============
