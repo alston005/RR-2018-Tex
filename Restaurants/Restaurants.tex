@@ -3,7 +3,12 @@
 		\usepackage[english]{babel}
 		\usepackage[utf8]{inputenc}
 		\usepackage[utf8]{inputenc}		
-                    
+                 \usepackage{hyperref} 
+		\hypersetup{
+			colorlinks,
+			linkcolor = black,
+			citecolor = blue}
+		\usepackage{blindtext} 
                     
 %MARGINS
 		\usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
@@ -71,12 +76,9 @@
 %BIBLIOGRAPHY
 		\usepackage[authordate, backend=biber]{biblatex-chicago}
 		\addbibresource{ewaste_v2.bib} %need to change to restaurants bib
-		\usepackage{hyperref} 
-		\hypersetup{
-			colorlinks,
-			linkcolor = black,
-			citecolor = blue}
-		\usepackage{blindtext}
+		
+		
+		
 
 		
 %ADDING PICTURES
@@ -89,32 +91,34 @@
                     
     %==================================================                
                     %TITLE PAGE
+                    
                     \begin{titlepage}
-                    	\begin{center}
-                    	\line(1,0){300}\\
+                    \begin{center}
+                    	
+			\line(1,0){300}\\
                     	[0.25in]
                     	\huge{\bfseries \textcolor{CCSbrown} {A Seven Course Dilemma}} \\
-    	[0.5cm]
-    	\large  {Examining the Ease of Doing Business for Restaurants in Delhi} \\%modified title from proofed version. i think each paper should have a strong verb beginning in the byline
+    			[0.5cm]
+    			\large  {Examining the Ease of Doing Business for Restaurants in Delhi} \\%modified title from proofed version. i think each paper should have a strong verb beginning in the byline
     	
                     	\line(1,0){200}\\
                     	[1in]
-                    	\textsc{\huge Parth Gupta, Rutvi Vadera, Retika Vijay} \\ % ewaste has some off norm about line space after first author. can you please check and confirm convention
+                    	\huge Parth Gupta, Rutvi Vadera, Retika Vijay} \\ % ewaste has some off norm about line space after first author. can you please check and confirm convention; also i am removing small caps
                     	[1.5cm]
                     	{\Large September 2018} \\
                     	[2.0cm]
-    %    	{\huge Researching Reality Internship 2018} \\ % why are we writing this? 
-     %   	[0.5cm]
+   
                     	{\LARGE Centre for Civil Society} \\
                     	[0.1mm]
                     	{\Large New Delhi, India} \\
-    	[2.0cm]
-    	% \includegraphics[width = 75mm]{CCSlogo.jpg} - needed the logo so haven't inserted
+    			
+			[2.0cm]
+    			% \includegraphics[width = 75mm]{CCSlogo.jpg} - needed the logo so haven't inserted
       
                     \end{center}
                     \end{titlepage}
                     
-                    % the title page needs to be different only when we are putting the papers as individual docs on the website. for fnf/atlas report, we don't need ccs+date on each chapter title
+                    % the title page needs to be different only when we are putting the papers as individual docs on the website. for fnf/atlas report, we don't need ccs+date on each chapter title?
      %=====================TOC===============================================                 
                     \tableofcontents
                     
@@ -153,12 +157,16 @@
    %=============TODO
    		% have not integrated refs to the doc yet. refs are still in brackets
 		% need to check for bold/italics/underline
-		% need to add figure/table labels for hyperrefs?
+		% need to add figure/table labels for hyperrefs? hyperrefs were working in the morning, now are not
 		% need to add tables and figures
 		% i am unable to do nested numbered lists - tried manually and i have error alerts
 		% unable to do enumerate A,B,C
 		% some footnotes are giving me an error: i have tried to hyperlink part of the footnote text. not sure what i am doing wrong. 
-		%should we indent paragraphs? i haven't and am using paragraph spacing to delineate paras
+		% should we indent paragraphs? i haven't and am using paragraph spacing to delineate paras
+		% i would like to change the styling of the title page: the title of the paper should be the most prominent, authors not in caps, authors/date/ccs should go slightly more to the bottom half of the page
+		% toc not compiling
+		% do we need to hyperref tables where referenced?
+		% also should we do superscript for 'th' and how?
 		
          
  
@@ -167,17 +175,17 @@
                     \newpage
                     \section*{Executive Summary}
                     
-                    \addcontentsline{toc}{section}{Executive Summary}\\
+                    \addcontentsline{toc}{section}{Executive Summary}
                     
                     The Indian Food Services market, comprising restaurants, cafes, bars and street kiosks stalls, is estimated to reach Rs. 498 thousand crores and contribute 2.1\% to the Gross Domestic Product of the country by 2021 (Maheshwari et al. 2016, p. 4). Despite the growth outlook, 66\% of the industry remains unorganised (ibid, p. 3).\footnote{Unorganised eating houses do not conform with the following parameters: (i) accounting transparency; (ii) organised operations with quality control and sourcing norms; and (iii) outlet penetration (Dabas 2017, p. 9).}  We study the legal and regulatory framework in Delhi that governs the food services business and captures the experience of owners and managers operating under the framework.
                    
           Any eating house in Delhi faces cumbersome and often overlapping regulations. An alcohol-serving restaurant needs to acquire 11 licences (or 13 if they play recorded music and choose to install a lift) and submit 57 documents before they open shop legally (\hyperref{Appendix 1}{Appendix 1}). The process is daunting in the absence of procedural clarity, dysfunctional communication channels between the government and enterprises and technical difficulties.  
                     
-                    Through a structured survey of restaurant owners, interviews with government officials and an analysis of secondary information, we find that it takes 120 to 150 days to obtain all licences, if there is no delay beyond the officially stipulated time, and the formal cost varies from Rs. 18,300 to Rs. 1,852,087 (Tables 1 and 2).\footnote{Excluding the cost of the Signage Licence, which is calculated based on the surface area of advertising boards.} More than half of all respondents in our survey found the overall licensing procedure to be difficult or very difficult to follow. An Excise Licence, rated the most arduous of all by the respondents, costs restaurants anything between Rs. 7.64 lakhs and Rs. 18.52 lakhs annually. %do we need to hyperref tables 1 and 2 here? 
+                    Through a structured survey of restaurant owners, interviews with government officials and an analysis of secondary information, we find that it takes 120 to 150 days to obtain all licences, if there is no delay beyond the officially stipulated time, and the formal cost varies from Rs. 18,300 to Rs. 1,852,087 (Tables 1 and 2).\footnote{Excluding the cost of the Signage Licence, which is calculated based on the surface area of advertising boards.} More than half of all respondents in our survey found the overall licensing procedure to be difficult or very difficult to follow. An Excise Licence, rated the most arduous of all by the respondents, costs restaurants anything between Rs. 7.64 lakhs and Rs. 18.52 lakhs annually. 
                     
                     Even if restaurateurs manage to fulfil all the licensing requirements to open, they are plagued by an extortionary inspections regime and arbitrary changes in rules. An inspection system ought to maximise compliance by providing relevant information to enterprises, including easily accessible guidance material, checklists and toolkits. Out of the 12 departments that regulate the operations of a restaurant in Delhi, only one has published a guidance document, leaving restaurateurs without any information about the inspection procedure followed by other departments. In fact, a major complaint of the interviewed restaurateurs was the lack of a single point to access clear guidelines to be followed while operating a restaurant.
                     
-                    Besides this, restaurants face frequent and arbitrary government orders that directly impact the operations of a restaurant, often adversely. For example, in May 2018, the Department of Excise in Delhi banned liquor-serving restaurants from playing recorded music on the grounds of ‘nuisance caused by high volumes’.\footnote{\href{https://bit.ly/2MzCM02}{Order No. 2(72)/Ex/Restt/Misc./2016-17/1567 (2018)} from the Office of Excise Commissioner, Delhi (dated 9 May 2018).} In another instance, the New Delhi Municipal Corporation (NDMC) banned the use of rooftops by restaurants and bars following a mishap in Connaught Place in December 2017 (The Times of India 2017). A restaurateur at Hauz Khas estimated a 60\% loss in business  within 2 days of the ban, as his was one of the few restaurants providing rooftop dining—the primary attraction for his customers (Kaushik 2015). %i have edited the last sentence after the proofing version for incorrect grammar. 
+                    Besides this, restaurants face frequent and arbitrary government orders that directly impact the operations of a restaurant, often adversely. For example, in May 2018, the Department of Excise in Delhi banned liquor-serving restaurants from playing recorded music on the grounds of ‘nuisance caused by high volumes’.\footnote{\href{https://bit.ly/2MzCM02}{Order No. 2(72)/Ex/Restt/Misc./2016-17/1567 (2018)} from the Office of Excise Commissioner, Delhi (dated 9 May 2018).} In another instance, the New Delhi Municipal Corporation (NDMC) banned the use of rooftops by restaurants and bars following a mishap in Connaught Place in December 2017 (The Times of India 2017). A restaurateur at Hauz Khas estimated a 60\% loss in business  within 2 days of the ban, as his was one of the few restaurants providing rooftop dining—the primary attraction for his customers (Kaushik 2015). % edited the last sentence after the proofing version for incorrect grammar. 
                     
                     Devising reactionary rules without a robust debate does not make us safer or better protected. Such changes undermine confidence in any market, increase short-term costs for businesses and create distrust in government actions. To encourage growth in the sector, it is imperative to declutter the current regulatory framework while protecting customers and the general public from health hazards and nuisance. 
                     
@@ -190,26 +198,20 @@
                     \label{intro}
                     \addcontentsline{toc}{section}{Introduction}
                     
-                    The public interest theory of regulation postulates that regulation reduces market failures and ensures that those who enter the market bring in a high quality of goods and services (Hertog 2010, p. 3). Registration gives new companies a type of official approval that they are reputable enough to engage in transactions with the general public and other businesses (SRI 1999, p. 14). 
-                    
-                    However, Public Choice theorists, such as Stigler (1971, p. 3), argue that in practice, regulations work in favour of existing firms by limiting the entry of new firms and ‘give officials the power to deny them and to collect bribes in return for providing the permits’ (Shleifer and Vishny 1993, p. 601). 
+                    Public interest theory of regulation postulates that regulation reduces market failures and ensures that those who enter the market bring in a high quality of goods and services (Hertog 2010, p. 3). Registration gives new companies a type of official approval that they are reputable enough to engage in transactions with the general public and other businesses (SRI 1999, p. 14). Contrastingly, public choice theory argues that in practice, regulations work in favour of existing firms by limiting the entry of new firms and ‘give officials the power to deny them and to collect bribes in return for providing the permits’ (Stigler 1971, p. 3)(Shleifer and Vishny 1993, p. 601). %we have a reference problem. stigler was not a public choice theorist though he did add to the school of thought. 
                     
                     Other researchers (Bardhan 1997, p. 1322) have argued that ways to circumvent regulations, such as payment of bribes, can sometimes be effective, in principle, if it aids the release of entrepreneurs from regulation, or reduces the delay in issuing of licences. However this works out, the additional burden imposed on businesses is distortionary (Djankov 2002, p. 3) or subjects the entrepreneur to ‘some of the worst treatment imaginable... and presenting the investor with insurmountable delays or repeated obstacles unless he makes a large payoff’ (Emery 2000, p. 10). 
                     
-                    High barriers to entry leave aspiring entrepreneurs with three choices: change their occupation; succumb to the extra-legal space and operate informally; or give in to the demands for ‘facilitation payments’.
+                    These arguments partially explain why more than two-thirds of the Rs. 309100 crore food services industry that employs an estimated 5.8 million people (Maheshwari et al. 2016, p. 4) remains unlicensed (ibid, p. 5). Kaushik (2013, p. 30) studies the regulatory framework for formal and informal eating houses and describes the process of registration ‘as a maze where an entrepreneur can easily lose his way’. 
                     
-                    The Public Choice theory partially explains why more than two-thirds of the Rs. 309100 crore food services industry that employs an estimated 5.8 million people (Maheshwari et al. 2016, p. 4) remains unlicensed (ibid, p. 5).
-                    
-                    Kaushik (2013, p. 30) studies the regulatory framework for formal and informal eating houses and describes the process of registration ‘as a maze where an entrepreneur can easily lose his way’. 
-                    
-                    To improve the ease of doing business, the central and state governments have introduced legislative and regulatory changes, such as the introduction of the Goods and Services Tax (GST). However, when it comes to reforms, there is an insufficient focus on the services sector and especially on what ‘remains one of the biggest challenges’ for the food services sector, that is, starting an enterprise (ibid, p. 18).
+                    To improve the ease of doing business, the central and state governments have introduced legislative and regulatory changes, such as the introduction of the Goods and Services Tax (GST). However, when it comes to reforms, there is an insufficient focus on the services sector and especially on what ‘remains one of the biggest challenges’ for the food services sector, that is, starting an enterprise (ibid, p. 18). High barriers to entry leave entrepreneurs in the food service industry with three choices: change their occupation; succumb to the extra-legal space and operate informally; or give in to the demands for ‘facilitation payments’.
                     
                     As our main contribution to the research on the ease of doing business in Delhi, we have described the existing licensing regime for eating houses in the state. We provide a list of all licences required to set up a restaurant in Delhi supplemented with the perception of the restaurateurs of the ease of obtaining each licence. Through the responses of restaurant owners and managers, we have also highlighted the challenges they face such as document requirements, information accessibility, uncertain regulatory environment and procedural timelines.
                     
-                    The findings are based on a survey of 101 food services enterprises in South Delhi (Appendix 2). Respondents include owners, managers and sometimes chefs of full-service restaurants, quick service restaurants and cafe and bars.\footnote{Street kiosks stalls were not included in the survey.} Our interest in Delhi was due to two reasons: first, it is one of the two cities studied by the World Bank to create rankings for the Ease of Doing Business in India; and second, Delhi is one of the tourist hotspots of India, ranked 4th in India for attracting foreign tourists and 15th for attracting domestic tourists, as of 2016 (India Tourism Statistics 2017).
+                    The findings are based on a survey of 101 food services enterprises in South Delhi (See \hyperref{Appendix 2}{Appendix 2}). Respondents include owners, managers and sometimes chefs of full-service restaurants, quick service restaurants and cafe and bars.\footnote{Street kiosks stalls were not included in the survey.} Our interest in Delhi was due to two reasons: first, it is one of the two cities studied by the World Bank to create rankings for the Ease of Doing Business in India; and second, Delhi is one of the tourist hotspots of India, ranked 4th in India for attracting foreign tourists and 15th for attracting domestic tourists, as of 2016 (India Tourism Statistics 2017).
                     
                     The paper is organised into four sections: licences required to start a restaurant in Delhi, the perception of restaurateurs of the multi-agency inspections regime, the challenges that the restaurateurs face in running their business and a conclusion. 
-%i want to re-edit intro. it is not flowing nicely and paras are currently too small. also need to hyperref appendix. also should we do superscript for 'th' and how?
+%ire-edited intro. it was not flowing nicely and paras were currently too small. 
             
                                         
 %======================Regulatory Framework for Restaurants in Delhi======================
