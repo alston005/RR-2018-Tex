@@ -34,6 +34,8 @@
                    
                    
                     %Tables
+                    \usepackage{array}
+                    \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
                     \usepackage{longtable}
                     \usepackage{booktabs}
                     \usepackage{subfig}
@@ -65,6 +67,13 @@
 		
 		\usepackage[authordate, backend=biber]{biblatex-chicago}
 		\addbibresource{bibliography8.bib}
+		\usepackage{hyperref}
+		\hypersetup{
+		colorlinks, 
+		linkcolor = black, 
+		citecolor = CCSbrown,
+		urlcolor=black}
+		\usepackage{blindtext}
 
 
                     \begin{document}
@@ -117,7 +126,7 @@
         
                     
                     %INTRODUCTION
-            
+            \newpage
                     \section{Introduction}
                  Regulations in India, which aim to protect consumer interests by ensuring fair trade and correcting information asymmetries \parencite{dudley2012regulation}, are typically product based and reactionary and thereby restrain innovation. In addition, due to the tendency of regulatory capture by traditional players, the regulatory intent of protecting the consumers is rarely met while the costs of entry and operation for enterprises remain high.. \\
                     
@@ -148,6 +157,8 @@
                     
                     In India, the emergence of aggregators in sectors such as hospitality (Airbnb), taxi services (Uber and Ola) and food (Swiggy and Zomato) has led to the development of new trust-building mechanisms and the integration of existing ones within these platforms. In this section, we have consolidated the various methods aggregators use to build trust between the users based on an analysis of their websites and interviews with aggregators and their service partners. These include reputation and feedback mechanisms, checks against dishonest behaviour, and monitoring safety and quality. We discuss the susceptibility of feedback mechanisms to fraud and the measures aggregators use to check these in order to maintain trust. Finally, we discuss ways in which aggregators deal with broken trust in the form of insurances and grievance redressal.\\
                     
+                    \newpage
+                    
                     \subsection{Trust Mechanisms Employed on Platforms }
 \subsubsection{Collecting Customer Feedback Through Ratings and Reviews}
                     
@@ -164,10 +175,19 @@ Similarly, while calculating average rating of a restaurant, Zomato allocates hi
                     \subsubsection{Evolving Feedback Tools}
                     
                    In order to stay dynamic, effective and responsive to evolving consumer needs, aggregators constantly adjust their feedback tools. For example, Zomato introduced hygiene ratings for restaurants in collaboration with third-party hygiene auditors. This was motivated by a survey conducted by Zomato where 93\% of platform users gave more weightage to restaurant hygiene than factors such as the taste of food \parencite{GoyalD2017}. Figure 1 and Figure 2 provide a breakdown of the hygiene parameters on which restaurants were graded. However, Zomato recently removed this breakdown and chose to only display the overall hygiene rating. \\
+                   
+%Figure 1 and 2
+\begin{figure}[H]
+\begin{minipage}[t]{.4\textwidth}
+  \includegraphics[width=.8\linewidth]{fig1-al.png} \hfill
 
-\begin{figure}
-\centering
-\includegraphics[height = 4.3in]{figure1.png}
+  \captionof{figure}{Food hygiene ratings displayed on the Zomato app. The screenshot was taken on 20 July 2018.}
+\end{minipage}\hspace{0.5em} \vrule \hspace{0.5em}
+\begin{minipage}[t]{.6\textwidth}
+  \includegraphics[width=1\linewidth]{fig2-al.png}
+  \captionof{figure}{Breakdown of the hygiene ratings of a restaurant on the Zomato app. The screenshot was taken on 23 June 2018.}
+  %\label{fig:test2}
+\end{minipage}
 \end{figure}
 
 	\subsubsection{Using Customer Feedback to Ease Market Entry and Reward Good Behaviour}
@@ -217,7 +237,7 @@ Finally, UrbanClap discourages dishonest behaviour by publishing a list of ‘bl
      
                     \subsection{Establishing Identity for Quality and Safety }
                     
-                    In order to build credibility and increase trust in their brand, aggregators monitor the quality and safety of the platform. They set a minimum threshold of ratings that suppliers, and often consumers, must meet to continue operating on the platform. Figure 2 highlights the importance accorded to higher ratings, with more than 90\% of the listings having a rating of 4.5 stars or above (on a 5-star scale). \\
+                    In order to build credibility and increase trust in their brand, aggregators monitor the quality and safety of the platform. They set a minimum threshold of ratings that suppliers, and often consumers, must meet to continue operating on the platform. Figure 3 highlights the importance accorded to higher ratings, with more than 90\% of the listings having a rating of 4.5 stars or above (on a 5-star scale). \\
 
 \begin{figure}[h!]
 \centering
@@ -248,7 +268,7 @@ Similarly, treating its driver partners also as customers on the platform, Uber 
 
 Lastly, aggregators make use of customer care helplines and chat support systems for addressing grievances. Using these, both customers and service providers on Airbnb, Uber and UrbanClap can report issues. Airbnb also has an urgent customer support helpline number for travellers to report physical harm. Uber allows drivers to avail help and registers complaints through a designated 24 x 7 customer service helpline.\footnote{These include instances of where the driver was unprofessional or if the driver’s face did not match.}  In case, a user rates an Uber trip four stars or below, the app allows the user to give reasons why they believe that the service was of inadequate quality. \footnote{The app provides multiple options that the user can select for easy access. These include, but are not limited to, price, professionalism, comfort, driving, music and route taken. }.  Uber considers this feedback while monitoring the behaviour of drivers in the future. It can subsequently block the Uber partners account until they visit an Uber greenlight hub and resolve the dispute.\footnote{Grievance redressal cells for drivers are located at several locations in the city.}  With the help of these insurance programs and helpline numbers, aggregators are taking greater accountability in dealing with broken trust.\\
 
-                    \section{Limitations of the Current ‘Specification-Centric’ Regulatory Framework in Accommodating \\ Aggregators}
+                    \section{Limitations of the Current ‘Specification-Centric’ Regulatory Framework in Accommodating Aggregators}
 In India, regulations tend to be overly prescriptive or entirely proscriptive, and state capacity for enforcement is limited. The differences between traditional suppliers and aggregators make it impractical to co-opt existing regulations. Furthermore, most government directives tend to establish uniform service specifications across industry participants, restricting not only supplier entry but also access for consumers who do not necessarily seek the same level of quality. As opposed to uniform service specifications, aggregators rely on the power of information and trust mechanisms to enable the community to decide and regulate. The persistence of uniform service specifications, whose initial justification is no longer valid, not only imposes costs on businesses but may also work against the interests of consumers \parencite{koopman2014sharing}. \\  
 
 In this section, we contrast government regulations with comparable mechanisms employed by aggregators that seek to protect the interests of consumers. We look at the two sectors—bed and breakfasts (B\&Bs) and taxi providers—that have grabbed attention as disruptors of traditional markets and, consequently, many demand greater regulation and scrutiny of their operations. For B\&Bs, we evaluate how the mechanisms adopted by them manage to meet consumer expectations of quality. Using the text mining software Leximancer, we mined reviews of all Airbnb listings in Delhi. An analysis of these reviews provides a list of the most commonly occurring words in the reviews, revealing the amenities that are most important for guests. For the section on taxis, we examine the conditions laid down by the City Taxi Scheme 2015 and the requirements under Uber that expand opportunities for service providers while, at the same time, protect the interests of consumers.\\                   
@@ -344,7 +364,7 @@ In the case of Uber, instead of the decision on the suspension of licence being 
 
 While many of the specifications laid down under the City Taxi Scheme are made with the intention of protecting the consumers and ensuring their safety, they often become difficult to enforce and implement. These specifications also require regular crackdowns and inspections. Furthermore, rules such as ensuring that the driver is of a ‘good moral character’ and has ‘adequate knowledge of the roads’ are riddled with ambiguity and are difficult to check or enforce. On the other hand, through the use of its app-based technology, matching algorithm, feedback mechanisms and a set of incentives, Uber has managed to provide many of these facilities with ease.\\
 
-\section{Rethinking the Regulatory Approach for \\Aggregators}
+\section{Rethinking the Regulatory Approach for Aggregators}
 The disruption caused by aggregators has intensified the debate on the kind of regulation appropriate for them. A key distinction between a traditional business and that of an aggregators’ is that the former has full control of almost every aspect of the goods and services they provide and can thereby devise in-house policies to govern their actions. On the other hand, aggregators identify themselves as ‘matchmakers’ and not service providers. By extension, they don't hold themselves liable and only claim to mediate grievances between aggrieved participants. 
           
              Two kinds of regulatory responses can be taken towards aggregators:         
@@ -391,13 +411,16 @@ While our paper suggests a need to rethink existing regulations through a brief 
 
 %Appendix
   \section*{Appendix 1: Amenities Provided by Airbnbs}
-             \addcontentsline{toc}{section}{Appendix 4: FIX}
-
-\begin{longtable}{p{5.5cm}p{2cm}p{5.5cm}p{2cm}}
+             \addcontentsline{toc}{section}{Appendix 1: Amenities Provided by Airbnbs}
+\small
+\centering
+\begin{longtable}[c]{>{\raggedright}p{5.5cm}>{\raggedright}p{2cm}p{5.5cm}>{\raggedright\arraybackslash}p{2cm}}
 \caption{Number of Airbnbs providing Each Amenity in Delhi. Data mined on 13 July 2018} \\
+\toprule
 Amenity & No. of Airbnbs & Amenity & No. of Airbnbs \\
 \midrule
 \endfirsthead
+\toprule
 Amenity & No. of Airbnbs & Amenity & No. of Airbnbs \\
 \midrule
 \endhead
@@ -454,10 +477,10 @@ Host greets you & 123 \\
 %APPENDIX 2
 
  \section*{Appendix 2: Sentiment Analysis for Reviews of all Airbnbs}
-             \addcontentsline{toc}{section}{Appendix 4: FIX}
+             \addcontentsline{toc}{section}{Appendix 2: Sentiment Analysis for Reviews of all Airbnbs}
 
 \footnotesize
-\begin{longtable}{p{2cm}p{2cm}p{1cm}p{1.6cm}p{2.4cm}p{1.9cm}p{1cm}p{2cm}}
+\begin{longtable}[l]{p{2cm}p{2cm}p{1cm}p{1.6cm}p{2.4cm}p{1.9cm}p{1cm}p{2cm}}
 \caption{Sentiment Analysis for Reviews of all Airbnbs in Delhi. Data mined on 13 July 2018} \\
 Concept & Word & Count & Likelihood Percent & Concept & Word & Count & Likelihood Percent \\
 \midrule
