@@ -3522,11 +3522,35 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">CRA.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">meat.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">PHD</bcf:citekey>
-    <bcf:citekey order="2">DPCCb</bcf:citekey>
+    <bcf:citekey order="1">economicreport</bcf:citekey>
+    <bcf:citekey order="2">sharmanews</bcf:citekey>
+    <bcf:citekey order="3">dahreport</bcf:citekey>
+    <bcf:citekey order="4">dah1report</bcf:citekey>
+    <bcf:citekey order="5">mspireport</bcf:citekey>
+    <bcf:citekey order="6">apedastats</bcf:citekey>
+    <bcf:citekey order="7">cmiestats</bcf:citekey>
+    <bcf:citekey order="8">cmiestats</bcf:citekey>
+    <bcf:citekey order="9">praderepaper</bcf:citekey>
+    <bcf:citekey order="10">kateshiyanews</bcf:citekey>
+    <bcf:citekey order="11">hindunews</bcf:citekey>
+    <bcf:citekey order="12">bhardwajnews</bcf:citekey>
+    <bcf:citekey order="13">indiannews</bcf:citekey>
+    <bcf:citekey order="14">petareport</bcf:citekey>
+    <bcf:citekey order="15">chaudrypaper</bcf:citekey>
+    <bcf:citekey order="16">maanvinews</bcf:citekey>
+    <bcf:citekey order="17">mortonpaper</bcf:citekey>
+    <bcf:citekey order="18">singhnews</bcf:citekey>
+    <bcf:citekey order="19">tnnnews</bcf:citekey>
+    <bcf:citekey order="20">desotopaper; duttapaper; aportapaper</bcf:citekey>
+    <bcf:citekey order="21">oecd1report</bcf:citekey>
+    <bcf:citekey order="22">oecd1report</bcf:citekey>
+    <bcf:citekey order="23">blancreport</bcf:citekey>
+    <bcf:citekey order="24">oecd1report</bcf:citekey>
+    <bcf:citekey order="25">oecdreport</bcf:citekey>
+    <bcf:citekey order="26">roychapter</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">
@@ -3565,4 +3589,13 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="cms/global//global/global"
+                type="entry"
+                sortingtemplatename="cms"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>
