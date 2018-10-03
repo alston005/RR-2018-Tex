@@ -7,8 +7,6 @@
 		\usepackage[utf8]{inputenc}		
 
 		\usepackage{blindtext} 
-		
-		\usepackage{hyperref}
 		                    
 %MARGINS
 		\usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
@@ -73,22 +71,20 @@
     		\subsubsectionfont{\color{CCSblack}} %sets colour of subsubsection font
     		
 		
-%BIBLIOGRAPHY
+%BIBLIOGRAPHY and LINKS
 		\usepackage[authordate, backend=biber]{biblatex-chicago}
 		\addbibresource{ewaste_v2.bib} %need to change to restaurants bib
-		
+		\usepackage{hyperref}
+		\hypersetup{
+			colorlinks,
+			linkcolor = black,
+			citecolor = blue}
 	
 		
 %ADDING PICTURES
 		\usepackage{graphicx}
 		\usepackage{float}
               
- 
- %Links
-		\hypersetup{
-			colorlinks,
-			linkcolor = black,
-			citecolor = blue}
   
 \begin{document}
                     
@@ -185,7 +181,7 @@ Despite the growth outlook, 66\% of the industry remains unorganised (ibid, p. 3
 (iii) outlet penetration (Dabas 2017, p. 9).}  We study the legal and regulatory framework in Delhi that governs the food services business and captures the experience of owners and managers operating under the framework.
                    
           Any eating house in Delhi faces cumbersome and often overlapping regulations. An alcohol-serving restaurant needs to acquire 11 licences (or 13 if they play recorded music and choose to install a lift) and submit 57 documents before they open shop legally 
-(\hyperref{Appendix1]{Appendix 1}). The process is daunting in the absence of procedural clarity, dysfunctional communication channels between the government and enterprises and technical difficulties.  
+(Appendix 1). The process is daunting in the absence of procedural clarity, dysfunctional communication channels between the government and enterprises and technical difficulties.  
                     
                     Through a structured survey of restaurant owners, interviews with government officials and an analysis of secondary information, we find that it takes 120 to 150 days to obtain all licences, if there is no delay beyond the officially stipulated time, and the 
 formal cost varies from Rs. 18,300 to Rs. 1,852,087 (Tables 1 and 2).\footnote{Excluding the cost of the Signage Licence, which is calculated based on the surface area of advertising boards.} More than half of all respondents in our survey found the overall 
@@ -212,7 +208,6 @@ restaurant, followed by a \hyperref[end]{conclusion}.  %added a comma in sentenc
                     \newpage
                     \section{Introduction}
                     \label{intro}
-                     \addcontentsline{toc}{section}{Introduction}
                     Public interest theory of regulation postulates that regulation reduces market failures and ensures that those who enter the market bring in a high quality of goods and services (Hertog 2010, p. 3). Registration gives new companies a type of official 
 approval that they are reputable enough to engage in transactions with the general public and other businesses (SRI 1999, p. 14). Contrastingly, public choice theory argues that in practice, regulations work in favour of existing firms by limiting the entry of new firms 
 and ‘give officials the power to deny them and to collect bribes in return for providing the permits’ (Stigler 1971, p. 3)(Shleifer and Vishny 1993, p. 601). %we have a reference problem. stigler was not a public choice theorist though he did add to the school of 
@@ -244,14 +239,12 @@ tourist hotspots of India, ranked 4th in India for attracting foreign tourists a
 %======================Regulatory Framework for Restaurants in Delhi======================
                     \section{Regulatory Framework for Restaurants in Delhi}
                     \label{sec:1}
-                    \addcontentsline{toc}{section}{Regulatory Framework for Restaurants in Delhi}
                     In this section, we describe the procedure for obtaining mandatory and service-specific licences, as well as the time and cost of following these procedures for eating houses in Delhi. We list the licences that need to be acquired before a restaurant can 
 officially open its doors, the official cost of obtaining these licences and the minimum time it takes to meet them, assuming no delays. Wherever necessary, we highlight the ambiguities and contradictions that exist in the licensing procedure. We also document the 
 experience of restaurants based on a survey asking enterprises to rate their experience of obtaining each licence from options ranging from very difficult to very easy.
                     
                     
                     \subsection{Mandatory Licences: Enumerated Process and Procedural Ambiguities}
-                     \addcontentsline{toc}{subsection}{Mandatory Licences: Enumerated Process and Procedural Ambiguities}
                      Any entrepreneur looking to set up an eating house in Delhi requires a minimum of eight licences enlisted in Table 1.\footnote{According to Delhi Police Act 1978 (Chapter 1), ‘eating house’ means any place to which the public are admitted and where 
 any kind of food or drink is supplied for consumption on the premises by any person owning, or having any interest in or managing such place and includes a refreshment room, boarding, coffee house, a shop where any kind of food or drink is supplied for 
 consumption in or near such shop but does not include a place of public entertainment.} The officially stipulated fee ranges from Rs. 18,300 to Rs. 38,500, depending on the revenue and seating capacity.\footnote{Excluding the cost of a Signage Licence, which is 
@@ -368,7 +361,7 @@ up in front of their shops. A Signage Licence is needed to ensure that there are
 
 		
 		\subsection{Service-specific Licences: Difficulties in Providing Value Addition}
-		  \addcontentsline{toc}{subsection}{Service-specific Licences: Difficulties in Providing Value Addition}
+		
 		
 		A restaurant may obtain five licences depending on its offering. These are required if a restaurant chooses to serve alcohol, play live music or install a lift in the establishment. The most expensive of these is an Excise Licence (required for serving liquor) 
 with a mandatory increase of 10\% in the licence fee each year. \footnote{\href{https://bit.ly/2xoejoG}{Notification No. F.12(4)/Fin(Rev-I)/15-16.dsVI/587} from the Office of Commissioner of Excise (dated 29 July 2015).}
@@ -454,7 +447,6 @@ many feel that paying a bribe is the only option to obtain a licence in time.
 	
 		\section{Enforcement of the Regulatory Framework}
 		\label{sec:2}
-		\addcontentsline{toc}{section}{Enforcement of the Regulatory Framework}
 		
 		Inspection is the primary mechanism to monitor compliance. For the Indian Food Services sector, inspections aim at ensuring food safety, fire safety, health and hygiene compliance and environment safety. In lieu of a single regulatory authority 
 monitoring compliance across functions, multiple departments have their own brigade of inspectors. Thus, inspections are carried out independently and have different policies governing their nature, scope and due process.
@@ -511,12 +503,10 @@ various stages of obtaining licences and inspections and still considered the co
 
 		\section{Oft-Repeated Regulatory Pain Points}
 		\label{sec:3}
-		\addcontentsline{toc}{section}{Oft-Repeated Regulatory Pain Points}
 		
 		In this section, we highlight and analyse some of the key pain points that eating houses repeatedly claimed to encounter while setting up and running a restaurant.
 		
 		\subsection{Efficiency of Web Portals}
-		\addcontentsline{toc}{subsection}{Efficiency of Web Portals}
 		The Government of India is increasingly tapping into e-governance initiatives to enable the effective and efficient delivery of public services. The success or failure of e-governance initiatives hinges on the comfort with which customers can use the 
 interface. Kinks in the website increase customer dissatisfaction with the portal and reduce the probability of their returning to it or recommending it to others (Anthopoulos, Siozos and Tsoukalas 2007, p. 10). 
 		
@@ -532,7 +522,6 @@ doing business. Partially online systems, such as with the Eating House Licence,
 of human contact.
 		
 		\subsection{Pressure to Pay Bribes}
-		\addcontentsline{toc}{subsection}{Pressure to Pay Bribes}
 		Corruption, that is, an ‘an illegal payment to a public agent to obtain a benefit for a private individual or firm’, (Rose-Ackerman 1999, p. 373) is commonly accepted as a component of the application and inspection procedure. It is also difficult to measure, 
 as the people involved are unlikely to accept complicity. Respondents pointed out that bribes are never asked for directly. According to one restaurateur, ‘The inspectors levy an exorbitant fine for a violation and then offer an \textit{easier way} out by asking for 
 personal payment of a lower amount and waiving the fine’(emphasis added). This arrangement benefits both the restaurant and official.\\
@@ -541,7 +530,6 @@ for example, that the Delhi Police Inspectors visit the restaurants intentionall
 appears to be another systematised manner of seeking bribes.
 				
 		\subsection {Lack of Procedural Clarity}
-		\addcontentsline{toc}{subsection}{Lack of Procedural Clarity}
 		In 2017, unlicensed restaurants accounted for 66\% of the market share of the restaurant industry in India (Dabas 2017). Various reasons why firms choose to stay unregistered include for some, a want of access to finance, and for others, an avoidance 
 of paying taxes. Some others do not register due to procedural difficulties. Although our respondents were only registered restaurants, 13 out of 43 respondents highlighted the lack of clear guidelines as a pain point. Restaurants seek a single point of reference for 
 all necessary information necessary to be compliant. They are not informed of the new guidelines or directions in a structured manner. Even to compile details on the process of registration, we had to visit several websites and government offices.
