@@ -44,6 +44,8 @@
                     \captionsetup[table]{singlelinecheck = false}
                     \usepackage{array}
                     \usepackage{makecell}	
+                    \usepackage{multirow}
+                    \usepackage{multicol}
                     
                     
 %COLORED BOXES
@@ -267,6 +269,27 @@ Central FSSAI Licence.\footnote{According to the FSSR 2011, Schedule I, Point 9,
                     It is unclear what a restaurant with a proposed turnover of over Rs. 20 crores but operating only in one state should do. %this para was highlighted in the paper. i don't know how to do this, or if we should. 
                     
 % Table 2: Conflicting Information Provided by the FSSR 2011 and the Website of FSSAI
+		\begin {table}
+		\raggedright
+		\caption{Conflicting Information Provided by the FSSR 2011 and the Website of FSSAI\footnote{Food Safety and Standards Regulations, 2011, Schedule I, Point 9.}}
+		\begin{tabular}{l | l | c | c}
+			\multirow {2}{*}{\bf{\thead{Turnover}}} & \multirow {2}{*}{\bf{\thead{Information Source}}} & \multicolumn {2}{c}{\bf{\thead{Type of License}}}\\
+			& & \textit{\footnotesize{Single-state Operations}}	&	\textit{\footnotesize{Multi-state Operations}}\\
+			\hline
+			\hline
+			\multirow {2}{*}{$<$ Rs. 20 crores}	&	FSSR 2011		&	State Licence	&	Central Licence\\
+			&Website of FSSAI	&	State Licence	&	Central Licence\\
+			\hline
+			\multirow {2}{*}{$>$ Rs. 20 crores}	&	FSSR 2011		&	\textcolor{red}{State Licence}	&	Central Licence\\
+			&Website of FSSAI	&	\textcolor{red}{Central Licence}	&	Central Licence\\
+			\hline
+		\end{tabular}
+		\end{table}  		
+
+%having some trouble with footnote in the caption = footnote text isnt showing up; also need to make the table prettier
+
+
+
 %table 2 needs to go here. table 2 has footnote 12, and hyperlink to FSSAI site. also can we not say 'fssai's website instead of website of fssai?   
                     
                                     
@@ -661,8 +684,8 @@ case they were not available, we interviewed managers or members of the licensin
 		\begin{table}[htpb]
 			\raggedright
 			\caption{Areas Covered Under SDMC}
-			\begin{tabular}{ l  c  c  l  c  c}
-			\bf{\thead{\normalsize{Area}} & \bf{\thead{\normalsize{Zone}} & \bf{\thead{\normalsize{Respondents}} & \bf{\thead{\normalsize{Area}} & \bf{\thead{\normalsize{Zone}} & \bf{\thead{\normalsize{Respondents}} \\
+			\begin{tabular}{ l  c  c | l  c  c}
+			\bf{\thead{\normalsize{Area}} & \bf{\thead{\normalsize{Zone}} & \bf{\thead{\normalsize{Responses}} & \bf{\thead{\normalsize{Area}} & \bf{\thead{\normalsize{Zone}} & \bf{\thead{\normalsize{Responses}} \\
 			\hline
 				Adchini 			&	South		&	3				&	RK Puram			&	South	&	3	\\
 				Chhattarpur		&	South		&	5				&	Safdarjung Enclave	&	South	&	3	\\
