@@ -1,9 +1,6 @@
 1 apple
 2 bamnana
-<<<<<<< HEAD
-3 chocolate america delhi
 4 drums 4 drums 
-=======
 3 chocolate america pakistan
 4 drums
->>>>>>> e0afc70fa9993e5cbe09c24e2208cc920cd1f1db
+
