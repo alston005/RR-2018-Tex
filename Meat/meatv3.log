@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.28)  3 OCT 2018 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.28)  3 OCT 2018 23:17
 entering extended mode
-**"C:/Users/Dell/Desktop/CCS/RR-2018-Tex/Meat/meat v2.tex"
-("C:/Users/Dell/Desktop/CCS/RR-2018-Tex/Meat/meat v2.tex"
+**C:/Users/Dell/Desktop/CCS/RR-2018-Tex/Meat/meatv3.tex
+(C:/Users/Dell/Desktop/CCS/RR-2018-Tex/Meat/meatv3.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Users\Dell\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1007,8 +1007,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count418
 \@quotereset=\count419
-No file "meat v2".aux.
-\openout1 = `"meat v2.aux"'.
+No file meatv3.aux.
+\openout1 = `meatv3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -1094,11 +1094,12 @@ Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `"meat v2.bcf"'.
+\openout4 = `meatv3.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"meat v2".bbl' found.
- ("C:/Users/Dell/Desktop/CCS/RR-2018-Tex/Meat\meat v2.bbl")
+Package biblatex Info: ... file 'meatv3.bbl' not found.
+
+No file meatv3.bbl.
 Package biblatex Info: Reference section=0 on input line 64.
 Package biblatex Info: Reference segment=0 on input line 64.
 <CCSlogo.jpg, id=1, 415.5525pt x 195.73125pt>
@@ -1106,13 +1107,13 @@ File: CCSlogo.jpg Graphic file (type jpg)
 <use CCSlogo.jpg>
 Package pdftex.def Info: CCSlogo.jpg  used on input line 88.
 (pdftex.def)             Requested size: 230.15247pt x 108.405pt.
- [1
+[1
 
 {C:/Users/Dell/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Del
 l/Desktop/CCS/RR-2018-Tex/Meat/CCSlogo.jpg>]
-No file "meat v2".toc.
+No file meatv3.toc.
 \tf@toc=\write5
-\openout5 = `"meat v2.toc"'.
+\openout5 = `meatv3.toc'.
 
 [1]
 \enitdp@abbrv=\count426
@@ -2465,7 +2466,7 @@ Package longtable Warning: Column widths have changed
 
 Package longtable Warning: Table widths have changed. Rerun LaTeX.
 
-[36] ("meat v2.aux")
+[36] (meatv3.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2474,21 +2475,21 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "meat v2"
+(biblatex)                meatv3
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to '"meat v2".run.xml'.
-\openout1 = `"meat v2.run.xml"'.
+Package logreq Info: Writing requests to 'meatv3.run.xml'.
+\openout1 = `meatv3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24324 strings out of 492973
- 445669 string characters out of 3127135
- 1148798 words of memory out of 3000000
+ 24322 strings out of 492973
+ 445541 string characters out of 3127135
+ 1148790 words of memory out of 3000000
  27945 multiletter control sequences out of 15000+200000
  549891 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,65p,1401b,3900s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,65p,1398b,3900s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 !pdfTeX error: pdflatex (file ecbx1095): Font ecbx1095 at 600 not found
  ==> Fatal error occurred, no output PDF file produced!
