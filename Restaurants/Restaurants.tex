@@ -43,9 +43,13 @@
                     \captionsetup{aboveskip=14pt,}
                     \captionsetup[table]{singlelinecheck = false}
                     \usepackage{array}
+                    	\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+			\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+			\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
                     \usepackage{makecell}	
                     \usepackage{multirow}
                     \usepackage{multicolumn}
+                    \usepackage {hyphenat}
                     
                     
 %COLORED BOXES
@@ -238,8 +242,7 @@ tourist hotspots of India, ranked 4th in India for attracting foreign tourists a
                     In this section, we describe the procedure for obtaining mandatory and service-specific licences, as well as the time and cost of following these procedures for eating houses in Delhi. We list the licences that need to be acquired before a restaurant can 
 officially open its doors, the official cost of obtaining these licences and the minimum time it takes to meet them, assuming no delays. Wherever necessary, we highlight the ambiguities and contradictions that exist in the licensing procedure. We also document the 
 experience of restaurants based on a survey asking enterprises to rate their experience of obtaining each licence from options ranging from very difficult to very easy.
-                    
-                    
+                                   
                     \subsection{Mandatory Licences: Enumerated Process and Procedural Ambiguities}
                      Any entrepreneur looking to set up an eating house in Delhi requires a minimum of eight licences enlisted in Table 1.\footnote{According to Delhi Police Act 1978 (Chapter 1), ‘eating house’ means any place to which the public are admitted and where 
 any kind of food or drink is supplied for consumption on the premises by any person owning, or having any interest in or managing such place and includes a refreshment room, boarding, coffee house, a shop where any kind of food or drink is supplied for 
@@ -251,23 +254,51 @@ online.
 Food and Environmental Hygiene Department before commencing operations.
 
 %Table 1: Time, Cost, Validity and Procedure of Mandatory Licences in Delhi
- %table 1 needs to go here. also table 1 has footnotes #7/8/9 from the word doc. 
  
- 	\begin {table} [H]
+  	\begin {table}[H]
  	\centering
+	\setlength {\tabcolsep}{0.2cm}
  	\label {tab: table1}
- 	\caption {Mandatory Licences for an FBO in Delhi: Time, Cost, Validity and How to Apply}
- 	\begin{tabular}{p{2.5cm} | p{2.5cm} | p{3cm} | p{2.5cm} | p{2cm}}
-		\multirow {2}{*}{\bf{\thead{Days to obtain}}}		&	\multirow {2}{*}{\bf{\thead{Official Cost}}}							&	\multirow {2}{*}{\bf{\thead{Validity}}}		&	\multirow {2}{*}{\bf{\thead{How to Apply}}}	&	\multirow {2}{*}{\bf{\thead{Issuing Government}}}\\
-		&\textit{\footnotesize{Rs} & \textit{\footnotesize{Years}&&\\
+ 	\caption {Mandatory Licences for an FBO in Delhi}
+	\begin{tabular}{L{3cm} | L{3.5cm} | L{3.5cm} | L{3.5cm} | L{2.5cm}}
+	\bf{\thead{Days to obtain}}	&	\bf{\thead{Official Cost \newline{\textit{\tiny{In Rs.}}}	&	\bf{\thead{Validity \newline{\textit{\tiny{Years}}}	&	\bf{\thead{How to Apply}}	&	\bf{\thead{Issuing Govt.}}\\
+		\hline
 		\hline
 		\multicolumn {5}{c}{\bf{\thead{Food Safety Licence}}}\\
-		60						&	7,500/year: Central Licence; 2,000/year: State Licence		&	1 to 5 (as chosen by FBO)		&	Online				&	Centre or State\\
+		\hline
+		60	&	7,500/year: Central \newline 2,000/year: State &	 1 to 5 \newline as chosen by FBO		&	Online				&	Centre or State\\
+		\hline
+		\multicolumn {5}{c}{\bf{\thead{Health Trade Licence}}}\\ 	
+		\hline 
+		Immediately at application &	16,000: 20 seats \newline19,000: 20-50 seats \newline 31,000: 50+ seats &	1	&	Online	&	Local\\ 
+		\hline 
+		\multicolumn {5}{c}{\bf{\thead{Fire Safety Certificate}}}\\
+		\hline 
+		15	&	No charge	&	3	&	New bldgs: Online \newline Old bldgs: Offline	&	State\\
+		\hline 
+		\multicolumn {5}{c}{\bf{\thead{Consent to Establish/Operate}}}\\
+		\hline 	
+		120 \newline deemed clear after	&	No charge	&	1	&	Online	&	State\\
+		\hline 
+		\multicolumn {5}{c}{\bf{\thead{Shops and Establishment Licence}}}\\
+		\hline 
+		Immediately at application	&	No charge	&	24	&	Online	&	State\\
+		\hline 
+		\multicolumn {5}{c}{\bf{\thead{Eating House Licence}}}\\
+		\hline
+		55	&	300: Application \newline 200: Renewal	&	Contingent on the validity of other licences	&	Offline	&	State\\
+		\hline 
+		\multicolumn {5}{c}{\bf{\thead{GST registration}}}\\
+		\hline
+		3	&	Free	&		&	Online 	&	Central and State\\
+		\hline
+		\multicolumn {5}{c}{\bf{\thead{Signage Licence}}}\\
+		\hline
+		30	&	$<$4ft.: Free \newline $>$4ft: Rs. 100/sq.ft	&	Maximum period of 5 years 	&	Offline	&	Local\\ 
 	\end {tabular}
 	\end {table}
- 
 
- 
+ % several issues: spilling over across pages, and footnotes (#7/8/9 from the word doc)
                     
                                         
                     \subsubsection{Food Licence}
