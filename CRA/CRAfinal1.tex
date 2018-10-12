@@ -1,14 +1,13 @@
- % !TEX TS?program = pdflatexmk
+
                     \documentclass[a4paper, 12pt]{article}
                   \usepackage[english]{babel}
                   \usepackage[utf8]{inputenc}
-    		\usepackage[utf8]{inputenc}
-    %                \renewcommand{\baselinestretch}{1.0} 
+
                     
                     
                     %MARGINS
                     \usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
-      %            \geometry{a4paper, total={170mm,257mm}, left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm}
+
                     \setlength{\parindent}{0in}
                     \usepackage{enumitem}
                    
@@ -27,14 +26,14 @@
                     \usepackage{amsmath}
                     \fancyhf{}
                     
-%    	\rhead{\leftmark}
-%    	\lhead{Guides and tutorials}
+
 	\rfoot{Centre for Civil Society \hspace{1mm} \textbar \hspace{1mm} www.ccs.in \hspace{2mm}  \thepage}
-%             \lfoot{  \leftmark }     			% get the section heading on the footer 
+
                    
                    
                     %Tables
                     \usepackage{booktabs}
+                    \usepackage[center]{caption}
                     \usepackage{subfig}
                     \captionsetup{aboveskip=14pt,}
                     \captionsetup[table]{singlelinecheck = false}
@@ -83,6 +82,7 @@
               \newcolumntype{^}{>{\currentrowstyle}}
               \newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}#1\ignorespaces}
              
+             
 \begin{document}
                     
     %==================================================                
@@ -97,17 +97,15 @@
     	
                     	\line(1,0){200}\\
                     	[1in]
-                    	\textsc{\huge Pushyami Chilakapati, Ayesha Selwyn,  Parth Singh} \\
+                    	\textsc{\Large Pushyami Chilakapati, Ayesha Selwyn, \\ Parth Singh} \\
                     	[1.5cm]
                     	{\Large September 2018} \\
                     	[2.0cm]
-    %    	{\huge Researching Reality Internship 2018} \\
-     %   	[0.5cm]
                     	{\LARGE Centre for Civil Society} \\
                     	[0.1mm]
                     	{\Large New Delhi, India} \\
     	[2.0cm]
-    	\includegraphics[width = 75mm]{unnamed.png}
+    	\includegraphics[width = 75mm]{CCSlogo.jpg}
       
                     	\end{center}
                     \end{titlepage}
@@ -121,7 +119,7 @@
          
         \section*{List of Abbreviations}
         \addcontentsline{toc}{section}{List of Abbreviations}
-        %\chaptermark{List of Abbreviations}
+
        
         
         \begin{abbrv}
@@ -230,6 +228,7 @@
                  %TABLE 1
 \begin{longtable}{p{2cm}>{\raggedright}p{3.5cm}>{\raggedright}p{3.5cm}>{\raggedright\arraybackslash}p{6cm}}
 \caption{CPCB Risk Categories} \\
+\toprule
 Risk Category & Pollution Index Score & Validity Period of CTE/CTO & Examples of Activities \\
 \midrule
 \endfirsthead
@@ -250,14 +249,16 @@ Green & 21-40 & 15 years & \tabitem Bakery and confectionary units with a produc
 White & 0-20 & CTE/CTO not required \footnote{White category industries are required to submit undertakings but do not require CTE or CTO.} & \tabitem Repairing electric motors and generators using a dry mechanical process \\
  &  &  & \tabitem Blending and packing of tea \\
  &  &  & \tabitem Packing of powdered milk \\
+ \bottomrule
 \end{longtable}
-\small{\textit{\parencite{CPCBrc}}} \\
+\textit{\parencite{CPCBrc}} \\
                                   
-                 In addition to the risk categories assigned by the CPCB, DPCC uses another set of risk categories for industries—I, II(a) and II(b)—to determine the members of the committee that will issue CTE/CTO to each industry.\\
+                 In addition to the risk categories assigned by the CPCB, DPCC uses another set of risk categories for industries—I, II(a) and II(b)—to determine the members of the committee that will issue CTE/CTO to each industry.\\																				
                  
         %TABLE 2
 \begin{longtable}{>{\raggedright}p{2cm}>{\raggedright}p{4cm}>{\raggedright}p{4cm}>{\raggedright\arraybackslash}p{4cm}}
 \caption{DPCC Risk Categories} \\
+\toprule
 Risk Category & Requirement of Pollution Control Devices & Members of the Committee That Issue CTE/ CTO & DecisionMaking Time Period \\
 \midrule
 \endfirsthead
@@ -272,14 +273,15 @@ II(a) & Requires the installation of pollution control devices, such as the sewa
  & Decision to issue CTE/CTO to be made within 30 days of receipt of the application \\
   & & & \\
 II(b) & Requires the installation of pollution control devices not listed under category II(a) & \tabitem Member Secretary \\ \tabitem SEEs of concerned cell \\ \tabitem  EEs of concerned cell & Decision to issue CTE/CTO to be made within 30 days of receipt of the application \\
+\bottomrule
 \end{longtable}
-\small{\textit{\parencite{DPCC17}}} \\
+\textit{\parencite{DPCC17}}\\
          
                  
                  The system to assign industries a CPCB risk category (Red, Orange, Green or White) and a DPCC risk category [I, II(a) or II(b)] has been computerised.\footnote{This computerised system was designed by M/s Srijan Webmatics.} When an enterprise applies online for CTE or CTO from the DPCC, it is automatically assigned both risk categories based on its type of activity.\footnote{Before this system was in place, if an enterprise wanted to know its risk category, it had to refer to the list of CPCB risk categories (Red, Orange, Green or White) available on the DPCC website.} Consents were earlier issued through a manual system and now are being issued via a computer interface based on the manual system. This essentially means that the manual system has merely been digitised but the basis for determining risk has not been computerised. 
 	\subsection{Current System of Identifying Enterprises Using Computerised Risk Assessment}
 	
-	\textbf{While the DPCC has claimed to implement a computerised system to identify enterprises for inspection} \parencite{DIPPb}\textbf{, in practice, the function is still carried out manually.} \\
+	{While the DPCC has claimed to implement a computerised system to identify enterprises for inspection} \parencite{DIPPb}\textbf{, in practice, the function is still carried out manually.} \\
 	
 	According to the DPCC Office Order dated 26 July 2016, the computerised system, if implemented by the DPCC, is supposed to apply the following frequency to inspections: 
 	
@@ -365,7 +367,6 @@ II(b) & Requires the installation of pollution control devices not listed under 
 Requirement & Findings \\
 \midrule
 \endfirsthead
-\toprule
 Requirement & Findings \\
 \midrule
 \endhead
@@ -381,6 +382,7 @@ DPCC to send a formal notice to all enterprises informing them of their risk cat
 & 3/11 (27.27\%) enterprises found out about their risk category by checking the DPCC website. \\
  & \\
 All inspection reports have to be uploaded online on the DPCC portal within 24 hours of the inspection. & Inspection reports are currently being uploaded online. However, an SEE at the DPCC informed us that the timeline to upload inspection reports online is not strictly adhered to. \\
+\bottomrule\
 \end{longtable}
 	
 	During our interviews at the DPCC, the SEEs also mentioned that all inspections are meant to be surprise inspections. These surprise inspections enable inspectors to catch enterprises violating the law off guard. Studies find that corrupt inspectors may warn enterprises before an investigation in exchange for a bribe, eliminating the element of surprise \parencite{dechenaux}. Five out of 17 (29.42\%) enterprises claimed that they were informed prior to inspection, often more than 24 hours prior to inspection. 
@@ -410,17 +412,36 @@ All inspection reports have to be uploaded online on the DPCC portal within 24 h
 	\printbibliography[title={Bibliography}]
 	\newpage
 		\section*{Appendix 1: Methodology}
-		\addcontentsline{toc}{section}{Appendix 1}
-		\footnotesize
-		We interviewed 30 enterprises, 3 SEEs at the DPCC and 2 DIPP officials as part of our research to understand the nature, quality and purpose of reforms implemented by the DPCC under BRAP 2017. In the absence of a database of enterprises sorted by their risk category, we chose enterprises manually, keeping in mind their risk category. The details of the questions asked in the interviews and surveys are given in Sections 6.1 to 6.3. A profile of the study is given in Table 4. 
-		\small
+		\addcontentsline{toc}{section}{Appendix 1: Methodology}
+		
+		We interviewed 30 enterprises, 3 SEEs at the DPCC and 2 DIPP officials as part of our research to understand the nature, quality and purpose of reforms implemented by the DPCC under BRAP 2017. In the absence of a database of enterprises sorted by their risk category, we chose enterprises manually, keeping in mind their risk category. The details of the questions asked in the interviews and surveys are given in Sections 6.1 to 6.3. A profile of the study is given in Table 4. \\
+	
 		
 		%table 4
-		% Table generated by Excel2LaTeX from sheet 'Sheet1'\begin{table}[htbp]  \centering  \caption{Table 4: Study Profile}    \begin{tabular}{p{10.5em}r}    Area  & \multicolumn{1}{p{10.25em}}{South Delhi Municipal Corporation} \\    SEEs, DPCC interviewed & 3 \\    Officials at DIPP interviewed & 2 \\    Red category enterprises surveyed & 10 \\    Orange category enterprises surveyed & 14 \\    Green category enterprises surveyed & 6 \\    \end{tabular}%\end{table}%
+		
+		\begin{longtable}{>{\raggedright}{l}r}
+\caption{Study Profile}\\
+\toprule
+Requirement & Findings \\
+\midrule
+\endfirsthead
+Requirement & Findings \\
+\midrule
+\endhead
+\endfoot
+\endlastfoot
+SEEs, DPCC interviewed & 3\\
+		Officials at DIPP interviewed & 2\\
+		Red category enterprises surveyed & 10\\
+		Orange category enterprises surveyed & 14\\
+		Green category enterprises surveyed & 6\\
+		\bottomrule
+\end{longtable}
+
+		
 		
 		\subsection*{Semi-Structured Interview with Senior Environmental Engineers at the Delhi Pollution Control Committee}
 		
-		  \setstretch{0.03}
                     \begin{mdframed}[backgroundcolor=gray!20]
 		\begin{enumerate}[noitemsep,nolistsep]
 		\item{What does your job as an inspector entail? How is it different from the duties of a junior inspector?}
@@ -457,210 +478,258 @@ All inspection reports have to be uploaded online on the DPCC portal within 24 h
 		\end{enumerate}
 		\end{mdframed}
 		
-		\subsection{Semi-Structured Interview with Officials at the Department of Industrial Policy and Promotion}
-		\begin{enumerate}
+	%Semi-Structured Interview with Officials at the Department of Industrial Policy and Promotion	
+		\subsection*{Semi-Structured Interview with Officials at the Department of Industrial Policy and Promotion}
+                    \begin{mdframed}[backgroundcolor=gray!20]
+		\begin{enumerate}[noitemsep,nolistsep]
 			\item{What was the idea behind the BRAP?}
 			\item{What is your process to verify the details/evidence entered in the portal?}
 			\item{One reform is to design and implement a CRA system to identify polluting establishments for inspection by the DPCC. Can you explain the meaning of CRA and the objective of making a computerised risk assessment system? What was the inspiration for this idea? What was the need for this idea?}
 			\item{The DPCC is currently using the Red-Orange-Green-White and I, II(a), II(b) to assess risk. Does this qualify as a CRA?}
 			\item{Does the system to identify enterprises for inspections need to be computerised as well?}
 		\end{enumerate}
+		\end{mdframed}
+	
+	%Questionnaire for Establishments
 		
-		\subsection{Questionnaire for Establishments}
-		\setstretch{0.03}
-                    \begin{mdframed}[backgroundcolor=gray!20]
-		
-		The purpose of this survey is to understand the experiences of establishments during inspections carried out by the DPCC. This survey will aid our research project on 'Ease of Doing Business' at the Centre for Civil Society, a public policy think tank. We hope to use the findings from the research to provide feedback to the Government of Delhi on progress in improving the operating environment for businesses in the National Capital Region. \\
-		
+		\subsection*{Questionnaire for Establishments}	
+	 \begin{mdframed}[backgroundcolor=gray!20]
+	
+	The purpose of this survey is to understand the experiences of establishments during inspections carried out by the DPCC. This survey will aid our research project on 'Ease of Doing Business' at the Centre for Civil Society, a public policy think tank. We hope to use the findings from the research to provide feedback to the Government of Delhi on progress in improving the operating environment for businesses in the National Capital Region. \\
 		
 		Your responses will be used for scholarly purposes only. Your responses will be kept confidential and not shared outside of the research team. All personally identifiable information will be eliminated at the time of analysis. Your participation in this survey is voluntary. \\
 		
 		This survey will take approximately 6 minutes to complete. If you have any questions, please contact the members of the research team. \\
-			
-		Ayesha Selwyn: 99200 92698 (ayesha.selwyn@gmail.com) \\
-				
-		CK Pushyami: 88261 92743 (ckpushyami@gmail.com) \\
-				
-		Parth Singh: 76782 66784 (ps381@snu.edu.in) \\
-				
-		Thank you for your participation. \\
-				
-		* Required \\
 		
-		\textbf{Module A: General Information}
+		\begin{spacing}{0.5}
+		\subsubsection*{Module A: General Information}
 		
 		Module A captures basic information about the respondent and the establishment. \\
 		
-		\textbf{A1. Respondent's name *} \\
+		{A1. Respondent's name *} \\
 		
-		\textbf{A2. Respondent's designation *} \\
+		{A2. Respondent's designation *} \\
 		
-		\textbf{A3. Name of Establishment *} \\
+		{A3. Name of Establishment *} \\
 		
-		\textbf{A4. Type of Establishment *} \\
+		{A4. Type of Establishment *} \\
 		
 		Bakery; Dry Cleaner; Guest House Hospital; Hotel; Mall; Marble Stone Items; Petrol Pump; Photo Studio; Restaurant; Other \\
 		
-		\textbf{A5. Area *} \\
+		{A5. Area *} \\
 		
 		North Delhi; South Delhi; East Delhi; West Delhi; Central Delhi \\
 		
-		\textbf{Module B: Inspection} \\						
+		\hrule
+		
+		\subsubsection*{Module B: Inspection} 	
+					
 		
 		Module B establishes whether the establishment has been inspected by the DPCC. \\
 		
-		\textbf{B1. Do you have Consent to Establish/Operate from the DPCC? *} \\
+		{B1. Do you have Consent to Establish/Operate from the DPCC? *} \\
 		
 		Yes; No \\
 		
-		\textbf{B2. Has this establishment ever been inspected by the DPCC? *} \\
+		{B2. Has this establishment ever been inspected by the DPCC? *} \\
 		
 		Yes; No (Skip to Module D) \\	
+		\hrule
 		
-		\textbf{Module C: Inspection Process—Details} \\
+		\subsubsection*{Module C: Inspection Process—Details} 
 		
 		Module C captures the details of the inspection process.
 		
-		\textbf{C1. Did the DPCC conduct an inspection before issuing Consent to Establish/Operate? *} \\
+		{C1. Did the DPCC conduct an inspection before issuing Consent to Establish/Operate? *} \\
 		
 		Yes; No \\
 		
-		\textbf{C2. When was the last time it was inspected by the DPCC?} Check the applicable box (month and year).
+		{C2. When was the last time it was inspected by the DPCC?} Check the applicable box (month and year).	
+	
 		
-		% Table generated by Excel2LaTeX from sheet 'Sheet1'\begin{table}[htbp]  \centering    \begin{tabular}{lrrr}    Period & 2018  & 2017  & 2016 \\    January to March &       &       &  \\    April to June  &       &       &  \\    July to September &       &       &  \\    October to December &       &       &  \\    \end{tabular}%\end{table}%
+		%table 5	
+		\begin{tabular}{lrrrr}
+		\toprule
+		Period & 2018 & 2017 & 2016 & 2015\\
+		\midrule
+		January to March &  &  &  & \\
+		April to June &  &  &  & \\
+		July to September &  &  &  & \\
+		October to December &  &  &  & \\
+		\end{tabular}
 		
-		\textbf{C3. How many DPCC inspections have been conducted in the last year? *} \\
+		
+		{C3. How many DPCC inspections have been conducted in the last year? *} \\
 		
 		None; 1; 2; 3; 4; More than 4 \\
 		
-		\textbf{C4. Do inspectors ask for unofficial payments to facilitate inspection?} 'Unofficial payments' refers to payments that are not recorded or officially required. \\
+		{C4. Do inspectors ask for unofficial payments to facilitate inspection?} 'Unofficial payments' refers to payments that are not recorded or officially required. \\
 		
 		Yes; No \\
 		
-		\textbf{C5. What prompts a DPCC inspection? *} Check all that are applicable. \\
+		{C5. What prompts a DPCC inspection? *} Check all that are applicable. \\
 		
 		Renewal of consent; Surprise check; Based on a complaint; Based on a court order; Do not know; Other \\
 		
-		\textbf{C6. Are you informed prior to a DPCC inspection? *} \\
+		{C6. Are you informed prior to a DPCC inspection? *} \\
 		
 		No; Yes, less than 3 hours prior to the inspection; Yes, 3 to 12 hours prior to inspection; Yes, 12 to 24 hours prior to inspection; Yes, more than 24 hours prior to inspection \\
 		
-		\textbf{C7. How many DPCC inspectors typically come for an inspection? *}  \\
+		{C7. How many DPCC inspectors typically come for an inspection? *}  \\
 		
 		One officer; Two officers; Three officers; Four or more officers \\
 		
-		\textbf{C8. How many hours does a DPCC inspection typically go on for? *} \\
+		{C8. How many hours does a DPCC inspection typically go on for? *} \\
 		
 		1 to 2 hours; 3 to 4 hours; 5 to 6 hours; 6 to 8 hours; More than 8 hours \\
 		
-		\textbf{C10. At the time of inspection, do you have to pay any charges apart from those that are officially required?} 'Charges' refers to any off-the-books payments made to inspectors or facilitators. \\
+		{C10. At the time of inspection, do you have to pay any charges apart from those that are officially required?} 'Charges' refers to any off-the-books payments made to inspectors or facilitators. \\
 		
 		Always; Sometimes; Rarely; Never \\
 		
-		\textbf{C11. What documents do DPCC inspectors ask to check during inspections? *} Check all that are applicable. \\
+		{C11. What documents do DPCC inspectors ask to check during inspections? *} Check all that are applicable. \\
 		
 		No documents; Current consent; Health Licence; Police Licence; Do not know; Other \\
 		
-		\textbf{C12. Does the DPCC inspector let you read the report immediately after the inspection? *} \\
+		{C12. Does the DPCC inspector let you read the report immediately after the inspection? *} \\
 		
 		Yes; No \\
 		
-		\textbf{C13. Are you asked to sign the report? *} \\
+		{C13. Are you asked to sign the report? *} \\
 		
 		Yes; No \\
 		
-		\textbf{C14. Are you allowed to contest inspection findings?} \\
+		{C14. Are you allowed to contest inspection findings?} \\
 		
 		Yes; No; Do not know \\
 		
-		\textbf{C15. Do the inspectors tell you the corrective measures to be taken immediately after the inspection? *} \\
+		{C15. Do the inspectors tell you the corrective measures to be taken immediately after the inspection? *} \\
 		
 		Yes; No \\
 		
-		\textbf{C16. Do the inspectors send you a notice detailing corrective measures at a later date? *} \\
+		{C16. Do the inspectors send you a notice detailing corrective measures at a later date? *} \\
 		
 		Yes; No \\
 		
-		\textbf{Module D: DPCC Portal} \\
+		\hrule 
+		
+		\subsubsection*{Module D: DPCC Portal}
 		
 		Module D captures information on the DPCC portal. \\
 		
-		\textbf{D1. Do you have a unique login ID and password to access the DPCC portal? *} \\
+		{D1. Do you have a unique login ID and password to access the DPCC portal? *} \\
 		
 		Yes; No \\
 		
-		\textbf{D2. If yes, do you have access to the inspection report on the DPCC portal?} \\
+		{D2. If yes, do you have access to the inspection report on the DPCC portal?} \\
 		
 		Yes; No; Have not checked \\
 		
-    		\textbf{Module E: Awareness of Inspection Standards} \\
+		\hrule
+		    		\subsubsection*{Module E: Awareness of Inspection Standards} 
 		
 		Module E captures information regarding the awareness of an establishment of inspection standards. \\
 		
-		\textbf{E1. Are you aware of the risk category your establishment falls under? *} \\
+		{E1. Are you aware of the risk category your establishment falls under? *} \\
 		
 		No; Yes: Red category; Yes: Orange category; Yes: Green category; Yes: White category; Other \\
 		
-		\textbf{E2. If yes, how did you know which risk category your establishment falls under? Check all that are applicable. \\
+		{E2. If yes, how did you know which risk category your establishment falls under? Check all that are applicable.} \\
 		
 		Informally from the DPCC; Formal documentation from the DPCC; DPCC website; CPCB website; Private consultant; Other \\
 		
-		\textbf{E3. Are you aware of the old risk category your establishment fell under? *}  \\
+		{E3. Are you aware of the old risk category your establishment fell under? *}  \\
 		
 		No; Yes: Category I; Yes: Category II(a); Yes: Category II(b); Yes: Category II(c); Yes: Category II(d) \\
 		
-		\textbf{E4. If yes, how did you know which old risk category your establishment fell under?} Check all that are applicable. \\
+		{E4. If yes, how did you know which old risk category your establishment fell under?} Check all that are applicable. \\
 		
 		Informally from the DPCC; Formal documentation from the DPCC; DPCC website; CPCB website; Private consultant; Other \\		
 		
-		\textbf{E5. How do you know the standards you have to maintain to comply with the DPCC inspections? *} Check all that are applicable. \\
+		{E5. How do you know the standards you have to maintain to comply with the DPCC inspections? *} Check all that are applicable. \\
 		
 		DPCC inspectors tell us; DPCC SOP DPCC website; Read the Air Act, 1981, and the Water Act, 1974; New Delhi Municipal Council notice; Delhi Cantonment Board notice; Municipal Corporation of Delhi notice; Delhi Medical Association bulletin; Private consultant; Don't know; Other \\
 		
-		\textbf{E6. Who assists you in meeting the DPCC standards? *} Check all that are applicable. \\
+		{E6. Who assists you in meeting the DPCC standards? *} Check all that are applicable. \\
 		
 		Internal engineering department; Private consultant; Other \\
 		
-		\textbf{E7. Are you aware of the Air (Prevention and Control of Pollution) Act, 1981? *} \\
+		{E7. Are you aware of the Air (Prevention and Control of Pollution) Act, 1981? *} \\
 		
 		Yes, I know the details of the Act; Yes, I have a general understanding of the Act; No, I am not aware of the Act \\
 		
-		\textbf{E8. Are you aware of the Water (Prevention and Control of Pollution) Act, 1974? *} \\
+		{E8. Are you aware of the Water (Prevention and Control of Pollution) Act, 1974? *} \\
 		
 		Yes, I know the details of the Act; Yes, I have a general understanding of the Act; No, I am not aware of the Act \\
 		
-		\textbf{E9. Are you aware of the Hazardous Waste (Management, Handling and Transboundary Movement) Rules, 2008? *} \\
+		{E9. Are you aware of the Hazardous Waste (Management, Handling and Transboundary Movement) Rules, 2008? *} \\
 		
 		Yes, I know the details of the rules; Yes, I have a general understanding of the rules; No, I am not aware of the rules \\
 		
-		\textbf{Module F}
+		\hrule 
+		\subsubsection*{Module F}
 		
-		This module captures information regarding the perception of DPCC regulations and inspections.	
+		This module captures information regarding the perception of DPCC regulations and inspections.	\\
 		
-		\textbf{F1. Do you agree with the following statements about rules and regulations governing your type of enterprise?}
+		F1. Do you agree with the following statements about rules and regulations governing your type of enterprise? \\
 		
-		% Table generated by Excel2LaTeX from sheet 'Sheet1'\begin{table}[htbp]  \centering    \begin{tabular}{p{21.25em}rr}    Regulation Statement & \multicolumn{1}{l}{Yes} & \multicolumn{1}{l}{No} \\    The government consults entrepreneurs before changing or introducing new regulations that impact my business. &       &  \\    The regulations governing my business are easy to understand. &       &  \\    Regulations imposed by different departments are compatible with each other. &       &  \\    The administration gives precise answers when asked questions or clarifications concerning regulations. &       &  \\    It is clear what would happen if I were found non-_compliant with regulations. &       &  \\    \end{tabular}%\end{table}%
 		
-		\textbf{F2. Do you agree with the following statements about inspection once you are operational? }
+		
+		% Table 6
+		
+		\begin{tabular}{p{7.5cm}p{3cm}p{3cm}}
+		\toprule
+		Regulation Statement & Yes & No \\
+		\midrule
+		The government consults entrepreneurs before changing or introducing new regulations that impact my business. \\
+&  & \\
+The regulations governing my business are easy to understand. &  & \\
+Regulations imposed by different departments are compatible with each other. &  & \\
+The administration gives precise answers when asked questions or clarifications concerning regulations. \\
+&  & \\
+It is clear what would happen if I were found non-­compliant with regulations. &  & \\
+ \bottomrule\\
+		\end{tabular} \\ 
 
-		% Table generated by Excel2LaTeX from sheet 'Sheet1'\begin{table}[htbp]  \centering    \begin{tabular}{p{21.25em}rr}    \textbf{Inspection Statement} & \multicolumn{1}{l}{\textbf{Yes}} & \multicolumn{1}{l}{\textbf{No}} \\ \hline    I can challenge the way any inspection is conducted or its findings. &       &  \\    Administrative decisions or inspection reports are based on clear grounds. &       &  \\    The answers I receive from the administrators are the same regardless of whom I contact. &       &  \\    All inspections are conducted formally with paperwork filed.  &       &  \\    Inspection reports are made available to us post-inspection. &       &  \\    \end{tabular}%\end{table}%
 		
-		\textbf{F3. In the last 12 months, the regulatory burden on my business (apart from Goods and Services Tax) has} \\
+				
+		F2. Do you agree with the following statements about inspection once you are operational? \\
+		
+		% Table 7
+		
+		\begin{tabular}{p{7.5cm}p{3cm}p{3cm}}
+		\toprule
+		Inspection Statement & Yes & No \\
+\midrule
+I can challenge the way any inspection is conducted or its findings. \\
+&  & \\
+Administrative decisions or inspection reports are based on clear grounds. &  & \\
+The answers I receive from the administrators are the same regardless of whom I contact. &  & \\
+All inspections are conducted formally with paperwork filed. &  & \\
+Inspection reports are made available to us post-inspection. &  & \\
+\bottomrule\\
+\end{tabular}
+				
+		{F3. In the last 12 months, the regulatory burden on my business (apart from Goods and Services Tax) has} \\
 		
 		Increased a lot; Increased a little; Decreased a lot; Decreased a little; Remains more or less equal; Do not know \\
 		
-		\textbf{F4. Are there laws, regulations or administrative processes that you find particularly cumbersome or prone to misuse? If so, can you give us an example?} \\
+		{F4. Are there laws, regulations or administrative processes that you find particularly cumbersome or prone to misuse? If so, can you give us an example?} \\
 		
 		Thank you for your participation!
+		\end{spacing} 
 		\end{mdframed}
 		
+		\newpage
+		
 		\section*{Appendix 2: The Delhi Pollution Control Committee Checklist}
-		\addcontentsline{toc}{section}{Appendix 2}
-		\footnotesize
+		\addcontentsline{toc}{section}{Appendix 2: The Delhi Pollution Control Committee Checklist}
+		\normalsize
+	%	\singlespacing
 		
 		An inspection of the following areas in the industry premises shall be made and recorded in writing and uploaded thereafter within 24 hours’ time or in online mode directly:
 		
-		\begin{itemize}
+		\begin{itemize}[noitemsep,nolistsep]
 		\item{Manufacturing areas;}
 		\item{Raw materials and finished products’ storage areas;}
 		\item{Water source(s) of the unit;}
@@ -669,12 +738,12 @@ All inspection reports have to be uploaded online on the DPCC portal within 24 h
 		\item{Air pollution sources and control systems;}
 		\item{Solid and hazardous waste generation sources, storage and disposal areas;}
 		\item{Environmental Management Cell to verify record maintenance;}
-		\item{Existence of diesel generator (DG) sets and provision of an acoustic system/enclosure for noise pollution control. Details about the stack/chimney height of the DG sets and details of the air pollution control systems installed/proposed to be installed.}
+		\item{Existence of diesel generator (DG) sets and provision of an acoustic system/enclosure for noise pollution control. Details about the stack/chimney height of the DG sets and details of the air pollution control systems installed/proposed to be installed.} \\ 
 		\end{itemize}
 		
 		The inspecting officials shall also verify:
 		
-		\begin{itemize}
+		\begin{itemize}[noitemsep,nolistsep]
 		\item{Records pertaining to water pollution and its sources and treatment;}
 		\item{Air pollution sources and control systems, including stack height for the dispersion of the pollutants;}
 		\item{Management and handling of solid and hazardous waste;}
@@ -686,17 +755,17 @@ All inspection reports have to be uploaded online on the DPCC portal within 24 h
 		\item{Effluent collection, treatment and disposal details;}
 		\item{Operation and maintenance of air pollution control equipment/systems;}
 		\item{Status of energy meters provided for effluent treatment and air pollution control systems along with meter readings;}
-		\item{During an inspection, the necessary effluent/solid samples shall be collected duly, following the prescribed procedure, and the samples will be submitted to the laboratory. The analysis reports shall be submitted online within 7 days by the concerned laboratory without fail. Complete confidentiality of the source of samples shall be maintained \parencite{DPCCb}.
+		\item{During an inspection, the necessary effluent/solid samples shall be collected duly, following the prescribed procedure, and the samples will be submitted to the laboratory. The analysis reports shall be submitted online within 7 days by the concerned laboratory without fail. Complete confidentiality of the source of samples shall be maintained \parencite{DPCCb}}.
 		\end{itemize}
 		
-		\section*{Appendix 3: Summary of the Standard Operating Procedure of the Delhi Pollution Control Committee}
-		\addcontentsline{toc}{section}{Appendix 3}
-		\footnotesize
+		\newpage
 		
+		\section*{Appendix 3: Summary of the Standard Operating Procedure of the Delhi Pollution Control Committee}
+		\addcontentsline{toc}{section}{Appendix 3: Summary of the Standard Operating Procedure of the Delhi Pollution Control Committee}
+				
 		The SOP mandates that enterprises are inspected only on working days and during their working hours. Representatives of the industry are informed about the purpose of the inspection. The inspecting official is required to inspect the surrounding areas along the premises of the industry to check if there is any discharge/dumping of effluents/hazardous waste. Key areas within each industry, like the manufacturing areas, water sources of the unit, etc. are inspected and observations are recorded. The inspecting officials also check some other things like records regarding water pollution: sources and treatment, air pollution sources and control systems, management of solid and hazardous waste, operational status of the industry, consumption quantities of major raw materials, etc. \\
 		
-		The inspection report has a prescribed format that details the compliance status of the industry with the Air and Water Acts and Hazardous Waste Management Rules. The SOP mandates that the inspection report is uploaded to the DPCC portal within 24 hours so that it can be accessed and downloaded by enterprises \parencite{DPCCb}.
-		
-		
-\end{document}
-\gitstash
+		The inspection report has a prescribed format that details the compliance status of the industry with the Air and Water Acts and Hazardous Waste Management Rules. The SOP mandates that the inspection report is uploaded to the DPCC portal within 24 hours so that it can be accessed and downloaded by enterprises \parencite{DPCCb}.\\				
+\end{document}	
+
+

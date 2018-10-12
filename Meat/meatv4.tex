@@ -35,7 +35,9 @@
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{subfig}
-\captionsetup{aboveskip=14pt,}
+\usepackage{caption}
+\captionsetup{justification=raggedright,singlelinecheck=false}
+
 %Coloured Boxes
 \usepackage{xcolor}
 \usepackage{mdframed}
@@ -54,13 +56,22 @@
 \subsectionfont{\color{CCSblack}} %sets colour of subsection font
 \subsubsectionfont{\color{CCSblack}} %sets colour of subsubsection font
 %Links
-%\usepackage{hyperref}
-%\hypersetup{colorlinks,
-%linkcolor = ccsblack,
-%citecolor = ccsblue}
+\usepackage{hyperref}
+\hypersetup{colorlinks,
+linkcolor = {black},
+citecolor = {CCSbrown}}
 %Bibliography
 \usepackage[authordate, backend=biber]{biblatex-chicago}
-\addbibresource{meat v2 bib.bib}
+\addbibresource{meat 4.bib}
+\usepackage{hyperref} 
+		\hypersetup{
+		colorlinks,
+		linkcolor = black,
+		citecolor = CCSbrown,
+		urlcolor = black}
+		\usepackage{blindtext}      
+		\renewbibmacro*{cite:ibid}{\printtext[bibhyperref]{\bibstring[\mkibid]{ibidem}}} 
+
 \begin{document}
 %================================================== 
 %TITLE PAGE
@@ -73,7 +84,7 @@
 \large {Examining the Ease of Doing Business for \\ Slaughterhouses and Meat Shops in Delhi} \\
 \line(1,0){200}\\
 [1in]
-\textsc{\huge Shruti Gupta, \\ Sanjari Kalantri, Shivank Singh} \\
+\textsc{\Large Shruti Gupta, Sanjari Kalantri \\ Shivank Singh} \\
 [1.5cm]
 {\Large September 2018} \\
 [2.0cm]
@@ -127,11 +138,11 @@ The livestock sector contributes 4.1\% to the total Gross Domestic Product (GDP)
 
 The first section of the paper describes the restrictions on the slaughter of animals and birds in Delhi. These restrictions have constricted the supply of meat through a licensed channel and have led to the slaughter of animals outside the ambit of regulations. We find that there is only one authorised slaughterhouse in Delhi, and it is owned, operated and regulated by the Municipal Corporation of Delhi (MCD) in Ghazipur, in a violation of the time-tested principle of separation of powers. \\
 
-The Ghazipur slaughterhouse is equipped to slaughter only buffalo, sheep and goat. This limitation, coupled with the prohibition imposed by the MCD and Food Safety and Standards Authority of India (FSSAI) on slaughter outside municipal slaughterhouses, renders an impasse for processing chicken and pork in Delhi. To get around this impasse, the MCD follows an ‘informal policy’ overriding its own rules by allowing meat shops to slaughter chicken. However, ‘informal policies’ are still opportunities for rent seeking, and FSSAI regulations still render these shops as illegal. \\
+The Ghazipur slaughterhouse is equipped to slaughter only buffalo, sheep and goat. This limitation, coupled with the prohibition imposed by the MCD and Food Safety and Standards Authority of India (FSSAI) on slaughter outside municipal slaughterhouses, renders an impasse for processing chicken and pork in Delhi. To get around this impasse, the MCD follows an ‘informal policy’ overriding its own rules by allowing meat shops to slaughter chicken. However, ‘informal policies’ are still opportunities for rent seeking, and FSSAI regulations still render these shops illegal. \\
 
 The second section of the paper describes the licensing and inspection procedures that apply to retail meat shops. Through a survey of meat shop owners, we document the difficulty in first obtaining licences and then adhering to all the regulatory requirements. Further, 94.2\% of the respondents in our survey, for example, did not have all of the requisite licences, choosing to remain unlicensed or partially licensed. Moreover, 72\% of the respondents (licence holders) claimed to have paid more than the prescribed cost while obtaining a licence. \\
 
-Alongside, we examined the frequency, transparency and procedural fairness of the inspections regime. Through survey responses we find that inspections are carried out at least once a month, with 80\% respondents claiming that they are inspected 2 to 3 times a month. In a bid to examine the efficacy of these inspections, we carried out our own mock inspections. We appraise the extent to which 19 visually verifiable regulations, chosen from the MCD and FSSAI checklists, were being complied with. Of the 70 meat shops we mock inspected, only 2 were compliant with more than 80\% of the 19 selected regulations. Based on this finding, we argue that despite frequent inspections, regulatory agencies have been ineffective in their primary purpose of promoting compliance. This apart we find that traders are burdened by the arbitrariness of the inspection procedures, discretionary powers exercised by inspectors and absence of an adequate grievance redressal system. All this put together, we argue, does not make doing business in the sector easy while channels of rent seeking are flourishing. \\
+Alongside, we examined the frequency, transparency and procedural fairness of the inspections regime. Through survey responses we find that inspections are carried out at least once a month, with 80\% respondents claiming that they are inspected 2 to 3 times a month. In a bid to examine the efficacy of these inspections, we carried out our own mock inspections. We appraise the extent to which 19 visually verifiable regulations, chosen from the MCD and FSSAI checklists, were being complied with. Of the 70 meat shops we mock inspected, only 2 were compliant with more than 80\% of the 19 selected regulations. Based on this finding, we argue that despite frequent inspections, regulatory agencies have been ineffective in their primary purpose of promoting compliance. We also find that traders are burdened by the arbitrariness of the inspection procedures, discretionary powers exercised by inspectors and absence of an adequate grievance redressal system. All this put together, we argue, does not make doing business in the sector easy while channels of rent seeking are flourishing. 
 
 
 %INTRODUCTION
@@ -152,13 +163,13 @@ Figure 1 shows that total meat production in India has nearly quadrupled in the 
 \caption{Total Meat Production in India From 1998-99 to 2016-17 \parencite{cmiestats}}
 \end{figure}
 
-However, the industry imposes significant negative externalities on the environment and is at the centre of emerging public health and hygiene concerns \parencite{praderepaper}. There are also several socio-cultural and religious constraints on the production and consumption of meat in India. All these, coupled with the need for ethical treatment of animals, attract government interventions in the sector. \\
+However, the industry imposes significant negative externalities on the environment and is at the centre of emerging public health and hygiene concerns \parencite{praderepaper}. There are also several socio-cultural and religious constraints on the production and consumption of meat in India. All these, coupled with the need for ethical treatment of animals, demand government interventions in the sector. \\
 
-Over the years, government has made ad hoc rules and amendments to existing regulations without adequate consultation, not harmonised conflicting objectives, and has attempted to pacify socio-cultural debate through instruments not fit for purpose. This has led to many unintended consequences.\\
+Over the years, government has made ad hoc rules and amendments to existing regulations without adequate consultation, conflicting objectives, and has attempted to pacify socio-cultural debate through instruments not fit for purpose. This has led to many unintended consequences.\\
 
 First, sudden changes in the formulation and implementation of rules governing trade and property rights over animals have fomented business uncertainty. For example, the central Ministry of Shipping suddenly and indefinitely banned the export of livestock from ports in 2018 \parencite{kateshiyanews}. The ban was imposed just before the Bakr-Id festival when a large number of goats are exported to the Middle-East for religious sacrifices. News reports document that export of livestock, which had since 2013, witnessed a 56.06\% CAGR rise \footnote { The exports increased from Rs. 69.30 crore in 2013 to 2014 to Rs. 411.02 crore in 2017 to 2018.} in the value of export shipments, was suddenly stopped in its tracks and the ruling affected about 40,000 families \parencite{hindunews}. \\
 
-Second, confusion created in law, coupled with the negative perception of meat traders and the already weak rule of law apparatus, has manifested in the form of vigilantism and violence. Several news reports have documented how traders are often attacked when transporting animals from farms to slaughterhouses. These cases and decisions have coalesced into a climate of fear among traders.\\
+Second, the confusion created in law, coupled with the negative perception of meat traders and the already weak rule of law apparatus, has manifested in the form of vigilantism and violence. Several news reports have documented how traders are often attacked when transporting animals from farms to slaughterhouses. These cases and decisions have coalesced into a climate of fear among traders.\\
 
 Third, incorrect public planning for slaughterhouses in cities such as Delhi constraints the supply chain of meat. This has led to the growth of unauthorised meat shops that also slaughter animals. The growth is, despite a clear restriction on the slaughter of any animal, within the premises of the shop. \\
 
@@ -178,7 +189,6 @@ There are four stages in the supply chain of meat. First, the rearing of animals
 The study of regulatory challenges with the slaughter of animals is based on secondary research and semi-structured interviews with individuals who are directly (business owners and exporters of livestock) or indirectly (journalists, lawyers and advocacy group members) involved in the meat industry of Delhi. We also interviewed officers of the relevant regulatory agencies such as the FSSAI and the Veterinary Department of the South Delhi Municipal Corporation (SDMC).\\
 
 The study of meat shops was based on structured interviews of 52 shop owners to gauge their perception of licensing and inspection procedures. A mock inspection of 70 meat shops for 19 visually verifiable regulations was conducted to examine their compliance level. Further details of the methodology are in Appendix 1. 
-\\
 
 %Regulation of Slaughterhouses in Delhi
 \section{Regulation of Slaughterhouses in Delhi}
@@ -198,7 +208,7 @@ Each regulatory agency issues its own licence. An entrepreneur must obtain the f
 \item Food Licence from the FSSAI
 \item Consent to Operate from the CPCB.
 \end{enumerate}
-The imposed requirements, validity, processing time and fees for each licence vary. Details of the eligibility, time, cost are provided in Appendix 2, while the required documents are listed in Appendix 3. \\
+The imposed requirements, validity, processing time and fees for each licence vary. Details of the eligibility, time, cost are provided in Appendix 2, while the required documents are listed in Appendix 3. 
 
 \subsection{Barriers to Entry in Opening and Running a Slaughterhouse in Delhi}
 The primary barriers on establishing a slaughterhouse are legal in nature. This consists of the licensing system and the statutory requirements laid out in acts and department regulations. They are described in the subsequent sections, which also examine their impact—both unintended and unintended.
@@ -209,14 +219,14 @@ The MCD, one of the local governing bodies in the state of Delhi, is responsible
 
 Section 42 of the DMC Act lists out the Obligatory Functions of the Corporation, stating, ‘[it] shall be incumbent on the Corporation to make adequate provision by any means or measures which it may lawfully use or take [on the matters listed in Section 42]. The regulation of slaughterhouses is included in Section 42 (k) making the MCD responsible, [for] the construction and maintenance of municipal markets and slaughterhouses and the regulation of all markets and slaughterhouses’.\\
 
-The Act defines a slaughterhouse as ‘any place ordinarily used for the slaughter of animals for the purpose of selling the flesh thereof for human consumption’.\footnote{ As defined in S.2(56) of the DMC Act, 1957.} ,  \footnote{ Permission for slaughter outside municipal slaughterhouses, albeit provided with the prior permission of the Commissioner, is restricted only for religious purposes.}, The two types of slaughterhouses are:
+The Act defines a slaughterhouse as ‘any place ordinarily used for the slaughter of animals for the purpose of selling the flesh thereof for human consumption’.\footnote{ As defined in S.2(56) of the DMC Act, 1957.}  \footnote{ Permission for slaughter outside municipal slaughterhouses, albeit provided with the prior permission of the Commissioner, is restricted only for religious purposes.} The two types of slaughterhouses are:
 
 \begin{itemize}
 \item Municipal slaughterhouses: ‘A slaughterhouse vested in or managed by the Corporation’ \footnote{ As defined in S.2(30) of the DMC Act, 1957.};
 \item Private slaughterhouses: ‘A slaughterhouse which is not a municipal slaughterhouse.’\footnote{ As defined in S.2(41) of the DMC Act, 1957.}
 \end{itemize}
 
-Despite defining a private slaughterhouse, the DMC Act in Section 407(2) states, ‘No place other than a municipal slaughterhouse shall be used as a slaughterhouse’\footnote{ Exceptions to this rule include the slaughter of any animal for any religious festival or ceremony in accordance to religious customs subject to the approval of the Commissioner, with the sanction of the Corporation.}. This effectively means that no animal can be slaughtered for consumption in any place except a slaughterhouse run by the MCD. As a result, no authorised privately owned slaughterhouses can be established and operated and a government monopoly is established over an essential service. \\
+Despite defining a private slaughterhouse, the DMC Act in Section 407(2) states, ‘No place other than a municipal slaughterhouse shall be used as a slaughterhouse’\footnote{ Exceptions to this rule include the slaughter of any animal for any religious festival or ceremony in accordance to religious customs subject to the approval of the Commissioner, with the sanction of the Corporation.}. This effectively means that no animal can be slaughtered for consumption in any place except a slaughterhouse run by the MCD. As a result, no authorised privately owned slaughterhouses can be established and operated and a government monopoly is established over an essential service. 
 
 \subsubsection{Only Slaughterhouse in Delhi is Government-owned, Operated and Regulated}
 
@@ -227,17 +237,17 @@ Currently, it is run on a public-private partnership model between the East Delh
 \paragraph{Concerns with Conflicts of Interest}
 
 
-The ownership status of the Ghazipur slaughterhouse does not exempt it from regulations; the FSSAI, MCD, AWBI and CPCB are still required to inspect and promote compliance with regulation. This is a conflict of interest and a departure from the doctrine of separation of powers. For instance, preventing cruelty to animals before and during slaughter is the responsibility of AWBI, the statutory body to advise the Government of India on laws aimed to prevent cruelty towards animals. But since the AWBI does not have its own enforcement mechanism, it executes its responsibilities through local governments. In Delhi, the responsibilities of AWBI are executed by the MCD.\footnote{ For example, the AWBI does not issue its own license to set up slaughterhouses. The requirements of AWBI are merged with the inspection checklist of the MCD for issuing the NOC.}\\
+The ownership status of the Ghazipur slaughterhouse does not exempt it from regulations; the FSSAI, MCD, AWBI and CPCB are still required to inspect and promote compliance with regulation. This is a conflict of interest and a departure from the doctrine of separation of powers. For instance, preventing cruelty to animals before and during slaughter is the responsibility of AWBI, the statutory body to advise the Government of India on laws aimed to prevent cruelty towards animals. But since the AWBI does not have its own enforcement mechanism, it executes its responsibilities through local governments. In Delhi, the responsibilities of AWBI are executed by the MCD.\footnote{ For example, the AWBI does not issue its own licence to set up slaughterhouses. The requirements of AWBI are merged with the inspection checklist of the MCD for issuing the NOC.}\\
 
 Under the existing incentive structure, it is often not in the interest of enforcement officials to penalize Ghazipur slaughterhouse for several violations which then remain unaddressed. A lack of independent oversight creates perverse incentives for the slaughterhouse to also hide faults from public view. \\
 
-Reports and articles have highlighted several prima facie rule violations in the Ghazipur slaughterhouse. \\
+Reports and articles have highlighted several prima facie rule violations in the Ghazipur slaughterhouse. 
 
 \begin{itemize}
 \item Food Safety and Standards (Licencing and Registration of Food Businesses) Regulations 2011 (FSSR 2011) \footnote{S.4.1 of Part IV of Schedule 4 of the FSSR 2011 states, ‘stunning before slaughter should be mandatory … [it] can avoid and minimise reactions of fear and anxiety as well as pain... among the animals concerned’.} and the PCA (Slaughter House) Rules 2001 \footnote{ S.6(4) of the PCA (Slaughter House) Rules, 2001 states, ‘Every slaughterhouse... shall provide a separate space for stunning of animals prior to slaughter, bleeding and dressing of the carcasses’.} both mandate the use of stunning before slaughter. They also require the use of a separate place for this process.
-\item Buffaloes were electrocuted by placing a live wire on their body instead of being stunned \parencite{indiannews} \parencite{petareport}. However, the slaughter of animals through electrocution is rejected as a humane method for slaughter \parencite{chaudrypaper} and is in violation of Section A.6.(a) of the FSSR 2011.\footnote{ S.A.6(a) of Part IV of Schedule 4 of the FSSR 2011 states, ‘it is essential that animals be reared, handled, transported, and slaughtered using humane practices. A healthy and peaceful animal is an essential requirement for hygienic slaughter and safety of the meat product’.} Apart from being an act of cruelty against animals, electrocution also has an impact on the quality of meat obtained.
-\item Animals were overcrowded in small lairages, that is, holding pens without adequate water and food \parencite{maanvinews}. This contradicts Section A.3.5 of Part IV of Schedule 4 of the FSSR 2011, which mandates the use of adequately sized lairages. \footnote{ S.A.3.5 of Part IV of Schedule 4 of the FSSR 2011 states, ‘the lairage shall be adequate in size for the number of animals to be laired’.}
-\item Sick and pregnant animals were slaughtered without an ante-mortem examination (PETA 2009). This contradicts the Section 3 (2) of the PCA (Slaughter House) Rules, 2001, which states that any animal showing signs of disease should be condemned and rejected after an inspection. \footnote{ S.7(3) of Part IV of Schedule 4 of the FSSR 2011 states, ‘an animal showing signs of any disease at the time of ante-mortem inspection that would cause its carcass being ultimately condemned on post-mortem shall be marked as ‘condemned’ and rejected’.} The violation of this regulation is of particular concern as it directly impacts public health /parencite{mahaptranews}.
+\item Buffaloes were electrocuted by placing a live wire on their body instead of being stunned (\cite{indiannews};  \cite{petareport}). However, the slaughter of animals through electrocution is rejected as a humane method for slaughter \parencite{chaudrypaper} and is in violation of Section A.6.(a) of the FSSR 2011.\footnote{ S.A.6(a) of Part IV of Schedule 4 of the FSSR 2011 states, ‘it is essential that animals be reared, handled, transported, and slaughtered using humane practices. A healthy and peaceful animal is an essential requirement for hygienic slaughter and safety of the meat product’.} Apart from being an act of cruelty against animals, electrocution also has an impact on the quality of meat obtained.
+\item Animals were overcrowded in small lairages, that is, holding pens without adequate water and food \parencite{maanvinews}. This contradicts  Section A.3.5 of Part IV of Schedule 4 of the FSSR 2011, which mandates the use of adequately sized lairages. \footnote{ S.A.3.5 of Part IV of Schedule 4 of the FSSR 2011 states, ‘the lairage shall be adequate in size for the number of animals to be laired’.}
+\item Sick and pregnant animals were slaughtered without an ante-mortem examination (PETA 2009). This contradicts the Section 3 (2) of the PCA (Slaughter House) Rules, 2001, which states that any animal showing signs of disease should be condemned and rejected after an inspection. \footnote{ S.7(3) of Part IV of Schedule 4 of the FSSR 2011 states, ‘an animal showing signs of any disease at the time of ante-mortem inspection that would cause its carcass being ultimately condemned on post-mortem shall be marked as ‘condemned’ and rejected’.} The violation of this regulation is of particular concern as it directly impacts public health \parencite{mahaptranews}.
 
 \end{itemize}
 
@@ -264,9 +274,9 @@ While a pig abattoir in Rani Khera was conceived of in 2009 and is expected to b
 
 Despite the fact that Section 407(2) of the DMC Act completely prohibits private slaughterhouses in Delhi and Section 9.05 of FSSR 2011 prohibits the slaughter of animals or birds inside the shop premises, chicken are slaughtered openly within the premises of meat shops.\footnote{According to S.9.05 of the FSSR 2011, ‘slaughtering of animal/birds inside the shop premises should be strictly prohibited’.} Buyers of chicken meat insist that it be freshly slaughtered, and transporting non-frozen chicken meat is not an option.\\
 
-Recognising the catch-22, MCD inspectors allow meat shops selling chicken to slaughter them in the premises of their shop without the need of any additional licence by following an ‘unofficial policy’.\footnote{‘Additional’ here refers to the licenses that may be required over and above the ones required to establish a meat shop.} However, this policy apart, chicken shops are operating by breaking another law. \\
+Recognising the catch-22, MCD inspectors allow meat shops selling chicken to slaughter them in the premises of their shop without the need of any additional licence by following an ‘unofficial policy’.\footnote{‘Additional’ here refers to the licences that may be required over and above the ones required to establish a meat shop.} However, this policy apart, chicken shops are operating by breaking another law. \\
 
-All 39 chicken shop owners we interviewed admitted to slaughtering chicken in their shops as a standard business practice. Despite this, 30 of these shops were either licensed by the MCD or registered with the FSSAI. Both, the FSSAI and the MCD have issued licences to several shops which clearly violate their regulations and do not fulfill the requirements to obtain the licences. This raises questions on the effectiveness of the licensing procedure in promoting compliance and vetting establishments which violate regulations. \\
+All 39 chicken shop owners we interviewed admitted to slaughtering chicken in their shops as a standard business practice. Despite this, 30 of these shops were either licenced by the MCD or registered with the FSSAI. Both, the FSSAI and the MCD have issued licences to several shops which clearly violate their regulations and do not fulfill the requirements to obtain the licences. This raises questions on the effectiveness of the licensing procedure in promoting compliance and vetting establishments which violate regulations. \\
 
 The thoughtless regulatory set-up creates difficulties for businessmen who are vulnerable to rent seeking during inspections and the threat of penal action for violating the law. They also operate in a climate of uncertainty since the ‘unofficial policy’ has no written basis in law and can be revoked at any point of time. This also has a negative impact on consumers who, in the absence of an effective licensing and regulatory system cannot ascertain the quality of the meat they purchase. \\
 
@@ -278,7 +288,7 @@ After an animal is killed in a slaughterhouse, its meat is sold in shops, either
 
 The FSSAI and Department of Weights and Measures (DWM), alongside the MCD, are the regulatory agencies that oversee the activities of meat shops in Delhi. While the FSSAI and MCD regulate meat shops to ensure hygiene and quality of meat sold, the DWM ensures fairness and transparency in the scales employed for measurement of the meat sold. The DWM regulates only the sale of meat; the FSSAI and MCD regulate both the production at slaughterhouses and sale at meat shops. They distinguish, identify and define both parts of the supply chain, and have set out regulations and licences depending on whether the enterprise produces meat for consumption or sells it. 
 
-\subsection{Licenses Required to Open and Operate a Meat Shop}
+\subsection{Licences Required to Open and Operate a Meat Shop}
 
 The regulating agencies use licences as the principal instrument to oversee and control the activities of meat shops while upholding adequate standards of quality and hygiene. While issuing licences, the corresponding agency specifies the requirements that each meat shop needs to meet and conducts regular inspections to check their compliance during the course of operations. \\
 
@@ -292,47 +302,55 @@ To operate a meat shop in Delhi, the shopkeeper requires the following three lic
 
 %TABLE 1 
 
-\small
-\begin{longtable}{>{\raggedright}p{2.5cm}>{\raggedright}p{3cm}>{\raggedright}p{3cm}>{\raggedright}p{2cm}>{\raggedright}p{2cm}>{\raggedright\arraybackslash}p{2.5cm}}
+\footnotesize
+\begin{longtable}{>{\raggedright}p{2cm}>{\raggedright}p{3cm}>{\raggedright}p{3cm}>{\raggedright}p{2cm}>{\centering}p{1cm}>{\centering\arraybackslash}p{2cm}}
 \caption{Details of Licences Required to Operate a Meat Shop in Delhi}\\
 \toprule
-License Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & Number of Documents Required \\
+Licence Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & No. of Documents \\
 \midrule
 \endfirsthead
-License Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & Number of Documents Required \\
-\midrule
+Licence Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & No. of Documents \\
+\toprule
 \endhead
+\endfoot
+\hline
 \endlastfoot
+
 \multicolumn{6}{l}{Municipal Corporation of Delhi} \\
+\multicolumn{6}{l}{} \\
 \midrule
-\multicolumn{6}{p{16.5cm}}{The Veterinary Licence certifies the structural stability of the establishment alongside its compliance with a few regulations on food quality and standards.
+\multicolumn{6}{p{15cm}}{The Veterinary Licence certifies the structural stability of the establishment alongside its compliance with a few regulations on food quality and standards.
  The primary distinction between this licence and a General Trade License issued to other shops is that the establishments of Veterinary License holders are inspected by veterinarians rather than a health inspector.} \\
 \midrule
-Veterinary License & All businesses dealing in buffalo meat halal, pork, mutton, chicken, fish and cattle/dairy farms & 2,400 (license fee), \\
-300 (processing fee), \\
-500 (registration fee) & Up to 31 March every year & 60 & 15 \\
+Veterinary Licence & All businesses dealing in buffalo meat halal, pork, mutton, chicken, fish and cattle/dairy farms & 2,400 \newline (licene fee), \\
+300 \newline (processing fee), \\
+500 \newline (registration fee) & Up to 31 March every year & 60 & 15 \\
+  &   &   &   &  &  \\
 \midrule
-\newpage
-\multicolumn{6}{p{16.5cm}}{Food Safety and Standards Authority of India, Department of Food Safety, Government of Delhi NCT} \\
+\multicolumn{6}{p{15cm}}{FSSAI, Department of Food Safety, Government of Delhi NCT} \\
+\multicolumn{6}{p{15cm}}{  } \\
 \midrule
-\multicolumn{6}{p{16.5cm}}{The FSSAI regulates meat shops by laying down procedural requirements while listing tools and facilities each shop should have to ensure hygiene in storage and processing alongside quality control mechanisms. There are three categories within this, the details of which are listed below.} \\
+\multicolumn{6}{p{15cm}}{The FSSAI regulates meat shops by laying down procedural requirements while listing tools and facilities each shop should have to ensure hygiene in storage and processing alongside quality control mechanisms. There are three categories within this, the details of which are listed below.} \\
 \midrule
-Central License & Turnover more than Rs. 20 crores & 7,500 & Up to 5 years & 60 & 18 \\
-State License & Turnover between Rs. 12 lakhs and Rs. 20 crores & 2,000 &  & 60 & 18 \\
+Central Licence & Turnover more than Rs. 20 crores & 7,500 & & 60 & 18 \\
+  &   &   &   &  &  \\
+State Licence & Turnover between Rs. 12 lakhs and Rs. 20 crores & 2,000 & Upto 5 years & 60 & 18 \\
+  &   &   &   &  &  \\
+    &   &   &   &  &  \\
 Registration Certificate & Turnover up to Rs. 12 Lakhs & 100 &  & 7 & 7 \\
 \midrule
-\multicolumn{6}{p{16.5cm}}{Department of Weights and Measures, Government of Delhi NCT} \\
+\multicolumn{6}{p{15cm}}{Department of Weights and Measures, Government of Delhi NCT} \\
 \midrule
-\multicolumn{6}{p{16.5cm}}{The certificate of Weights and Measures is issued to ensure the standardization of weights used in the shop. It mentions the kinds of weights used in the shop alongside their respective quantity, both of which determine the fees to be paid to obtain this certificate. For inspections under this, only the display of a valid certificate in a prominent position in the shop is seen.} \\
+\multicolumn{6}{p{15cm}}{The certificate of Weights and Measures is issued to ensure the standardization of weights used in the shop. It mentions the kinds of weights used in the shop alongside their respective quantity, both of which determine the fees to be paid to obtain this certificate. For inspections under this, only the display of a valid certificate in a prominent position in the shop is seen.} \\
 \midrule
 Cerificate of Weights and Measures & Any business using standardized weights for their business & 5-30  \\
 (Depending on size and number of weights used) & 5 & --- & Form A-3 \\
-
+\bottomrule
 \end{longtable}
 \normalsize
 
 
-Although licences are mandatory for businesses, they choose to remain unlicensed. Studies find that it is more cost-effective for them to stay unlicensed at their scale of operations because regulatory compliance would otherwise render them uneconomical \parencite{desotopaper; duttapaper; aportapaper}. In our survey of meat shops of Delhi, we witnessed similar claims and circumstances. Our findings are presented below. \\
+Although licences are mandatory for businesses, they choose to remain unlicensed. Studies find that it is more cost-effective for them to stay unlicensed at their scale of operations because regulatory compliance would otherwise render them uneconomical (\cite{desotopaper}; \cite{duttapaper}; \cite{laportapaper}). In our survey of meat shops of Delhi, we witnessed similar claims and circumstances. Our findings are presented below. \\
 
 \subsubsection{Licences Acquired by Respondents}
 Of the 52 shops in the sample, 9 were completely unlicensed. Only three shops had all the necessary licences while the remaining had incomplete combinations.\\
@@ -341,7 +359,7 @@ Of the 52 shops in the sample, 9 were completely unlicensed. Only three shops ha
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.5in]{"Fig 3".jpg}
-\caption{Percentage of Licensed, Partially Licensed and Unlicensed Respondents (n=52)}
+\caption{Percentage of Licenced, Partially Licenced and Unlicensed Respondents (n=52)}
 \end{figure} 
 
 A majority of the licenced establishments only had a Veterinary licence. Numerous shop owners, when asked about the Food Licence, were unaware of it. Thus, despite being easier to obtain (see Figure 4), the Food Licence had not been obtained by 72.5\% of the respondents. The Weights and Measurements Certificate, which only requires the submission of one form, was also not obtained by 87\% of the respondents. \\
@@ -358,7 +376,7 @@ The remaining unlicensed meat shops gave the following reasons for not obtaining
 \item \textit{“Difficulty in comprehending the regulations governing businesses”}: The regulations which span across three statute acts, four inspection checklists and several rules are often amended and written in complex legal jargon. When asked if regulations governing their business were easy to understand, 41 out of 52 shopkeepers responded as difficult.
 \end{itemize}
 
-\subsubsection{Ease of Obtaining Licenses}
+\subsubsection{Ease of Obtaining Licences}
 
 All the licence required to run a meat shop formally cost between Rs. 600 and Rs. 12,000 (based on the turnover) and require between 60 and 120 days to process. As the cost and time indicated are contingent on providing adequate documents, the actual figures may vary. \\
 
@@ -368,14 +386,14 @@ To understand the perceived level of difficulty in acquiring these licence, we i
 \begin{figure}[H]
 \centering
 \includegraphics[width=5.5in]{"Fig 4".jpg}
-\caption[Perceived Level of Difficulty in Obtaining Licences] {Perceived Level of Difficulty in Obtaining Licences\footnotemark}
+\caption[Perceived Level of Difficulty in Obtaining Licences] {Perceived Level of Difficulty in Obtaining Licences \footnotemark}
 \end{figure} 
 
 \footnotetext{The remaining respondents found it difficult to obtain these licences. We did not conduct a perception survey for the WMC because very few respondents had obtained it.}
 %%%%%%%%%%%%%%%%%%%%%%%%%
 While the Veterinary Licence was seen to be more difficult to obtain than the Food Licence, a greater number of respondents chose to obtain it over the Food licence. \\
 
-Due to difficulties in acquiring these licences, the shop owners resort to help from ‘third-party agents’ such as business consultants, touts and other influential people. Of the 43 people who were interviewed, about 25\% claimed to have received assistance from third-party agents. This is despite the digitization of the process and claims by both the MCD and the FSSAI to opening up several ‘facilitation centres’ to decrease the use of third-party agents and ease the process of obtaining licenses.\footnote{ As told to us by a Designated Officer in the FSSAI and an Inspector in the SDMC.} These centres were claimed to have been established in their administrative offices where officials could guide businessmen through the application process free of cost. \\
+Due to difficulties in acquiring these licences, the shop owners resort to help from ‘third-party agents’ such as business consultants, touts and other influential people. Of the 43 people who were interviewed, about 25\% claimed to have received assistance from third-party agents. This is despite the digitization of the process and claims by both the MCD and the FSSAI to opening up several ‘facilitation centres’ to decrease the use of third-party agents and ease the process of obtaining licences.\footnote{ As told to us by a Designated Officer in the FSSAI and an Inspector in the SDMC.} These centres were claimed to have been established in their administrative offices where officials could guide businessmen through the application process free of cost. \\
 
 \subsubsection{Corruption in the Licensing Process}
 
@@ -434,7 +452,7 @@ A Veterinary Inspector from the Central Zone of the SDMC claimed to record his f
 \begin{figure}[H]
 \centering
 \includegraphics[width=6.5in]{"Fig 7".jpg}
-\caption[Optional Caption]{Lack of Awareness of Transparency and Procedural Fairness Parameters (n = 43)\footnotemark}
+\caption[Optional Caption]{Lack of Awareness of Transparency and Procedural Fairness Parameters \newline (n = 43)  \footnotemark}
 \end{figure} 
 \footnotetext{These were binary response questions. The remaining respondents said yes.}
 
@@ -457,7 +475,7 @@ The DMC Act, however, does not specify any such process in the case of non-compl
 
 However, the choice between these deterrence tools is left to the inspector. While it is necessary to serve a show cause notice before a closure notice, it is up to the discretion of the inspector to serve a \textit{challan}. This discretion leads to arbitrary powers to impose punishments. \cite{roychapter} capture the consequences of arbitrary power with inspectors in awarding punishment: ‘This leads to arrogance and corruption. If investigators and prosecutors know they can easily inflict punishment, they lose the incentive to do thorough work’.\\
 
-The three-step process does not apply to unlicensed \footnote{ Refers to the Veterinary License of MCD.} meat shops. The MCD has the power to directly issue a closure notice to these shops.
+The three-step process does not apply to unlicensed \footnote{ Refers to the Veterinary Licence of MCD.} meat shops. The MCD has the power to directly issue a closure notice to these shops.
 
 %Figure 8
 \begin{figure}[H]
@@ -476,8 +494,8 @@ The objective of meat shop inspections is to ensure their compliance with regula
 The findings from our inspection are presented in Table 2. \\
 
 %TABLE 2
-\small
-\begin{longtable}{>{\raggedright}p{2.8cm}>{\raggedright\arraybackslash}p{12cm}}
+\footnotesize
+\begin{longtable}{>{\centering}p{2.8cm}>{\raggedright\arraybackslash}p{12cm}}
 \caption{Percentage of Shops not Complying with Certain Regulations} \\ 
 \toprule
 Shops not Complying (\%) & Inspection Requirements \\
@@ -522,7 +540,7 @@ While the primary purpose was to observe the efficacy of the inspection process,
 
 \section{Conclusion}
 
-This paper examined the regulatory framework binding slaughterhouses and meat shops in Delhi. We scrutinized the prescriptive requirements to open and operate slaughterhouses and a meat shop. We also conducted a perception survey with meat shop owners for the licences required and inspections conducted to regulate meat shops.\\ 
+This paper examined the regulatory framework binding slaughterhouses and meat shops in Delhi. We scrutinized the prescriptive requirements to set up and operate slaughterhouses and a meat shop. We also conducted a perception survey with meat shop owners for the licences required and inspections conducted to regulate meat shops.\\ 
 
 First, regulations such as the ban on all private slaughterhouses are often drawn without considering their indirect consequences. This negligence leads to the prevalence of informality and a government monopoly over the slaughter of animals. It creates a concentration of supply and lack of market competition and alternatives. The MCD also lacks a separation of powers between its role as a regulator and a service provider, giving rise to non-compliance.\\
 
@@ -538,20 +556,20 @@ Third, despite a high frequency of inspections conducted, non-compliance of regu
 
 %Appendix1
 \newpage 
-\small
 \section*{Appendix 1: Methodology}
 \addcontentsline{toc}{section}{Appendix 1: Methodology}
 The findings in the paper are based on semi-structured interviews with individuals who are directly (business owners and exporters of livestock) or indirectly (journalists, lawyers and members of advocacy groups) involved in the meat industry in Delhi alongside officers from relevant regulatory authorities. A list of the interviewees and their relevance to the industry are provided in Table 3. 
- 
+\footnotesize
  \begin{longtable}{>{\raggedright}p{2cm}>{\raggedright}p{5cm}>{\raggedright\arraybackslash}p{7.5cm}}
 \caption{Details of Interviewees and Relevance to Study} \\
 \toprule
 Name & Designation/Industry & Relevance \\
 \midrule
 \endfirsthead
-%License Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & Number of Documents Required \\
-\endhead
 \midrule
+Name & Designation/Industry & Relevance \\
+\midrule
+\endhead
 \endlastfoot
    
     Sayantan Bera & Journalist with Mint (previously with Down to Earth) & Covers agriculture and allied areas; problems faced by traders and butchers to operate in the current market system; and problems faced in animal rearing. \\
@@ -570,162 +588,191 @@ Name & Designation/Industry & Relevance \\
     Dr. CB Singh & Inspector, Veterinary Department, South Zone, SDMC & In-charge of conducting inspections in meat shops in the South Zone of the SDMC. \\
 & & \\
     Puran Singh & Inspector, Veterinary Department, Central Zone, SDMC & In-charge of conducting inspections in meat shops in the Central Zone of the SDMC. \\
+\hline
     \end{longtable}%
   \label{tab:addlabel}%
 \normalsize
-All the shops were sampled from the major meat markets of South and Central Zones of SDMC. The interviewees were selected from carabeef (buffalo meat), chicken and mutton sellers. A description of the sample that was interviewed is provided in Table 4.
-
- \begin{longtable}{>{\raggedright}p{3cm}>{\raggedright}p{3.5cm}>{\raggedright}p{3.5cm}>{\raggedright\arraybackslash}p{3.5cm}}
-\caption{Description of the Sample of Interviewees} \\
-\toprule
+\newpage
+All the shops were sampled from the major meat markets of South and Central Zones of SDMC. The interviewees were selected from carabeef (buffalo meat), chicken and mutton sellers. A description of the sample that was interviewed are provided in Table 4 and Table 5.
+\footnotesize
+ \begin{longtable}{>{\raggedright}p{3.6cm}>{\centering}p{3.5cm}>{\raggedright}p{3.6cm}>{\centering\arraybackslash}p{3.5cm}}
+\caption{Meat Markets sampled} \\
+\midrule
 Market & Number of Shops & Market & Number of Shops \\
 \midrule
-\endfirsthead
-%License Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & Number of Documents Required \\
-\endhead
-\midrule
-\endlastfoot
     Kishangarh  & 1     & INA Meat Market & 9 \\
     Mehrauli  & 9     & Bhogal  & 5 \\
     Khirki Village & 3     & Jamia Nagar & 7 \\
     Said Ul Ajaib & 5     & Chirag Delhi & 3 \\
     Hauz Rani Village & 8     & CR Park & 2 \\
+ &   &  &  \\
+\bottomrule
+\end{longtable}
+
+ \begin{longtable}{>{\raggedright}p{3.6cm}>{\centering}p{3.5cm}>{\raggedright}p{3.6cm}>{\centering\arraybackslash}p{3.5cm}}
+\caption{Description of the Sample of Interviewees} \\
 \midrule
     Type of Meat &  Number of Shops    & Type of Meat  &  Number of Shops\\
 \midrule
     Carabeef & 11    & Chicken & 20 \\
-    Chicken and Mutton & 19    & Mutton & 2 \\
+    Chicken \& Mutton & 19    & Mutton & 2 \\
+    &  &  &  \\
+\bottomrule
     \end{longtable}%
   \label{tab:addlabel}%
 %  \newpage
 
-\small
+
 %Appendix2
 %TABLE 5
-%\newpage
-\section*{Appendix 2: List of Licenses Required to Set Up a Municipal Slaughterhouse}
-\addcontentsline{toc}{section}{Appendix 2: List of Licenses Required to Set Up a Municipal Slaughterhouse}
+\newpage
+\section*{Appendix 2: List of Licences Required to Set Up a Municipal Slaughterhouse}
+\addcontentsline{toc}{section}{Appendix 2: List of Licences Required to Set Up a Municipal Slaughterhouse}
 
-\begin{longtable}{>{\raggedright}p{2cm}>{\raggedright}p{3.5cm}>{\raggedright}p{3.5cm}>{\raggedright}p{1cm}>{\raggedright}p{1cm}>{\raggedright\arraybackslash}p{2cm}}
+\begin{longtable}{>{\raggedright}p{2cm}>{\raggedright}p{3.5cm}>{\raggedright}p{3.5cm}>{\centering}p{1cm}>{\centering}p{1cm}>{\centering\arraybackslash}p{2cm}}
 
-\caption{List of Licenses Required to Set Up a Municipal Slaughterhouse} \\
-\toprule
-
-    License  & Eligibility & Fees (Rs.) & Validity (year) & Time Taken (months) & No. of Documents \\
+\caption{List of Licences Required to Set Up a Municipal Slaughterhouse} \\
+\midrule
+    Licence  & Eligibility & Fees (Rs.) & Validity (years) & Time Taken (months) & No. of Documents \\
     \midrule
     \multicolumn{6}{l}{Central Pollution Control Board} \\
 \midrule
-    Consent to Establish & Any industrial unit emitting pollution by way of water, air and noise & 100 \newline{}(One Time Cost) & N/A & 4    & 6 \\
+    Consent to Establish & Any industrial unit emitting pollution by way of water, air and noise & 100 \newline{}\scriptsize (One Time Cost) \footnotesize & N/A & 4    & 6 \\
  & & & & & \\
-    Consent of Operation & Any industrial unit emitting pollution by way of water, air and noise & For Air Act Rs.: (Capital Investment) 250-2,000 For Water Act:(Water Consumption) Rs. 200-6,400 & 5     & -- & 5 \\
+    Consent of Operation & Any industrial unit emitting pollution by way of water, air and noise & For Air Act \newline  \footnotesize 250-2,000  \newline \scriptsize (Capital Investment)  \newline \newline \footnotesize For Water Act \newline  \footnotesize 200-6,400 \newline \scriptsize (Water Consumption) & 5     & -- & 5 \\
   \midrule
   \multicolumn{6}{l}{Municipal  Corporation of Delhi } \\
 \midrule
-    Trade / Storage License  & Those slaughterhouses vested in by the MCD & 550 (Online)           800 (Offline)  & 5     & -- & 10 \\
+    Trade / Storage Licence  & Those slaughterhouses vested in by the MCD & 550 \scriptsize (Online)  \footnotesize        \newline 800 \scriptsize (Offline) \footnotesize  & 5     & -- & 10 \\
     & &       &       &       &  \\
     NOC   & Every slaughterhouse licensed by the FSSAI, which slaughters more than ten animals per day & -- & -- & -- & -- \\
     \midrule
     \multicolumn{6}{l}{Food Safety and Standards Authority of India} \\
     \midrule
-    Central License & >50 large animals, >150 small animals and >1,000 poultry birds per day & 7,500 & 5     & 60    & 19 \\
+    Central Licence & >50 large animals, >150 small animals  >1,000 poultry birds per day & 7,500 & 5     & 60    & 19 \\
  & & & & & \\
-    State License & 2-50 large animals, 10-150 small animals and 50-1,000 poultry birds per day & 3,000 (< 1 MT of prod.) 5,000 (> 1 MT of prod.) & 5     & 60    & 17 \\
+    State Licence & 2-50 large animals, 10-150 small animals \newline 50-1,000 poultry birds per day & 3,000 \newline \scriptsize (< 1 MT of prod.) \footnotesize \newline 5,000 \newline \scriptsize (> 1 MT of prod.) \footnotesize & 5     & 60    & 17 \\
  & & & & & \\
     Registration Certificate & Up to 2 large animals, 10 small animals and 50 poultry birds per day & 100   & 5     & 7     & 3 \\
-    \bottomrule
+    \midrule
 \end{longtable}
 
-\small
 %Appendix3
 %\newpage
-\section*{Appendix 3: Documents Required for Licenses for Slaughterhouses}
-\addcontentsline{toc}{section}{Appendix 3: Documents Required for Licenses for Slaughterhouses}
-
-%TABLE
-
-
-
-
-
-
-\begin{longtable}{>{\raggedright}p{2.5cm}>{\raggedright\arraybackslash}p{13cm}}
-\caption{Documents Required for Licenses for Slaughterhouses} \\
-\toprule
-   License Name & List Of Documents Required \\
-    \midrule
-    \endfirsthead 
-     License Name & List Of Documents Required \\
-     \midrule
-     \endhead
-    \endlastfoot
-   CPCB  & \tabitem Affidavit in a prescribed format duly attested by notary public \\
-   Consent  To  & \tabitem Application form \\
-   Establish &  \tabitem Project report giving details of the unit, proposed investment, numbers of workers and employees, manufacturing process in detail with flow chart, raw materials, products and by-products (with quantity per day), details of water consumption and discharge, source of wastewater/emissions and proposed pollution control system/measures (details of design and constitute units), as applicable, \\
-          & \tabitem Layout plan \\
-          & \tabitem Location plan \\
-          & \tabitem Proof of possession of plot/allotment letter/lease deed. In the case of rental premises, rent agreement and ownership proof of premises. \\
-    \midrule
-    CPCB  & \tabitem Affidavit in a prescribed format duly attested by notary public \\
-    Consent Of  & \tabitem Application form \\
-   Operation &  \tabitem Project report with details of the unit, proposed capital investment, various activities, numbers of workers and employees, manufacturing process in detail with flow chart, raw materials, products and by-products (with quantity per day), details of water consumption and discharge, source of wastewater/emissions and proposed pollution control system/measures (details of design and constitute units), as applicable, \\
-          & \tabitem Layout/Location plan \\
-          & \tabitem Proof of possession of plot/allotment letter/lease deed/rent agreement and ownership proof  \\
-    \midrule
-    MCD General & \tabitem Documentary proof of legal occupancy of the unit \\
-    Trade License & \tabitem Documentary proof of establishment of trade w.e.f. the date \\
-    & \tabitem Site plan \\
-    & \tabitem Key plan \\
-          & \tabitem Documentary proof of existence of firefighting equipment at the unit (NOC) \\
-          & \tabitem Documentary proof regarding non-existence of unauthorised construction at the unit on or before 30 June 1977 (NOC) \\
-          & \tabitem Indemnity bond for Rs. 100 \\
-          & \tabitem Affidavit for Rs. 10  \\
-          & \tabitem NOCs from a land-owning agency  \\
-          & \tabitem Deed of constitution, if any \\
-    \midrule
-    FSSAI & \tabitem Form B duly completed and signed by the proprietor \\
-    Central License & \tabitem Blueprint/Layout plans of the processing unit (optional) \\
-    & \tabitem List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) \\
-          & \tabitem Name and list of equipment and machinery along with number, installed capacity and horsepower used \\
-          & \tabitem Photo ID and address proof issued by Government Authority \\
-          & \tabitem List of food category among the 38 meat categories \\
-          & \tabitem Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers   \\
-          & \tabitem Analysis report (chemical and bacteriological) of water from a recognised/public health laboratory to confirm the portability \\
-          & \tabitem Proof of possession of premises (optional) \\
-          & \tabitem Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional) \\
-          & \tabitem NOCs from a local body  \\
-          & \tabitem Food Safety Management System Plan (if any) \\
-          & \tabitem Source of raw material for meat and meat-processing plants \\
-          & \tabitem Supporting documentary proof of turnover \\
-          & \tabitem Recall plan (wherever applicable) \\
-          & \tabitem Nominations of persons by a company along with board resolution \\
-          & \tabitem Declaration Form \\
-          & \tabitem Export- Ministry of Commerce Certificate for 100\% EOU and IE Code issued by the DGFT \\
-    \midrule
-    FSSAI & \tabitem Form B duly completed and signed by the proprietor\\
-    State License & \tabitem Blueprint/layout plans of the processing unit (optional) \\
-    & \tabitem List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) \\
-          & \tabitem Name and list of equipment and machinery along with number, installed capacity and horsepower used \\
-          & \tabitem Photo ID and address proof issued by Government Authority \\
-          & \tabitem List of food category among the 38 meat categories \\
-          & \tabitem Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers   \\
-          & \tabitem Analysis report (chemical and bacteriological) of water from a recognised/public health laboratory to confirm the portability \\
-          & \tabitem Proof of possession of premises (optional) \\
-          & \tabitem Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional) \\
-          & \tabitem NOCs from a local body \\
-          & \tabitem Food Safety Management System Plan (if any) \\
-          & \tabitem Source of raw material for meat and meat-processing plants \\
-          & \tabitem Supporting documentary proof of turnover \\
-          & \tabitem Recall plan (wherever applicable) \\
-          & \tabitem Nominations of persons by a company along with board resolution \\
-          & \tabitem Declaration Form \\
-    \midrule
-    FSSAI & \tabitem Photo of FBO \\
-    Registration & \tabitem  Document for identity proof \\
-    Certificate & \tabitem Supporting documents (if any) \\
-    \end{longtable}%
-  \label{tab:addlabel}%
-\normalsize
+\section*{Appendix 3: Documents Required for Licences for Slaughterhouses}
+\addcontentsline{toc}{section}{Appendix 3: List of Licences Required to Set Up a Municipal Slaughterhouse}
+\noindent\rule{16cm}{0.4pt} \\
+CPCB Consent to Establish \\
+\noindent\rule{16cm}{0.4pt}
+\begin{itemize}[noitemsep]
+\item Affidavit in a prescribed format duly attested by notary public 
+\item Application form 
+\item Project report giving details of the unit, proposed investment, numbers of workers and employees, manufacturing process in detail with flow chart, raw materials, products and by-products (with quantity per day), details of water consumption and discharge, source of wastewater/emissions and proposed pollution control system/measures (details of design and constitute units), as applicable, 
+\item Layout plan 
+\item Location plan 
+\item Proof of possession of plot/allotment letter/lease deed. In the case of rental premises, rent agreement and ownership proof of premises. 
+\end{itemize}
+%\rule
+% \\
+\noindent\rule{16cm}{0.4pt}\\
+CPCB Consent of Operation
+	\\
+\noindent\rule{16cm}{0.2pt}
+% \\
+%\rule
+\begin{itemize}[noitemsep]
+\item Affidavit in a prescribed format duly attested by notary public 
+\item Application form 
+\item Project report with details of the unit, proposed capital investment, various activities, numbers of workers and employees, manufacturing process in detail with flow chart, raw materials, products and by-products (with quantity per day), details of water consumption and discharge, source of wastewater/emissions and proposed pollution control system/measures (details of design and constitute units), as applicable, 
+\item Layout/Location plan
+\item Proof of possession of plot/allotment letter/lease deed/rent agreement and ownership proof 
+\end{itemize}
+%\rule
+% \\
+\noindent\rule{16cm}{0.4pt}\\
+MCD General Trade License 
+	\\
+\noindent\rule{16cm}{0.4pt}
+%\\
+%\rule
+\begin{itemize}[noitemsep]
+\item Documentary proof of legal occupancy of the unit 
+\item Documentary proof of establishment of trade w.e.f. the date 
+\item Site plan 
+\item Key plan 
+\item Documentary proof of existence of firefighting equipment at the unit (NOC) 
+\item Documentary proof regarding non-existence of unauthorised construction at the unit on or before 30 June 1977 (NOC) 
+\item Indemnity bond for Rs. 100 
+\item Affidavit for Rs. 10 
+\item NOCs from a land-owning agency 
+\item Deed of constitution, if any 
+%\rule
+\end{itemize}
+% \\
+\noindent\rule{16cm}{0.4pt}\\
+FSSAI Central Licence \\
+\noindent\rule{16cm}{0.4pt}
+% \\
+%\rule
+\begin{itemize}[noitemsep]
+\item Form B duly completed and signed by the proprietor 
+\item Blueprint/Layout plans of the processing unit (optional) 
+\item List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) 
+\item Name and list of equipment and machinery along with number, installed capacity and horsepower used 
+\item Photo ID and address proof issued by Government Authority 
+\item List of food category among the 38 meat categories 
+\item Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers 
+\item Analysis report (chemical and bacteriological) of water from a recognised/public health laboratory to confirm the portability 
+\item Proof of possession of premises (optional) 
+\item Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional) 
+\item NOCs from a local body 
+\item Food Safety Management System Plan (if any) 
+\item Source of raw material for meat and meat-processing plants 
+\item Supporting documentary proof of turnover 
+\item Recall plan (wherever applicable) 
+\item Nominations of persons by a company along with board resolution 
+\end{itemize}
+%\rule
+% \\
+\noindent\rule{16cm}{0.4pt}\\
+FSSAI State Licence\\
+\noindent\rule{16cm}{0.4pt}
+%\rule
+\begin{itemize}[noitemsep]
+\item Declaration Form 
+\item Export- Ministry of Commerce Certificate for 100\% EOU and IE Code issued by the DGFT 
+\item Form B duly completed and signed by the proprietor
+\item Blueprint/layout plans of the processing unit (optional) 
+\item List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) 
+\item Name and list of equipment and machinery along with number, installed capacity and horsepower used 
+\item Photo ID and address proof issued by Government Authority 
+\item List of food category among the 38 meat categories 
+\item Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers 
+\item Analysis report (chemical and bacteriological) of water from a recognised or public health laboratory to confirm the portability 
+\item Proof of possession of premises (optional) 
+\item Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional) 
+\item NOCs from a local body 
+\item Food Safety Management System Plan (if any) 
+\item Source of raw material for meat and meat-processing plants 
+\item Supporting documentary proof of turnover 
+\item Recall plan (wherever applicable) 
+\item Nominations of persons by a company along with board resolution 
+\item Declaration Form 
+\end{itemize}
+%\rule
+% \\
+\noindent\rule{16cm}{0.4pt}\\
+FSSAI Registration Certificate\\
+\noindent\rule{16cm}{0.4pt}
+% \\
+\begin{itemize}[noitemsep]
+\item Photo of FBO 
+\item Document for identity proof 
+\item Supporting documents (if any) 
+\end{itemize}
+\noindent\rule{16cm}{0.4pt}\\
 \newpage
+
 
 %Appendix4
 %\newpage
@@ -767,154 +814,242 @@ answers/No)
 \end{enumerate} 
 \end{mdframed}
 
-\small
 %Appendix5
-%\newpage
-\section*{Appendix 5: Documents Required for Licenses for Meat Shops}
-\addcontentsline{toc}{section}{Appendix 5: Documents Required for Licenses for Meat Shops}
-\begin{longtable}{>{\raggedright}p{2.5cm}>{\raggedright\arraybackslash}p{13cm}}
-\caption{Documents Required for Licenses for Meat Shops} \\
-\midrule
-\endfirsthead 
-   License Name & List Of Documents Required \\
-    \midrule
-    MCD & Application for license \\
-    Veterinary & Identity proof \\
-    Licence & Structural Stability Certificate \\
-    \multicolumn{1}{r}{} & Ownership proof \\
-    \multicolumn{1}{r}{} & Registration of shop \\
-    \multicolumn{1}{r}{} & Conversion charges \\
-    \multicolumn{1}{r}{} & Rental agreement or rent receipts in the case of tenant \\
-    \multicolumn{1}{r}{} & Any other document required by the MCD \\
-    \multicolumn{1}{r}{} & Site and key plan \\
-    \multicolumn{1}{r}{} & Affidavit as per prescribed format \\
-    \multicolumn{1}{r}{} & Indemnity bond \\
-    \multicolumn{1}{r}{} & Water bill \\
-    \multicolumn{1}{r}{} & Electricity bill \\
-    \multicolumn{1}{r}{} & Medical Certificate for sputum, X-ray chest for TB and stool for worms and bacteria, such as Escherichia coli, Salmonella, Shigella and Vibrio cholerae \\
-    \multicolumn{1}{r}{} & NOCs from the Managing Committee and/or Imam of the masjid if the licence is applied for a shop situated in the compound/building of a masjid (mosque) \\
-    \midrule
-    FSSAI  & Form B duly completed and signed by the proprietor \\
-    Central & Blueprint/layout plans of the processing unit (optional) \\
-    Licence & List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) \\
-    \multicolumn{1}{r}{} & Name and list of equipment and machinery along with number, installed capacity and horsepower used \\
-    \multicolumn{1}{r}{} & Photo ID and address proof issued by Government Authority \\
-    \multicolumn{1}{r}{} & List of food category among the 38 meat categories \\
-    \multicolumn{1}{r}{} & Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers   \\
-    \multicolumn{1}{r}{} & Analysis report (chemical and bacteriological) of water from a recognised/public health laboratory to confirm the portability \\
-    \multicolumn{1}{r}{} & Proof of possession of premises (optional) \\
-    \multicolumn{1}{r}{} & Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional) \\
-    \multicolumn{1}{r}{} & NOCs from a local body \\
-    \multicolumn{1}{r}{} & Food Safety Management System Plan (if any) \\
-    \multicolumn{1}{r}{} & Source of raw material for meat and meat-processing plants \\
-    \multicolumn{1}{r}{} & Supporting documentary proof of turnover \\
-    \multicolumn{1}{r}{} & Recall plan (wherever applicable) \\
-    \multicolumn{1}{r}{} & Nominations of persons by a company along with board resolution \\
-    \multicolumn{1}{r}{} & Declaration Form \\
-    \multicolumn{1}{r}{} & NOCs from the police/local administration in case licence for pork and buffalo  \\
-    \midrule
-    FSSAI & Form B duly completed and signed by the proprietor\\
-   State & Blueprint/layout plans of the processing unit (optional) \\
-    Licence & List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) \\
-    \multicolumn{1}{r}{} & Name and list of equipment and machinery along with number, installed capacity and horsepower used \\
-    \multicolumn{1}{r}{} & Photo ID and address proof issued by Government Authority \\
-    \multicolumn{1}{r}{} & List of food category among the 38 meat categories \\
-    \multicolumn{1}{r}{} & Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers   \\
-    \multicolumn{1}{r}{} & Analysis report (chemical and bacteriological) of water from a recognised/public health laboratory to confirm the portability \\
-    \multicolumn{1}{r}{} & Proof of possession of premises (optional) \\
-    \multicolumn{1}{r}{} & Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional) \\
-    \multicolumn{1}{r}{} & NOCs from a local body \\
-    \multicolumn{1}{r}{} & Food Safety Management System Plan (if any) \\
-    \multicolumn{1}{r}{} & Source of raw material for meat and meat-processing plants \\
-    \multicolumn{1}{r}{} & Supporting documentary proof of turnover \\
-    \multicolumn{1}{r}{} & Recall plan (wherever applicable) \\
-    \multicolumn{1}{r}{} & Nominations of persons by a company along with board resolution \\
-    \multicolumn{1}{r}{} & Declaration Form \\
-    \multicolumn{1}{r}{} & NOCs from the police/local administration in case licence for pork and buffalo  \\
-    \midrule
-    FSSAI   & Photo of FBO \\
-    Registration & Document for identity proof \\
-    Certificate & Supporting documents (if any) \\
-    \bottomrule
-    \end{longtable}%
-  \label{tab:addlabel}%
-\normalsize  
-  
-%\newpage
-\small
+\newpage
+\section*{Appendix 5: Documents Required for Licences for Meat Shops}
+\addcontentsline{toc}{section}{Appendix 5: Documents Required for Licences for Meat Shops}
+\footnotesize
+\noindent\rule{16cm}{0.4pt}\\
+	\\
+MCD Veterinary Licence\\
+\noindent\rule{16cm}{0.4pt}
+% \\
+\begin{itemize}[noitemsep]
+\item  Application for license
+\item  Identity proof
+\item  Structural Stability Certificate
+\item  Ownership proof
+\item  Registration of shop
+\item  Conversion charges
+\item  Rental agreement or rent receipts in the case of tenant
+\item  Any other document required by the MCD
+\item  Site and key plan
+\item  Affidavit as per prescribed format
+\item  Indemnity bond
+\item  Water bill
+\item  Electricity bill
+\item  Medical Certificate for sputum, X-ray chest for TB and stool for worms and bacteria, such as Escherichia coli, Salmonella, Shigella and Vibrio cholerae
+\item NOCs from the Managing Committee and/or Imam of the masjid if the licence is applied for a shop situated in the compound/building of a masjid (mosque)
+\end{itemize}
+
+\noindent\rule{16cm}{0.4pt}\\
+	\\
+FSSAI Central Licence\\
+\noindent\rule{16cm}{0.4pt}
+% \\
+\begin{itemize}[noitemsep]
+\item Form B duly completed and signed by the proprietor 
+\item Blueprint/layout plans of the processing unit (optional) 
+\item List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) 
+\item Name and list of equipment and machinery along with number, installed capacity and horsepower  
+\item Photo ID and address proof issued by Government Authority 
+\item List of food category among the 38 meat categories
+\item Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers   
+\item Analysis report (chemical and bacteriological) of water from a recognised/public health laboratory  
+\item Proof of possession of premises (optional) 
+\item Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional)   
+\item NOCs from a local body 
+\item Food Safety Management System Plan (if any) 
+\item Source of raw material for meat and meat-processing plants 
+\item Supporting documentary proof of turnover 
+\item Recall plan (wherever applicable) 
+\item Nominations of persons by a company along with board resolution 
+\item Declaration Form 
+\item NOCs from the police/local administration in case licence for pork and buffalo  
+\end{itemize}
+
+ \noindent\rule{16cm}{0.4pt}\\
+	\\
+FSSAI State Licence\\
+\noindent\rule{16cm}{0.4pt}
+% \\
+\begin{itemize}[noitemsep]
+\item Form B duly completed and signed by the proprietor
+\item Blueprint/layout plans of the processing unit (optional) 
+\item List of directors/partners/proprietors/executive members of society and trust (mandatory for companies) 
+\item Name and list of equipment and machinery along with number, installed capacity and horsepower used 
+\item Photo ID and address proof issued by Government Authority 
+\item List of food category among the 38 meat categories 
+\item Authority letter with name and address of responsible person nominated by the manufacturer along with alternative responsible person indicating powers   
+\item Analysis report (chemical and bacteriological) of water from a recognised/public health laboratory to confirm the portability 
+\item Proof of possession of premises (optional) 
+\item Partnership deed/self-declaration for proprietorship/memorandum and articles of association towards the constitution of the firm (optional) 
+\item NOCs from a local body 
+\item Food Safety Management System Plan (if any) 
+\item Source of raw material for meat and meat-processing plants 
+\item Supporting documentary proof of turnover 
+\item Recall plan (wherever applicable) 
+\item Nominations of persons by a company along with board resolution 
+\item Declaration Form 
+\item NOCs from the police/local administration in case licence for pork and buffalo  
+\end{itemize}
+
+\noindent\rule{16cm}{0.4pt}\\
+	\\
+FSSAI Registration Certificate\\
+\noindent\rule{16cm}{0.4pt}
+% \\
+\begin{itemize}[noitemsep]
+\item Photo of FBO \\
+\item Document for identity proof \\
+\item Supporting documents (if any) \\
+\end{itemize}
+\noindent\rule{16cm}{0.4pt}\\
+\newpage
 
 
 %Appendix6
-%\newpage
+\newpage
 \section*{Appendix 6: Inspection Requirements for Meat Shops}
 \addcontentsline{toc}{section}{Appendix 6: Inspection Requirements for Meat Shops}
-\begin{longtable}{rp{21.57em}}
+\begin{longtable}{>{\raggedright}p{6.5cm}>{\raggedright\arraybackslash}p{8.5cm}}
 \caption{Inspection Requirements for Meat Shops} \\
-\midrule
 \endfirsthead
-%License Name & Eligibility & Annual Fees (Rs.) & Validity (Year) & Time Taken (Day) & Number of Documents Required \\
+\toprule
+MCD & FSSAI\\
+\midrule
 \endhead
-    \multicolumn{1}{p{11.93em}}{\textbf{MCD}} & FSSAI \\
+\midrule
+MCD & FSSAI\\
+\midrule
+Location and Size	&	 \\
     \midrule
-    \multicolumn{2}{p{33.5em}}{\textbf{Location and Size}} \\
+    %\setstretch{0.5}
+
+	\tabitem MCD requires that the shop should be 50 metres away from a place of worship.	&
+	\tabitem Establishment should be located in a sanitary place, free from filthy surroundings with an adequate space.\\
+	\newline{} \tabitem Should be at least 10 feet  in height.		&
+	\newline{}\tabitem Should be away from environmental pollution and heavy industrial activity. If present, must take precautionary measures.	\\
+		&	\newline{} \tabitem The manufacturing premise should not have direct access to residential areas.\\
+	&	\newline{} \tabitem It should preferably be a unit of meat market located away from vegetable, fish or other food markets and shall be free from undesirable odour, smoke, dust or other contaminants.\\
+		&	\newline{} \tabitem Individual shops should be:\\
+		&	\newline{}   a) at least 50 metres from a place of worship\\
+		&	\newline{}  b) at least 100 metres if directly opposite to the entry gate of a religious place\\
+		&	\newline{}  c) If near to a religious place, must be fitted with black glass doors which must be kept closed at all times except in the case of entry or exit\\
+		&	\newline{} \tabitem Height of an Air-Conditioned (AC) shop should be at least 2.5 metres.\\
+		&	 \newline{} \tabitem Height of a non-AC shop should be greater than 3 metres.\\
     \midrule
-    \multicolumn{1}{p{11.93em}}{MCD requires that the shop should be 50 metres away from a place of worship\newline{}\newline{}Should be at least 10 feet (3.048 metres) in height} & Establishment should be located in a sanitary place, free from filthy surroundings with an adequate space.\newline{}\newline{}Should be away from environmental pollution and heavy industrial activity. If present, must take precautionary measures.\newline{}\newline{}The manufacturing premise should not have direct access to residential areas.\newline{}It should preferably be a unit of meat market located away from vegetable, fish or other food markets and shall be free from undesirable odour, smoke, dust or other contaminants.\newline{}\newline{}Individual shops should be:\newline{}a) at least 50 metres from a place of worship\newline{}b) at least 100 metres if directly opposite to the entry gate of a religious place\newline{}c) If near to a religious place, must be fitted with black glass doors which must be kept closed at all times except in the case of entry or exit\newline{}\newline{}Height of an Air-Conditioned (AC) shop should be at least 2.5 metres.\newline{}Height of a non-AC shop should be greater than 3 metres. \newline{}\newline{}\\
+  Ventilation, Water and Electricity	&	\\
     \midrule
-    \multicolumn{2}{p{33.5em}}{\textbf{Ventilation, Water and Electricity}} \\
+ \tabitem   For ventilation, the MCD mandates fan, exhaust fan and cross-ventilation facility	&	 
+ \tabitem Continuous supply of potable water shall be ensured, and in the case of intermittent supply, adequate storage shall be ensured.\\
+\newline{} \tabitem Establishments should have electric supply and continuous water supply	&	\newline{} \tabitem Water storage tanks should be cleaned periodically with maintained records.\\
+	&	\newline{} \tabitem Non-potable water can be used, if not in contact with food and production, with pipes distinguished from potable water.\\
+	&	\newline{} \tabitem Natural and mechanical ventilation\\
+	&	\newline{} \tabitem Should have an air filter and at least one exhaust and electric fan\\
+\midrule
+%\newpage
+    
+    Internal Structures and Display 	&	\\
     \midrule
-    \multicolumn{1}{p{11.93em}}{For ventilation, the MCD mandates fan, exhaust fan and cross-ventilation facility\newline{}\newline{}Establishments should have electric supply and continuous water supply} & Continuous supply of potable water shall be ensured, and in the case of intermittent supply, adequate storage shall be ensured.\newline{}\newline{}Water storage tanks should be cleaned periodically with maintained records.\newline{}Non-potable water can be used, if not in contact with food and production, with pipes distinguished from potable water.\newline{}\newline{}Natural and mechanical ventilation\newline{}\newline{}Should have an air filter and at least one exhaust and electric fan\newline{}\newline{} \\
-\newpage
+   \tabitem  Tiles up to 1.8 metres	& 	\tabitem Floors, ceilings and walls must be smooth and easy to clean, made with an impervious concrete material with no flaking paint or plaster.\\
+\newline{} \tabitem Self-closing door	&	\newline{} \tabitem Floors and walls should be washed with an effective disinfectant.\\
+\newline{} \tabitem Dark glass invisible from outside	&	 \newline{} \tabitem Doors should be made of smooth, non-absorbent surfaces and should be self-closing.\\
+\newline{} \tabitem Marble top 	&	 \newline{}\tabitem No carcasses should be displayed in any manner visible from outside.\\
+\newline{} \tabitem Signboard with type of meat sold and showing halal/jhatka 	&	 \newline{} \tabitem Use of only non-corrosive hanging hooks with distance between hooks being 30 cm and rails being 60-70 cm.\\
+\newline{} \tabitem Washbasin 	&	 \newline{} \tabitem Floors should have at least 5 cm of slope\\
+\newline{} \tabitem Geyser	&	 \newline{} \tabitem Wash basin made of stainless steel/ porcelain\\
+\newline{} \tabitem Non-corrosive fittings rails for hanging carcasses, non-corrosive metal hooks,	&	\newline{} \tabitem Provision of geyser \\
+\newline{} \tabitem Signboard with type of meat sold, showing halal/ jhatka	&		\\
+\newline{} \tabitem Self-closing door and small sliding window	&	\\
     \midrule
-    \multicolumn{2}{l}{\textbf{Internal Structures and Display}} \\
+    Pest Control, Fly and Rodent Proofing 	&	\\
     \midrule
-    \multicolumn{1}{p{11.93em}}{Tiles up to 1.8 metres\newline{}\newline{}Self-closing door\newline{}\newline{}Dark glass invisible from outside\newline{}\newline{}Marble top\newline{}\newline{}Signboard with type of meat sold and showing halal/jhatka\newline{}\newline{}Washbasin\newline{}\newline{}Geyser\newline{}\newline{}Non-corrosive fittings rails for hanging carcasses, non-corrosive metal hooks,\newline{}\newline{}Signboard with type of meat sold, showing halal/ jhatka\newline{}\newline{}Self-closing door and small sliding window} \newline{}\newline{}& Floors, ceilings and walls must be smooth and easy to clean, made with an impervious concrete material with no flaking paint or plaster.\newline{}\newline{}Floors and walls should be washed with an effective disinfectant.\newline{}\newline{}Doors should be made of smooth, non-absorbent surfaces and should be self-closing.\newline{}\newline{}No carcasses should be displayed in any manner visible from outside.\newline{}\newline{}Use of only non-corrosive hanging hooks with distance between hooks being 30 cm and rails being 60-70 cm.\newline{}\newline{}Floors should have at least 5 cm of slope.\newline{}\newline{}Wash basin made of stainless steel/ porcelain\newline{}\newline{}Provision of geyser \\
+	\tabitem The establishment should be fly proof. & \tabitem No spraying should be done during business; instead fly swats and flaps should be used to kill flies.\\
+	\newline{}\tabitem The establishment should be ‘Pest Control Proof’. 	&	\newline{} \tabitem Windows, doors and all openings should be fitted with a wire mesh, net or screen to make the premise fly free.\\
+	&	\newline{}\tabitem Holes, drains and other places where pests can gain access should be kept sealed.\\
+	&	\newline{}\tabitem Food materials should be kept in pest-proof containers. \\
     \midrule
-    \multicolumn{2}{l}{\textbf{Pest Control, Fly and Rodent Proofing}} \\
+   Waste Management 	&	\\
     \midrule
-    \multicolumn{1}{p{11.93em}}{The establishment should be fly proof.\newline{}\newline{}The establishment should be ‘Pest Control Proof’.} & No spraying should be done during business; instead fly swats and flaps should be used to kill flies.\newline{}\newline{}Windows, doors and all openings should be fitted with a wire mesh, net or screen to make the premise fly free.\newline{}\newline{}Holes, drains and other places where pests can gain access should be kept sealed.\newline{}\newline{}Food materials should be kept in pest-proof containers. \newline{}\newline{}\\
+    \tabitem Pedal dustbin	& 	\tabitem Efficient drainage system with adequate provisions for disposal of refuse\\
+	\newline{} \tabitem Floor sewer & \newline{} \tabitem Pedalled dust bin from where waste is periodically removed\\\newline{}
+	&	\newline{} \tabitem Comply with the requirements of Factory/ Environment Control Board \\
+	&	\newline{} \tabitem Must have a provision of a sewer connection for drainage of wastewater\\
+	&	\newline{} \tabitem Waste of meat shops should be disposed packed in heavy polythene bags in dhalaos (burial pits) \\
+\midrule
+    Equipment	&  \\
     \midrule
-    \multicolumn{2}{l}{\textbf{Drainage and Waste Management}} \\
+    \tabitem Non-corrosive fittings & \tabitem Equipment and machinery with design to ensure easy cleaning with arrangements for cleaning. Where possible, adopt a clean-in-place system\\
+	\newline{} \tabitem Rails for hanging carcasses with non-corrosive metal hooks 	&	\newline{} \tabitem No equipment likely to cause metallic contamination should be employed\\
+	\newline{} \tabitem Stainless steel pan of scale	&	\newline{} \tabitem All equipment should be placed well away from the wall.\\
+	\newline{} \newline{} \tabitem Hardwood block	&	\newline{} \tabitem Weighing scales should be made of stainless steel or nickel coated.\\
+	\newline{} \tabitem Stainless steel knives and tools 	&	\newline{} \tabitem Chopping block should be made of hardwood or food-grade material.\\
+	&	\newline{} \tabitem Equipment coming in contact with food should be corrosion free and easy to clean and must be covered to keep food clean.\\
+		& 	\newline{}\tabitem Knives and tools should be made of stainless steel with sufficient cupboard and racks. \\
     \midrule
-    \multicolumn{1}{p{11.93em}}{Pedal dustbin\newline{}\newline{}Floor sewer} & Efficient drainage system with adequate provisions for disposal of refuse\newline{}\newline{}Pedalled dust bin from where waste is periodically removed\newline{}\newline{}Comply with the requirements of Factory/ Environment Control Board\newline{}\newline{}Must have a provision of a sewer connection for drainage of wastewater\newline{}\newline{}Waste of meat shops should be disposed packed in heavy polythene bags in dhalaos (burial pits) \\
-\newpage
+    Personnel	&	\\
     \midrule
-    \multicolumn{2}{l}{\textbf{Equipment}} \\
+    \tabitem Identity proof of all employees	&	 The workers in processing and preparation should use clean aprons, hand gloves and hand wears.\\
+\newline{} \tabitem Medical certificate	&	 \newline{}\tabitem Person suffering from infectious diseases should not be permitted to work.\\
+\newline{}\tabitem Reports: sputum, chest x-ray and stool	&	\newline{}\tabitem Wounds and cuts should remain covered and out of direct contact with food.\\
+	&	\newline{}\tabitem Food handlers should keep finger nails trimmed and clean and wash their hands with soap before commencing work and after using the toilet. Scratching of body and touching of hair should be avoided.\\
+	&	\newline{}\tabitem Rest and refreshment rooms should be provided.\\
+	&	\newline{}\tabitem Eating, chewing, smoking, spitting and nose blowing should be absolutely prohibited on the premises.\\
+	&	\newline{}\tabitem Those believed to be suffering from or a carrier of any disease or illness should not be allowed to enter the food-handling area.\\
+	&	\newline{}\tabitem Arrangements for getting all employees medically examined should be made once a year with records of the same maintained, including examination of sputum, x-ray of chest for TB and stool for protozoal and helminthic infestations\\
+	&	\newline{}\tabitem All workers should be vaccinated in the case of an epidemic. \\
+\midrule
+%\newpage
+    Documentation and Records	&	\\
     \midrule
-    \multicolumn{1}{p{11.93em}}{Non-corrosive fittings\newline{}\newline{}Rails for hanging carcasses with non-corrosive metal hooks\newline{}\newline{}Stainless steel pan of scale\newline{}Hardwood block\newline{}\newline{}Stainless steel knives and tools} & Equipment and machinery with design to ensure easy cleaning with arrangements for cleaning. Where possible, adopt a clean-in-place system\newline{}\newline{}No equipment likely to cause metallic contamination should be employed.\newline{}\newline{}Equipment coming in contact with food should be corrosion free and easy to clean and must be covered to keep food clean.\newline{}\newline{}All equipment should be placed well away from the wall.\newline{}\newline{}Weighing scales should be made of stainless steel or nickel coated.\newline{}\newline{}Chopping block should be made of hardwood or food-grade material.\newline{}\newline{}Knives and tools should be made of stainless steel with sufficient cupboard and racks. \\
+    \tabitem Proof of Ownership	&	\tabitem Periodic audit according to the Standard of Procedure (SOP) to find out fault/gap in the GMP/GHP system\\
+\newline{}\tabitem Affidavit that none of other species of meat would be cooked of meat, sewer drainage	&	\newline{}\tabitem Maintain records of food processing/preparation, production/cooking, storage, distribution, service, food quality, laboratory test results, cleaning and sanitation, pest control and product recall for 1.5 years or shelf life, whichever is more.\\
+\newline{}\tabitem Site and key plan	&	\newline{}\tabitem Maintain records of specific areas to be cleaned, cleaning frequency, cleaning procedure, equipment and materials used.\\
+\newline{}\tabitem Photograph of the shop	&	\newline{}\tabitem Maintain record of medical fitness of employees handling meat.\\
+\newline{}\tabitem Structure stability certificate	&	\newline{}\tabitem Maintain records of pest control measures employed \\
     \midrule
-    \multicolumn{2}{l}{\textbf{Personnel}} \\
+    Storage	&	\\
     \midrule
-    \multicolumn{1}{p{11.93em}}{Identity proof of all employees\newline{}\newline{}Medical certificate\newline{}\newline{}Reports: sputum, chest x-ray and stool} & The workers in processing and preparation should use clean aprons, hand gloves and hand wears.\newline{}\newline{}Person suffering from infectious diseases should not be permitted to work.\newline{}\newline{}Wounds and cuts should remain covered and out of direct contact with food.\newline{}\newline{}Food handlers should keep finger nails trimmed and clean and wash their hands with soap before commencing work and after using the toilet. Scratching of body and touching of hair should be avoided.\newline{}\newline{}Rest and refreshment rooms should be provided.\newline{}\newline{}Eating, chewing, smoking, spitting and nose blowing should be absolutely prohibited on the premises.\newline{}\newline{}Those believed to be suffering from or a carrier of any disease or illness should not be allowed to enter the food-handling area.\newline{}\newline{}Arrangements for getting all employees medically examined should be made once a year with records of the same maintained, including examination of sputum, x-ray of chest for TB and stool for protozoal and helminthic infestations\newline{}\newline{}All workers should be vaccinated in the case of an epidemic. \\
-\newpage
+    \tabitem Refrigerated/deep refrigerator/ cold storage for raw meat	&   \tabitem All articles that are stored or are intended for sale must be maintained in good repair and kept clean.\\
+	\newline{}\tabitem Good sanitary and hygienic condition of the cold storage for raw meat 	&	\\	\newline{}\tabitem Hides, skins, hooves, heads and unclean gut should not be allowed to be stored on the premise.\\
+	&	\newline{}\tabitem Insecticides and disinfectants should be stored differently.\\
+	&	\newline{}\tabitem Cold storage facility for raw material\\
+	&	\newline{}\tabitem Segregation for storage of raw, processed, rejected, recalled or returned material \\
     \midrule
-    \multicolumn{2}{l}{\textbf{Audit, Documentation and Records}} \\
+    Food Testing Facilities	&	 \\
     \midrule
-    \multicolumn{1}{p{11.93em}}{Proof of Ownership\newline{}\newline{}Affidavit that none of other species of meat would be cooked of meat, sewer drainage\newline{}\newline{}Site and key plan\newline{}\newline{}Photograph of the shop\newline{}\newline{}Structure stability certificate} & Periodic audit according to the Standard of Procedure (SOP) to find out fault/gap in the GMP/GHP system\newline{}\newline{}Maintain records of food processing/preparation, production/cooking, storage, distribution, service, food quality, laboratory test results, cleaning and sanitation, pest control and product recall for 1.5 years or shelf life, whichever is more.\newline{}\newline{}Maintain records of specific areas to be cleaned, cleaning frequency, cleaning procedure, equipment and materials used.\newline{}\newline{}Maintain record of medical fitness of employees handling meat.\newline{}\newline{}Maintain records of pest control measures employed \\
+          & \tabitem Well-equipped laboratory for testing food materials;\\
+	&  \newline{} \tabitem Physical, microbiological and chemical analyses inside the premise for regular/ periodic testing or testing through accredited lab notified by the FSSAI. \\
+	    \midrule
+    Raw Materials	&	 \\
     \midrule
-    \multicolumn{2}{l}{\textbf{Storage}} \\
+          &	\tabitem Facility to wash raw material must be provided with hot and cold water\\
+	&	\newline{} \tabitem Maintain records for raw material source\\
+	&	\newline{}\tabitem Should be checked and cleaned physically \\
+\midrule
+Sanitary Practices	&	 \\
     \midrule
-    \multicolumn{1}{p{11.93em}}{Refrigerated/deep refrigerator/ cold storage for raw meat\newline{}\newline{}Good sanitary and hygienic condition of the cold storage for raw meat} & All articles that are stored or are intended for sale must be maintained in good repair and kept clean.\newline{}\newline{}Hides, skins, hooves, heads and unclean gut should not be allowed to be stored on the premise.\newline{}\newline{}Insecticides and disinfectants should be stored differently.\newline{}\newline{}Cold storage facility for raw material\newline{}\newline{}Segregation for storage of raw, processed, rejected, recalled or returned material \newline{}\newline{}\\
+          &	\tabitem Chopping block should be sanitized daily by covering the top with sea salt after cleaning with hot water.\\
+	&	\newline{}\tabitem Floor should be washed daily with disinfectant/ detergent/ sanitizer.\\
+	&	\newline{}\tabitem High standard of cleanliness with no material lying on the floor\\
+	&	\newline{}\tabitem Refrigeration regularly cleaned \newline{}and well maintained\\
+	&	\newline{}\tabitem Slaughtering of animals/birds inside shop premises strictly prohibited\\
+	&	\newline{}\tabitem Carcasses not allowed to be covered with wet clothes\\
+	&	\newline{}\tabitem Chopping instruments should be cleaned with hot water (82 degrees C)\\
+	&	\newline{}\tabitem Preparation of food of any type should be prohibited. \\
     \midrule
-    \multicolumn{2}{l}{\textbf{Food Testing Facilities}} \\
+    Packaging	&	 \\
     \midrule
-          & Well-equipped laboratory for testing food materials;\newline{}\newline{}Physical, microbiological and chemical analyses inside the premise for regular/ periodic testing or testing through accredited lab notified by the FSSAI. \newline{}\newline{}\\
+          & \tabitem Use of food-grade packaging which is non-toxic\\
+	&	\newline{} \tabitem Prepared meat should be packed in waxed paper and then placed in polyethylene bags or food-grade plastics \\
     \midrule
-    \multicolumn{2}{l}{\textbf{Raw Materials}} \\
+    Management 	&	 \\
     \midrule
-          & Facility to wash raw material must be provided with hot and cold water\newline{}\newline{}Maintain records for raw material source\newline{}\newline{}Should be checked and cleaned physically \newline{}\newline{} \\
-\newpage
-    \midrule
-    \multicolumn{2}{l}{\textbf{Sanitary Practices}} \\
-    \midrule
-          & Chopping block should be sanitized daily by covering the top with sea salt after cleaning with hot water.\newline{}\newline{}Floor should be washed daily with disinfectant/ detergent/ sanitizer.\newline{}\newline{}High standard of cleanliness with no material lying on the floor\newline{}\newline{}Refrigeration regularly cleaned and well maintained\newline{}\newline{}Slaughtering of animals/birds inside shop premises strictly prohibited\newline{}\newline{}Carcasses not allowed to be covered with wet clothes\newline{}\newline{}Chopping instruments should be cleaned with hot water (82 degrees C)\newline{}\newline{}Preparation of food of any type should be prohibited. \newline{}\newline{}\\
-    \midrule
-    \multicolumn{2}{l}{\textbf{Packaging}} \\
-    \midrule
-          & Use of food-grade packaging which is non-toxic\newline{}\newline{}Prepared meat should be packed in waxed paper and then placed in polyethylene bags or food-grade plastics \newline{}\newline{}\\
-    \midrule
-    \multicolumn{2}{l}{\textbf{Management and Supervision}} \\
-    \midrule
-          & Detailed Standard Operating Procedure for processing, packing, dispatch and storage of food\newline{}\newline{}Cleaning and sanitation programme to be drawn up and observed \\
+          &	\tabitem Detailed Standard Operating Procedure for processing, packing, dispatch and storage of food\\
+	&	\newline{} \tabitem Cleaning and sanitation programme to be drawn up and observed \\
+\bottomrule
+
   \label{tab:addlabel}%
 \end{longtable}%
 
