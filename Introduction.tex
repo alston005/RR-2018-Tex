@@ -1,0 +1,218 @@
+% !TEX TS?program = pdflatexmk
+\documentclass[a4paper, 12pt, twoside]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+
+
+%\renewcommand{\baselinestretch}{1.0} 
+                    
+                    
+%Margins
+\usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
+%geometry{a4paper, total={170mm,257mm}, left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm}
+\setlength{\parindent}{0in}
+\usepackage{enumitem}
+       
+                   
+%Adding Pictures
+\usepackage{graphicx}
+\usepackage{float}
+          
+                    
+%Header and Footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[RO]{ Introduction \hspace{1mm} \textbar \hspace{1mm} \thepage\ }
+\fancyfoot[LE]{ \thepage \hspace{1mm} \textbar \hspace{1mm} DOING BUSINESS IN DELHI: A Compendium }
+\renewcommand{\headrulewidth}{0pt} %change the pt width to insert header line
+\renewcommand{\footrulewidth}{0pt} %change the pt width to insert footer line
+\usepackage{amsmath}
+
+               
+                
+            
+                                      
+%Tables
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{subfig}
+\captionsetup{aboveskip=14pt,}
+\captionsetup[table]{singlelinecheck = false}
+	
+                    
+%Coloured Boxes
+\usepackage{xcolor}
+\usepackage{mdframed}
+           
+                    
+%Custom Spacing
+\usepackage{setspace}
+         
+                    
+%Defining Colours
+\definecolor{CCSbrown}{RGB}{163, 86, 37}
+\definecolor{CCSgrey}{RGB}{105, 105, 105}
+\definecolor{CCSblack}{RGB}{64, 64, 65} 
+             
+             
+%Heading Colours                  
+\usepackage{sectsty}
+\usepackage{titlesec}
+\chapterfont{\color{blue}}  %sets colour of chapters font
+\sectionfont{\color{CCSbrown}}  %sets colour of section font
+\subsectionfont{\color{CCSblack}} %sets colour of subsection font
+\subsubsectionfont{\color{black}} %sets colour of subsubsection font
+		
+    				
+%Bibliography
+\usepackage[authordate, backend=biber]{biblatex-chicago}
+\addbibresource{EWaste.bib}
+\usepackage{hyperref} %activates links 
+\hypersetup{
+colorlinks,
+linkcolor = CCSbrown,
+citecolor = CCSbrown,
+urlcolor = CCSbrown}
+\usepackage{blindtext}
+		
+              
+\begin{document}
+                    
+
+\newpage
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+
+%Executive Summary
+\newpage
+\section*{Introduction to the Compendium}
+
+In 2014, Government of India (GoI) made it a policy priority to improve the business environment in the country. This prioritisation derived from India’s lacklustre performance on the World Bank’s Ease of Doing Business Index that ranks 190 countries on their business regulatory environment. Since 2003, the World Bank has measured the time, cost and regulation of entry, operation and exit for firms, and ranked countries based on these measurements and government reporting. \\
+
+At the start of his term, the current Prime Minister committed to bringing India to the top half of the Doing Business rankings by 2020. To achieve this goal, the Department of Industrial Policy and Promotion (DIPP) under the Ministry of Commerce and Industry, and NITI Aayog, the government’s think tank, together conceptualised the \href{http://eodb.dipp.gov.in/AboutUs.aspx}{Business Reform Action Plan} (BRAP). \\
+
+Over the next 4 years India jumped 30 places on the index. In 2017 and 2018, the country was placed 100th on the Index. The current government touts this achievement as a significant feather in its cap. 
+
+\subsection*{Business Reform Action Plan: Key instrument for improving business climate}             
+
+The BRAP is a list of action items for state governments to simplify and rationalise rules for market entry and operation, improve economic governance, and strengthen rule of law. Recommendations are aimed at reducing the licence-permit-inspection raj, and cover transparency, government process reengineering, redundancies in regulations, and due process. BRAP 2014 consisted of 98 recommendations, and the list grew to 372 in 2017. \\
+
+\href{http://eodb.dipp.gov.in/World\%20Bank\%20Orientation\%20Workshop.pdf}{BRAP 2017} outlined recommendations across 12 reform areas: labour regulation enablers; contract enforcement; registering property; inspection reform enablers; single window system; land availability and allotment; construction permit enablers; environmental registration enablers; obtaining utility permits; paying taxes; access to information and transparency enablers; and sector specific reforms spanning the lifecycle of a typical business.
+
+\subsubsection*{Assessments of the adoption and impact of ease of doing business reforms}    
+
+Each year DIPP, NITI Aayog and the World Bank together assess the progress made by states against ease of doing business action items set the previous year. The assessment is based on self-declaration by state governments on recommendations they have implemented. This is made available on the \href{http://eodb.dipp.gov.in}{BRAP portal} and is then reviewed and validated by DIPP \& the Bank. DIPP’s assessment from 2018 will consist of \href{http://eodb.dipp.gov.in/Note\%20on
+\%20Feedback\%20methodology.pdf}{business-to-government feedback as well}. \\
+
+Separately, for its Doing Business Report, the Bank surveys lawyers and expert professionals to verify the claims around reforms and assess changes to the business climate in the country. The report surveys respondents familiar with the regulatory environment faced by private limited companies in the two largest business cities in the country (Mumbai and Delhi for India). \\ 
+
+In addition, in 2017 the IDFC Institute conducted an enterprise survey of over 3,000 manufacturing firms across India, to assess the business regulatory environment ‘from the viewpoint of manufacturing firms’. It differs from the World Bank’s Doing Business Surveys and DIPP’s state rankings in that it focuses on how organised manufacturing firms, rather than experts or implementing agencies, view the business environment in their respective states. \\
+
+These reports are improving our understanding if and how the BRAP instrument is getting us a more open and transparent business regulatory environment. However, there are a few limitations to recent analyses of whether the business environment at the state level has been truly improved for all entrepreneurs.
+
+\subsubsection*{Gaps in our understanding of business environment reforms}  
+
+\vspace{1.5em}
+
+\paragraph{First, despite all these surveys and reports, we do not have a deep understanding of the substantive and qualitative changes undertaken by different states.}
+  
+Better performing states such as Andhra Pradesh, Telangana, Gujarat, Maharashtra and Tamil Nadu have provided publicly verifiable information about individual reform claims. However, in the case of most states, we have little to go on except self-reporting. \\
+
+The World Bank itself \href{https://drive.google.com/open?id=1jWibamS6WakPfv3AM9Zm0jUpVX15Y8H3}{admits} that implementation gaps may exist as sometimes the reforms “on paper do not translate into reforms on the ground” or “reforms in one area are contradicted by actions in other areas” or “regulatory service delivery is good for some but not for others”. Unless the implementation status of reforms is thoroughly investigated at the state level, we will not be able to fix the red flags on performance that the Bank’s report or enterprise surveys will raise.\\
+
+An example of this is the setting up of specialised courts at the district and high court levels across the country following the Commercial Courts Act 2015. At current implementation status in a few years we will likely find little to no change in judicial efficiency for commercial disputes. We need to understand the extent of specialisation in these courts and the material process changes that have come about to anticipate this stasis and course correct. \\
+
+Other examples are efforts to conscribe inspections authorities under norms of transparency and due process. On paper, many state governments have claimed to regularise the inspections process, whether to enforce environmental regulations or labour laws. Reform claims include incorporating risk-based inspections and application of standard operating procedures. Yet, in the case of most states we do not know the formula for selecting enterprises for inspections or calculating risk, or the extent to which violations are brought to book. \\
+
+\paragraph{Second, ubiquitous urban services provided by micro, small and medium enterprises have found short shrift in the reporting on business climate reforms.}
+
+GoI and state governments have initiated business environment reforms with the goal of drawing in large scale investments in industrial enterprises for the Make in India initiative. Reports and surveys on the ease of doing business in India are studying only certain types of businesses: larger (number of employees or income), likely to have access to expert help for registration and compliance, or engaged in manufacturing activities. But the extent to which operating environment has improved for traditional retail service enterprises is unclear. \\
+
+For example, eating houses abound in all corners of India, ranging from makeshift dhabas, to sit down restaurants. In the last few years, restaurants in densely populated market areas have been sealed repeatedly for flouting shape-shifting rules. Restaurateurs stepping up to meet the demand for alcohol service face challenges on account of cultural policing masquerading as policy. News of legal stand-offs between restaurateurs and inspectors, excise officers, and police are commonplace. \\
+
+Similarly, since 2014, the country has been locked in a tough conversation about the production, trade and sale of meat, particularly cattle meat. Oft changing rules, unclear objectives and absent due process, meat entrepreneurs supplying for their livelihood are under existential threat. \\
+
+Recent studies and reports, do not highlight issues that affect small-scale retail enterprises, particularly those yet to be registered or formalised. While this is an express caveat of all the studies, these issues represent essential and non-trivial corrections that affect a bulk of self-employed entrepreneurs and corner shops. Interestingly, there is no useful sample frame from where to survey such enterprises (even registered ones). \\
+
+\paragraph{Third, none of the studies give us a sense of the next granular steps in the reform process.}
+
+We are to yet see granular recommendations on rules and enforcement at the intersection between central, state and municipal level powers and authority. We are also yet to see broader recommendations on emerging industries.\\
+
+For example, waste management in India is largely run through informal enterprises. In the case of e-waste, this informality is hazardous. The central rules for formal e-waste management have only recently been set up. But ease of entry and operations for e-waste enterprises is unclear. Given the nexus between municipal authorities and informal enterprises in the sector, broad strokes study of ease of doing business will likely not alert us to reform needs in areas like this.\\
+
+Similarly, in the case of technology aggregators the rules are being made up as we go, since regulatory framework for most enterprises in the country remains product or service specific. Aggregators do not fit the existing definitions of product manufacturers or service providers. Rules for the services they mediate are currently either overly prescriptive or completely proscriptive, and a higher order discussion on principles-based regulation is missing. \\
+
+\subsection*{Our Undertaking: Examining the Ease of Doing Business as of June 2018 in Delhi}
+
+The Indian government machinery is a complex beast. Variations across states in machinery, process and rules abound. Painting the country in broad strokes gives us a limited if useful picture of the efforts to create an enabling environment for enterprise. 
+We undertook to add to the literature by studying the shape which reforms have taken at the state level. In this effort, we assess the implementation status of BRAP 2017 in the National Capital Territory. The state is the second largest commercial ‘city’ in India, and a metropolitan centre for significant internal job-related migration. Delhi is also one of the worst performing states on BRAP reforms. In 2017, Delhi claimed to have implemented 121 out of 356 (34\%) recommendations made by BRAP 2017 and was ranked 23 out of 36 states by DIPP in its annual assessment of progress. 
+
+\subsubsection*{What did we do}
+
+We used the vehicle of our annual Research Reality Summer Programme to build a nuanced understanding of business environment reforms in the state. We produced seven distinct papers, each using a different research tool and approach, to highlight business regulatory challenges. \\
+
+\paragraph{First, for the National Capital Territory, we assessed government reform claims that are hard to verify or score.} Here, we studied the implementation of transparency enablers in inspections, including the application of Standard Operating Procedures and Computerised Risk Assessment for labour and environment regulations. To study labour inspections reforms, we used administrative data analysis of inspections records, and in the case of environment regulation inspections we used inspector surveys. We also studied the functioning of the newly set up commercial division at Delhi High Court using a time and motion study. To assess de jure compliance, these reform claims at the very least needed to be benchmarked against the standard proposed by DIPP. Where possible we also benchmarked the implementation in Delhi against best-in-class in India and OECD standards. \\
+
+\newpage
+
+\paragraph{Second, we studied the business environment for enterprises not surveyed thus far.} We focussed on traditional retail service enterprises run by large numbers of small scale formal and informal entrepreneurs such as eating houses, meat processing and sale, and waste management. We used experience, perception and awareness surveys to understand the perspective of these service sector enterprises. Through mock inspections we highlight the ineffectiveness of the current compliance framework. We also document the often-times overlapping regulatory mandates of different agencies at the central, state and municipal levels, and the de jure and de facto rules applied by authorities to enterprises in these sectors. \\
+
+\paragraph{Finally, we studied technology-based service enterprises that are at the fault-lines of regulation.} The last few year have seen a rise in technology aggregators especially in a few sectors such as hospitality, taxi services, and food supply. These enterprises are redefining the need for government intervention and many argue that the current framework is obsolete.\\
+
+We study technology aggregators in India, to understand how the regulatory approach could shift to principles-based regulation from product-based or enterprise-based frameworks in force in India.  \\
+
+\subsection*{We Find: In Delhi, ease of doing business is still largely window-dressing}
+
+India’s Ease of Doing Business Index rankings reflect the heavy regulatory burden businesses continue to face. it continues to fare poorly for indicators examining time taken to acquire permits and is ranked 156 on starting a business.\footnote{In order to standardise companies for comparison, \href{http://www.doingbusiness.org/en/data/exploreeconomies/india}{the Doing Business report}, has made certain assumptions regarding the size of the company, capital, number of founders etc. As a consequence, the ease of starting and running companies with single owners are not reflected in the index. } IDFC Institute’s Ease of Doing Business: Enterprise Survey calculates an average of 118 days to set up a manufacturing business across the country. \\
+
+We add to this literature with deep dive into Delhi’s regulatory environment for enterprises. Our studies find that problems of licence, permit and inspection raj are still stubbornly entrenched in the case of traditional retail services enterprises. We also find that inspections reforms have only been implemented superficially and that judicial contract enforcement despite reforms is still the same wine in a new bottle. Lastly, we find that the next set of reforms should consider principles-based approaches taking cue from technology aggregators on consumer protection and service standards. \\
+
+\textbf{\textit{Let us consider the problems of licence and permit raj in Delhi.}} \\
+
+The paper \textit{A Seven Course Dilemma} examines the legal and regulatory environment faced by eating houses based on a survey of 101 restaurants in South Delhi. The study finds that the regulatory environment in the food services business is cumbersome, with overlapping regulations, lack of procedural clarity and technical difficulties The paper finds that it takes 120 to 150 days to obtain all licences in the absence of any delay beyond the officially stipulated time. The formal costs varies from Rs 18,300 to Rs 1,852,087. \\
+
+Our study \textit{Pound of Flesh} finds that all private commercial slaughter for meat in Delhi is pushed to informality. The Municipal Corporation of Delhi both regulates and operates the only slaughterhouse in the state (in Ghazipur) permitted to slaughter buffalo, sheep and goat. This government monopoly alongside Food Safety and Standards Regulations 2011 on private commercial slaughter have rendered all slaughter of pig and chicken in the city effectively illegal. Municipal authorities recognise the egregious violation of the doctrine of separation of powers and the absurdity of effectively banning private slaughter. A ‘keep calm and carry on’ policy is followed by authorities in the city, and 95\% of all enterprises in the sector remain either completely or partially unlicensed.\\
+
+A third paper, \textit{Toxic Efficiency}, finds that out of the 2 million metric tonnes of e-waste generated domestically in India, the informal sector handles almost 95\% of e-waste. The paper looks at the Extended Producer Responsibility (EPR) regime under which producers of electronics and electrical equipment are responsible for directing their end-of-life products to authorised recyclers. The study finds that EPR has not taken hold and authorised recyclers continue to hold a miniscule portion of the market. The paper examines costs of entry for enterprises such as the licences required to enter the authorised recycling market, compliance with government regulations, and challenges of secure disposal of hazardous residue.\\
+
+\textbf{\textit{Let us consider the problem of inspector raj in Delhi.}}\\
+
+Many of the reforms under BRAP 2017 were not aimed at reducing the number of licences, they intended to make the existing processes simple, predictable and consistent. At first glance, Delhi only implemented a third of the recommendations directed at transparency, accountability and due process. Delhi claims to have streamlined the inspection processes of various State departments, applying Computerised Risk Assessment in the Delhi Pollution Control Committee (DPCC) and using SOPs in the state Labour Department. \\
+ 
+In \textit{Risky Business}, we assess the commercial enterprise pollution monitoring and enforcement framework spearheaded by DPCC. We find that DPCC has only partially implemented the recommendation that requires the use of computerised risk assessment to identify enterprises for inspection. Although it has designed an automated system, it still chooses enterprises manually through an executive committee. This fails to meet the objective of reducing human error and bias in selection. The study also highlights the existence of procedural inconsistencies across inspections. Environmental engineers (inspectors) at DPCC only partially follow the Standard Operating Procedures (SOP) for carrying out inspections.\\
+ 
+The state of inspection management under the Department of Labour is in a similar state. In \textit{Inspecting the Inspectors}, we studied the administrative records of nearly 850 labour complaint entries received at the Delhi Labour Department. Through our analysis, we found several discrepancies in the use of SOPs to schedule, manage and conduct inspections in Delhi’s labour inspections set-up. While SOPs have been published on the Department’s website, they are likely not being met with rigor. Indifferent, haphazard and non-standardised record keeping, missing procedural hygiene and lack of fidelity to prescribed timelines are three non-trivial departures from the SOPs. Our investigation into the records highlighted that missing definitions were making the lines between on-site inspections and in-office hearings blurry. We also find that timelines prescribed in the SOPs are not being met. More than a third of the inspections from 2016-2018 were not conducted within 15 days after receipt of complaints as prescribed. \\
+
+Moreover, we find that there has been no discernible change in the existing inspection regime for the service sector enterprises. Corruption, harassment and subversion of rules continue to be rampant. 28\% of restaurateurs we surveyed described the intention of inspectors as deliberately finding faults and 30\% felt that inspectors were only concerned with their own interests. While, inspectors from South Delhi Municipal Corporation (SDMC) claim to inspect meat shops once a year, our enterprise surveys indicate a frequency at least 12 times higher. Yet, in our mock-inspections only 2.8\% of meat shops were compliant with more than 80\% of the rules examined. Instead of achieving any measure of compliance, inspections have emerged as flourishing channels of rent-seeking. \\
+
+An inspection regime ought to maximise compliance by providing relevant information to enterprises such as easily accessible guidance material and checklists. Out of the twelve departments that regulate the operations of a restaurant in Delhi, only one has published a guidance document. Likewise, inspectors from both the SDMC and Food Safety and Standards Authority of India mentioned that checklists are used during inspections for meat shops. However, about 81\% of the respondents were not aware about the parameters used for conducting inspections. \\
+
+\textbf{\textit{Let us consider the state of judicial contract enforcement in Delhi.}}\\
+
+While the measures listed above are the costs on businesses due to government action, there are are also problems due to government inaction, particularly when the government’s core responsibility of delivering justice is not done quickly or effectively. \\
+
+Delhi has claimed to have set up a commercial bench at Delhi High Court. In \textit{Caught in the Act}, we investigate the functioning of the commercial bench, asking whether there were any substantial efficiency gains from setting up the bench. The paper finds that more time is spent on non-commercial cases, the time spent on commercial disputes is not proportional to the level of pending commercial cases, and time available with judges is likely not proportionally assigned between commercial and non-commercial cases. Even though the time available per judge per case at High Court of Delhi has increased over the past six years, no specific slots have been dedicated to commercial disputes. Since not much has changed in how the Court functions, substantial judicial efficiency gains may be some distance away.
+
+\subsubsection*{Where do we go from here}
+
+The state in India has from inception taken a paternalistic role. It interferes in all manners of voluntary transactions between consenting adults: extensively prescribing what can go down, and not shying away proscribing behaviour based on aging cultural norms or value-judgments of actors in power. The fundamental concept that the coercive power of the state must be clearly and heavily circumscribed is nascent. Ease of Doing Business is currently approached as a programmatic area where the government is reluctantly ceding its power over entrepreneurs. In Delhi, the state government is still in an ‘offering concessions’ mode instead of agreeing on basic non-negotiables. \\
+
+The government needs to think through how principles-based regulation, separation of powers, rule of law, and thoughtful agency design can help facilitate the ease of doing business for enterprises in Delhi, while ensuring consumer protection, minimising negative externalities and correcting market power concentration. There may be some guidance in developing principles-based regulation from the world of technology aggregators. \\
+
+In our study \textit{Disruption on Demand}, we find that aggregators are forcing us to rethink regulations and nudging us away from specification centric regulations. In this paper, through data mining, we study aggregators’ approach to concerns of consumer protection. We highlight the consumer protection approach taken by aggregators through mechanisms that increase information exchange between consumers and enable a collective governance framework on the platforms. We compare our findings on aggregator service standards with current regulations to see if there are entry points for self-regulation and lessons to for writing principles-based rules of the game. We study regulations in the two services where aggregators have caused considerable disruption: hospitality and taxicabs. In the case of hospitality, we find that the needs of the consumers are often at odds with what regulations deem important. In the case of taxi regulations, we find that conditions put in place by the regulations are difficult to implement and have limited enforceability. In both these service industries, we find that existing prescriptive rules increase the regulatory burden on enterprises but fail to meet the key goal of consumer protection as state capacity is thinly spread. \\
+
+We hope these analyses will help the Government of National Capital Territory improve their performance on the national Ease of Doing Business rankings, and develop a clear agenda on the next set of reforms to open up the business environment in the state.\\ 
+
+
+
+
+
+
+
+
+                  
+                                                 
+\end{document}

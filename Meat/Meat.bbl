@@ -1,0 +1,897 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{apedastats}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4af68bda937482fc89e57d65ea6d4de4}{%
+           family={{APEDA}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4af68bda937482fc89e57d65ea6d4de4}
+      \strng{fullhash}{4af68bda937482fc89e57d65ea6d4de4}
+      \strng{bibnamehash}{4af68bda937482fc89e57d65ea6d4de4}
+      \strng{authorbibnamehash}{4af68bda937482fc89e57d65ea6d4de4}
+      \strng{authornamehash}{4af68bda937482fc89e57d65ea6d4de4}
+      \strng{authorfullhash}{4af68bda937482fc89e57d65ea6d4de4}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Buffalo Meat}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2H8G7Ac.
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2H8G7Ac.
+      \endverb
+    \endentry
+    \entry{bhardwajnews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e8b64d76294844b1a2c1f7c115994b80}{%
+           family={Bhardwaj},
+           familyi={B\bibinitperiod},
+           given={Nidhi},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8b64d76294844b1a2c1f7c115994b80}
+      \strng{fullhash}{e8b64d76294844b1a2c1f7c115994b80}
+      \strng{bibnamehash}{e8b64d76294844b1a2c1f7c115994b80}
+      \strng{authorbibnamehash}{e8b64d76294844b1a2c1f7c115994b80}
+      \strng{authornamehash}{e8b64d76294844b1a2c1f7c115994b80}
+      \strng{authorfullhash}{e8b64d76294844b1a2c1f7c115994b80}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{journaltitle}{Livemint}
+      \field{month}{3}
+      \field{title}{In Delhi, Making a Mess of Abattoir Modernization}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2poXQNw
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2poXQNw
+      \endverb
+    \endentry
+    \entry{blancreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c696e48cf6d69730ee8e5a3535ce8dcd}{%
+           family={Blanc},
+           familyi={B\bibinitperiod},
+           given={Florentin},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {OECD}%
+      }
+      \strng{namehash}{c696e48cf6d69730ee8e5a3535ce8dcd}
+      \strng{fullhash}{c696e48cf6d69730ee8e5a3535ce8dcd}
+      \strng{bibnamehash}{c696e48cf6d69730ee8e5a3535ce8dcd}
+      \strng{authorbibnamehash}{c696e48cf6d69730ee8e5a3535ce8dcd}
+      \strng{authornamehash}{c696e48cf6d69730ee8e5a3535ce8dcd}
+      \strng{authorfullhash}{c696e48cf6d69730ee8e5a3535ce8dcd}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{10}
+      \field{title}{Inspection Reforms: Why, How, and With What Results}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2pqf1OI
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2pqf1OI
+      \endverb
+    \endentry
+    \entry{chaudrypaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8e95c62bfaddb6c8962594f748aa1588}{%
+           family={Chaudry},
+           familyi={C\bibinitperiod},
+           given={M.M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e967cde3c26b6f09c5437207ad411843}{%
+           family={Shimshony},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef27b948f5c536cc3efca6a8d3feaccf}
+      \strng{fullhash}{ef27b948f5c536cc3efca6a8d3feaccf}
+      \strng{bibnamehash}{ef27b948f5c536cc3efca6a8d3feaccf}
+      \strng{authorbibnamehash}{ef27b948f5c536cc3efca6a8d3feaccf}
+      \strng{authornamehash}{ef27b948f5c536cc3efca6a8d3feaccf}
+      \strng{authorfullhash}{ef27b948f5c536cc3efca6a8d3feaccf}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific and Technical Review of the Office International des Epizooties (Paris)}
+      \field{title}{Slaughter of Animals for Human Consumption}
+      \field{year}{2011}
+      \field{pages}{693\bibrangedash 710}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb http://bit.ly/2xGWEci
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xGWEci
+      \endverb
+    \endentry
+    \entry{cmiestats}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=91a6528fd95ed5216c279b4f4f9b8393}{%
+           family={CMIE},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{91a6528fd95ed5216c279b4f4f9b8393}
+      \strng{fullhash}{91a6528fd95ed5216c279b4f4f9b8393}
+      \strng{bibnamehash}{91a6528fd95ed5216c279b4f4f9b8393}
+      \strng{authorbibnamehash}{91a6528fd95ed5216c279b4f4f9b8393}
+      \strng{authornamehash}{91a6528fd95ed5216c279b4f4f9b8393}
+      \strng{authorfullhash}{91a6528fd95ed5216c279b4f4f9b8393}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Meat Production by Type of Animal- 1998-99 to 2016-17}
+      \field{year}{2018}
+    \endentry
+    \entry{desotopaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=07ab480ce7d61a0adecf6bc7ea983bbd}{%
+           family={De\bibnamedelima Soto},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Hernando},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07ab480ce7d61a0adecf6bc7ea983bbd}
+      \strng{fullhash}{07ab480ce7d61a0adecf6bc7ea983bbd}
+      \strng{bibnamehash}{07ab480ce7d61a0adecf6bc7ea983bbd}
+      \strng{authorbibnamehash}{07ab480ce7d61a0adecf6bc7ea983bbd}
+      \strng{authornamehash}{07ab480ce7d61a0adecf6bc7ea983bbd}
+      \strng{authorfullhash}{07ab480ce7d61a0adecf6bc7ea983bbd}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard University}
+      \field{title}{Informality and Development}
+      \field{year}{1989}
+      \verb{urlraw}
+      \verb http://bit.ly/2xMknYDi
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xMknYDi
+      \endverb
+    \endentry
+    \entry{dahreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=49aa0a3b99e4ab87ff6447c00b15a723}{%
+           family={{Department of Animal Husbandry, Dairying and Fisheries}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Department of Animal Husbandry, Dairying}%
+        {Fisheries}%
+      }
+      \strng{namehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{fullhash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{bibnamehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{authorbibnamehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{authornamehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{authorfullhash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Annual Report 2016-17}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2PSsg64
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2PSsg64
+      \endverb
+    \endentry
+    \entry{dah1report}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=49aa0a3b99e4ab87ff6447c00b15a723}{%
+           family={{Department of Animal Husbandry, Dairying and Fisheries}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Department of Animal Husbandry, Dairying}%
+        {Fisheries}%
+      }
+      \strng{namehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{fullhash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{bibnamehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{authorbibnamehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{authornamehash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \strng{authorfullhash}{49aa0a3b99e4ab87ff6447c00b15a723}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tables of Milk, Egg, Meat and Wool Production 2016-17}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2QNGOVS
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2QNGOVS
+      \endverb
+    \endentry
+    \entry{duttapaper}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=0b6bf373730e641c0133134697d2176b}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=df13f685ed9d57f0d907bc1258717550}{%
+           family={Kar},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fba9faacdad7bed445ec4d7f1ea464a7}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{965e6d6180c4d50267b42ce22d3e96c0}
+      \strng{fullhash}{965e6d6180c4d50267b42ce22d3e96c0}
+      \strng{bibnamehash}{965e6d6180c4d50267b42ce22d3e96c0}
+      \strng{authorbibnamehash}{965e6d6180c4d50267b42ce22d3e96c0}
+      \strng{authornamehash}{965e6d6180c4d50267b42ce22d3e96c0}
+      \strng{authorfullhash}{965e6d6180c4d50267b42ce22d3e96c0}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Forschungsinstitut zur Zukunft der Arbeit Institute for the Study of Labor}
+      \field{title}{Informal Sector and Corruption: An Empirical Investigation for India}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://bit.ly/2QQThIz
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2QQThIz
+      \endverb
+    \endentry
+    \entry{indiannews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=470554c98e851e114d07535dda214781}{%
+           family={ENS},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{470554c98e851e114d07535dda214781}
+      \strng{fullhash}{470554c98e851e114d07535dda214781}
+      \strng{bibnamehash}{470554c98e851e114d07535dda214781}
+      \strng{authorbibnamehash}{470554c98e851e114d07535dda214781}
+      \strng{authornamehash}{470554c98e851e114d07535dda214781}
+      \strng{authorfullhash}{470554c98e851e114d07535dda214781}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{journaltitle}{The Indian Express}
+      \field{month}{8}
+      \field{title}{Ghazipur Slaughterhouse: Cattle Being Electrocuted, not Stunned Before Slaughter, Says Mayor}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2xEuL4n
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xEuL4n
+      \endverb
+    \endentry
+    \entry{kateshiyanews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b24c1dbbf8d5309eaf556407eff9bd83}{%
+           family={Kateshiya},
+           familyi={K\bibinitperiod},
+           given={G.\bibnamedelimi B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b24c1dbbf8d5309eaf556407eff9bd83}
+      \strng{fullhash}{b24c1dbbf8d5309eaf556407eff9bd83}
+      \strng{bibnamehash}{b24c1dbbf8d5309eaf556407eff9bd83}
+      \strng{authorbibnamehash}{b24c1dbbf8d5309eaf556407eff9bd83}
+      \strng{authornamehash}{b24c1dbbf8d5309eaf556407eff9bd83}
+      \strng{authorfullhash}{b24c1dbbf8d5309eaf556407eff9bd83}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{The Indian Express}
+      \field{month}{8}
+      \field{title}{Despite Boom, Govt Bans All Livestock Exports from Ports Indefinitely}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2O02BLh
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2O02BLh
+      \endverb
+    \endentry
+    \entry{laportapaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=a881d517d12790d05826cd07e3e8746c}{%
+           family={La\bibnamedelima Porta},
+           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=73d7bf2d3105674f373111fc7356eec3}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0145f5ed0e798a2e8568429d7bcbcd9}
+      \strng{fullhash}{c0145f5ed0e798a2e8568429d7bcbcd9}
+      \strng{bibnamehash}{c0145f5ed0e798a2e8568429d7bcbcd9}
+      \strng{authorbibnamehash}{c0145f5ed0e798a2e8568429d7bcbcd9}
+      \strng{authornamehash}{c0145f5ed0e798a2e8568429d7bcbcd9}
+      \strng{authorfullhash}{c0145f5ed0e798a2e8568429d7bcbcd9}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Perspectives}
+      \field{title}{Informality and Development}
+      \field{year}{2014}
+      \field{pages}{109\bibrangedash 26}
+      \range{pages}{18}
+      \verb{urlraw}
+      \verb http://bit.ly/2xMknYD
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xMknYD
+      \endverb
+    \endentry
+    \entry{maanvinews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6046b970815c6506d13cfde9e5aaf57f}{%
+           family={Maanvi},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6046b970815c6506d13cfde9e5aaf57f}
+      \strng{fullhash}{6046b970815c6506d13cfde9e5aaf57f}
+      \strng{bibnamehash}{6046b970815c6506d13cfde9e5aaf57f}
+      \strng{authorbibnamehash}{6046b970815c6506d13cfde9e5aaf57f}
+      \strng{authornamehash}{6046b970815c6506d13cfde9e5aaf57f}
+      \strng{authorfullhash}{6046b970815c6506d13cfde9e5aaf57f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{The Quint}
+      \field{month}{8}
+      \field{title}{Livestock Electrocuted, Skinned Alive at Ghazipur Slaughterhouse}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2xvH3gd
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xvH3gd
+      \endverb
+    \endentry
+    \entry{mahaptranews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0281847bca1611e8aca8a2250c0d74cb}{%
+           family={Mahapatra},
+           familyi={M\bibinitperiod},
+           given={Dhananjay},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0281847bca1611e8aca8a2250c0d74cb}
+      \strng{fullhash}{0281847bca1611e8aca8a2250c0d74cb}
+      \strng{bibnamehash}{0281847bca1611e8aca8a2250c0d74cb}
+      \strng{authorbibnamehash}{0281847bca1611e8aca8a2250c0d74cb}
+      \strng{authornamehash}{0281847bca1611e8aca8a2250c0d74cb}
+      \strng{authorfullhash}{0281847bca1611e8aca8a2250c0d74cb}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{journaltitle}{The Times of India}
+      \field{month}{3}
+      \field{title}{Hi-tech Abattoir Lacks Basics}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2NrOyPf
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2NrOyPf
+      \endverb
+    \endentry
+    \entry{economicreport}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b87fa3059bbacd689a27a5455349f889}{%
+           family={{Ministry of Finance}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b87fa3059bbacd689a27a5455349f889}
+      \strng{fullhash}{b87fa3059bbacd689a27a5455349f889}
+      \strng{bibnamehash}{b87fa3059bbacd689a27a5455349f889}
+      \strng{authorbibnamehash}{b87fa3059bbacd689a27a5455349f889}
+      \strng{authornamehash}{b87fa3059bbacd689a27a5455349f889}
+      \strng{authorfullhash}{b87fa3059bbacd689a27a5455349f889}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{month}{1}
+      \field{title}{Economic Survey 2017-18 Statistical Appendix}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2IrDw6J
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2IrDw6J
+      \endverb
+    \endentry
+    \entry{mspireport}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=da851049d2cefa083c912be5462e0f6f}{%
+           family={{Ministry of Statistics and Programme Implementation}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{da851049d2cefa083c912be5462e0f6f}
+      \strng{fullhash}{da851049d2cefa083c912be5462e0f6f}
+      \strng{bibnamehash}{da851049d2cefa083c912be5462e0f6f}
+      \strng{authorbibnamehash}{da851049d2cefa083c912be5462e0f6f}
+      \strng{authornamehash}{da851049d2cefa083c912be5462e0f6f}
+      \strng{authorfullhash}{da851049d2cefa083c912be5462e0f6f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nutritional Intake in India}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb http://bit.ly/2QOztWb
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2QOztWb
+      \endverb
+    \endentry
+    \entry{mortonpaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=70b708c2867f51dc8a1b9f8aa7bfe476}{%
+           family={Morton},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b11c0129ab52c837d3c55666e66376c3}{%
+           family={Sophister},
+           familyi={S\bibinitperiod},
+           given={Senior},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a553144b4a47a70f924c210bc1328765}
+      \strng{fullhash}{a553144b4a47a70f924c210bc1328765}
+      \strng{bibnamehash}{a553144b4a47a70f924c210bc1328765}
+      \strng{authorbibnamehash}{a553144b4a47a70f924c210bc1328765}
+      \strng{authornamehash}{a553144b4a47a70f924c210bc1328765}
+      \strng{authorfullhash}{a553144b4a47a70f924c210bc1328765}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trinity College Dublin}
+      \field{title}{Monopoly and X-Efficiency}
+      \field{year}{1995}
+      \verb{urlraw}
+      \verb http://bit.ly/2xtGWll
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xtGWll
+      \endverb
+    \endentry
+    \entry{oecdreport}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procedural Fairness and Transparency}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb http://bit.ly/2OHmofU
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2OHmofU
+      \endverb
+    \endentry
+    \entry{oecd1report}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Regulatory Enforcement and Inspections}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb http://bit.ly/2NYYWgZ
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2NYYWgZ
+      \endverb
+    \endentry
+    \entry{petareport}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=715760353fbc0c6d786307ad2b49a4c1}{%
+           family={PETA},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{715760353fbc0c6d786307ad2b49a4c1}
+      \strng{fullhash}{715760353fbc0c6d786307ad2b49a4c1}
+      \strng{bibnamehash}{715760353fbc0c6d786307ad2b49a4c1}
+      \strng{authorbibnamehash}{715760353fbc0c6d786307ad2b49a4c1}
+      \strng{authornamehash}{715760353fbc0c6d786307ad2b49a4c1}
+      \strng{authorfullhash}{715760353fbc0c6d786307ad2b49a4c1}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Animals Electrocuted at Ghazipur Slaughterhouse}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2xAoGXJ
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xAoGXJ
+      \endverb
+    \endentry
+    \entry{praderepaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3c62fafd2207852e24c774d9839b41da}{%
+           family={Pradere},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c62fafd2207852e24c774d9839b41da}
+      \strng{fullhash}{3c62fafd2207852e24c774d9839b41da}
+      \strng{bibnamehash}{3c62fafd2207852e24c774d9839b41da}
+      \strng{authorbibnamehash}{3c62fafd2207852e24c774d9839b41da}
+      \strng{authornamehash}{3c62fafd2207852e24c774d9839b41da}
+      \strng{authorfullhash}{3c62fafd2207852e24c774d9839b41da}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{World Organisation for Animal Health. Revue Scientifique Et Technique}
+      \field{title}{Links Between Livestock Production, the Environment and Sustainable Development}
+      \field{year}{2014}
+      \field{pages}{765\bibrangedash 81\bibrangessep 745\bibrangedash 63}
+      \range{pages}{36}
+      \verb{urlraw}
+      \verb http://bit.ly/2NrCca3
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2NrCca3
+      \endverb
+    \endentry
+    \entry{roychapter}{incollection}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=d7955df5a99c58d1da544044c38318ea}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Shubho},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=03d6f0bfac38ac1eece36ef1b29a2686}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9cd0c2bbb261c44d8f9ca8153f3cc3d2}{%
+           family={Srikrishna},
+           familyi={S\bibinitperiod},
+           given={B.\bibnamedelimi N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e05b12c0a11d2e13b5d5eb053a42105e}{%
+           family={Sundaresan},
+           familyi={S\bibinitperiod},
+           given={Somasekhar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford: Hart Publishing}%
+      }
+      \strng{namehash}{3f8a74af7a6afcadd4ef971596931e06}
+      \strng{fullhash}{7c15fdec8aa73fdba55de6ca55c978be}
+      \strng{bibnamehash}{7c15fdec8aa73fdba55de6ca55c978be}
+      \strng{authorbibnamehash}{7c15fdec8aa73fdba55de6ca55c978be}
+      \strng{authornamehash}{3f8a74af7a6afcadd4ef971596931e06}
+      \strng{authorfullhash}{7c15fdec8aa73fdba55de6ca55c978be}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Regulation in India: Design, Capacity, Performance}
+      \field{title}{Building State Capacity for Regulation in India}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://bit.ly/2xuRmky
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xuRmky
+      \endverb
+    \endentry
+    \entry{sharmanews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=56341872331ec98888ffdcd538dc45d6}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Betwa},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{56341872331ec98888ffdcd538dc45d6}
+      \strng{fullhash}{56341872331ec98888ffdcd538dc45d6}
+      \strng{bibnamehash}{56341872331ec98888ffdcd538dc45d6}
+      \strng{authorbibnamehash}{56341872331ec98888ffdcd538dc45d6}
+      \strng{authornamehash}{56341872331ec98888ffdcd538dc45d6}
+      \strng{authorfullhash}{56341872331ec98888ffdcd538dc45d6}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{5}
+      \field{journaltitle}{The New York Times}
+      \field{month}{12}
+      \field{title}{India, World’s Largest Livestock Owner, Balks at Farming Gas Curbs in Doha}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://nyti.ms/2OBNd4W
+      \endverb
+      \verb{url}
+      \verb https://nyti.ms/2OBNd4W
+      \endverb
+    \endentry
+    \entry{singhnews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7f4ff78752eea951f7764dcbcc7f99ab}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Paras},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7f4ff78752eea951f7764dcbcc7f99ab}
+      \strng{fullhash}{7f4ff78752eea951f7764dcbcc7f99ab}
+      \strng{bibnamehash}{7f4ff78752eea951f7764dcbcc7f99ab}
+      \strng{authorbibnamehash}{7f4ff78752eea951f7764dcbcc7f99ab}
+      \strng{authornamehash}{7f4ff78752eea951f7764dcbcc7f99ab}
+      \strng{authorfullhash}{7f4ff78752eea951f7764dcbcc7f99ab}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{journaltitle}{The Times of India}
+      \field{month}{7}
+      \field{title}{Delhi’s First Pig Abattoir to Come Up in Four Years}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2QL9YoB
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2QL9YoB
+      \endverb
+    \endentry
+    \entry{hindunews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4a7f51602abe32a9ccbe95c3f8c27bf2}{%
+           family={{The Hindu}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{fullhash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{bibnamehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{authorbibnamehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{authornamehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{authorfullhash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{journaltitle}{The Hindu}
+      \field{month}{9}
+      \field{title}{Ghazipur Slaughterhouse Made Fully Functional}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2xtIj3t
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xtIj3t
+      \endverb
+    \endentry
+    \entry{tnnnews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cccd6667201635a856f19a655f44b38a}{%
+           family={{TNN}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{cccd6667201635a856f19a655f44b38a}
+      \strng{fullhash}{cccd6667201635a856f19a655f44b38a}
+      \strng{bibnamehash}{cccd6667201635a856f19a655f44b38a}
+      \strng{authorbibnamehash}{cccd6667201635a856f19a655f44b38a}
+      \strng{authornamehash}{cccd6667201635a856f19a655f44b38a}
+      \strng{authorfullhash}{cccd6667201635a856f19a655f44b38a}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{journaltitle}{The Times of India}
+      \field{month}{8}
+      \field{title}{Government Seeks Land for Pig Slaughterhouse}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2xvIew9
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xvIew9
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

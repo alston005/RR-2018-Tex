@@ -1,0 +1,1104 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{anthopoulos2007applying}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=cec9b1f6ecf4a14dca28b5dbf2a827e3}{%
+           family={Anthopoulos},
+           familyi={A\bibinitperiod},
+           given={Leo\bibnamedelima G},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5acb59ffa814361a6f5d00d22e0b2c83}{%
+           family={Siozos},
+           familyi={S\bibinitperiod},
+           given={Panagiotis},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3236f95c5173e1c84be66e7714ee3205}{%
+           family={Tsoukalas},
+           familyi={T\bibinitperiod},
+           given={Ioannis\bibnamedelima A},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a2b71eb961e1caaa28a15c3a69cb6788}
+      \strng{fullhash}{a2b71eb961e1caaa28a15c3a69cb6788}
+      \strng{bibnamehash}{a2b71eb961e1caaa28a15c3a69cb6788}
+      \strng{authorbibnamehash}{a2b71eb961e1caaa28a15c3a69cb6788}
+      \strng{authornamehash}{a2b71eb961e1caaa28a15c3a69cb6788}
+      \strng{authorfullhash}{a2b71eb961e1caaa28a15c3a69cb6788}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Government Information Quarterly}
+      \field{number}{2}
+      \field{title}{Applying participatory design and collaboration in digital public services for discovering and re-designing e-Government services}
+      \field{volume}{24}
+      \field{year}{2007}
+      \field{pages}{353\bibrangedash 376}
+      \range{pages}{24}
+      \verb{urlraw}
+      \verb https://bit.ly/2QyZmZU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2QyZmZU
+      \endverb
+    \endentry
+    \entry{bardhan1997corruption}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=57599bab6bdb7a828c09a70d7d007367}{%
+           family={Bardhan},
+           familyi={B\bibinitperiod},
+           given={Pranab},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{57599bab6bdb7a828c09a70d7d007367}
+      \strng{fullhash}{57599bab6bdb7a828c09a70d7d007367}
+      \strng{bibnamehash}{57599bab6bdb7a828c09a70d7d007367}
+      \strng{authorbibnamehash}{57599bab6bdb7a828c09a70d7d007367}
+      \strng{authornamehash}{57599bab6bdb7a828c09a70d7d007367}
+      \strng{authorfullhash}{57599bab6bdb7a828c09a70d7d007367}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of economic literature}
+      \field{number}{3}
+      \field{title}{Corruption and development: a review of issues}
+      \field{volume}{35}
+      \field{year}{1997}
+      \field{pages}{1320\bibrangedash 1346}
+      \range{pages}{27}
+      \verb{urlraw}
+      \verb https://bit.ly/1h63tEE
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/1h63tEE
+      \endverb
+    \endentry
+    \entry{cigie2012}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=11649a754c1d93f47a4b7b85fd046c2c}{%
+           family={CIGIE},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Council of the Inspectorate General on Integrity}%
+        {Efficiency (CIGIE)}%
+      }
+      \strng{namehash}{11649a754c1d93f47a4b7b85fd046c2c}
+      \strng{fullhash}{11649a754c1d93f47a4b7b85fd046c2c}
+      \strng{bibnamehash}{11649a754c1d93f47a4b7b85fd046c2c}
+      \strng{authorbibnamehash}{11649a754c1d93f47a4b7b85fd046c2c}
+      \strng{authornamehash}{11649a754c1d93f47a4b7b85fd046c2c}
+      \strng{authorfullhash}{11649a754c1d93f47a4b7b85fd046c2c}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Quality Standards for Inspections and Evaluations}
+      \field{type}{techreport}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://bit.ly/2NOIhfO
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NOIhfO
+      \endverb
+    \endentry
+    \entry{ficci2017foodservindustry}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0fb7364b61c9f2fe2e482d1db63e48a1}{%
+           family={Dabas},
+           familyi={D\bibinitperiod},
+           given={Suman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3f60f4bdffda9ee0d6e8e10e53481bfc}{%
+           family={Lunawat},
+           familyi={L\bibinitperiod},
+           given={Himanshu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {Technopak}%
+        {Federation of Indian Chambers of Commerce \& Industry (FICCI)}%
+      }
+      \strng{namehash}{b483733faabdb52c53498a0444452f4c}
+      \strng{fullhash}{b483733faabdb52c53498a0444452f4c}
+      \strng{bibnamehash}{b483733faabdb52c53498a0444452f4c}
+      \strng{authorbibnamehash}{b483733faabdb52c53498a0444452f4c}
+      \strng{authornamehash}{b483733faabdb52c53498a0444452f4c}
+      \strng{authorfullhash}{b483733faabdb52c53498a0444452f4c}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Indian Food Service Industry: Engine for Economic Growth and Employment}
+      \field{type}{techreport}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://bit.ly/2pc6VJi
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2pc6VJi
+      \endverb
+    \endentry
+    \entry{djankov2002regulation}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a444a1e676b5da6ac976ccca4b65224d}{%
+           family={Djankov},
+           familyi={D\bibinitperiod},
+           given={Simeon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a881d517d12790d05826cd07e3e8746c}{%
+           family={La\bibnamedelima Porta},
+           familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=283ec0c71a4f949044672542ceb681c0}{%
+           family={Lopez-de-Silanes},
+           familyi={L\bibinithyphendelim S\bibinitperiod},
+           given={Florencio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=73d7bf2d3105674f373111fc7356eec3}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{a2d55bd93ea17c8c5b269806b9db54e1}
+      \strng{fullhash}{8266805936f8c8dcd93b3d326b1368e6}
+      \strng{bibnamehash}{8266805936f8c8dcd93b3d326b1368e6}
+      \strng{authorbibnamehash}{8266805936f8c8dcd93b3d326b1368e6}
+      \strng{authornamehash}{a2d55bd93ea17c8c5b269806b9db54e1}
+      \strng{authorfullhash}{8266805936f8c8dcd93b3d326b1368e6}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The quarterly Journal of economics}
+      \field{number}{1}
+      \field{title}{The regulation of entry}
+      \field{volume}{117}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 37}
+      \range{pages}{37}
+      \verb{urlraw}
+      \verb https://bit.ly/2vcWwkt
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2vcWwkt
+      \endverb
+    \endentry
+    \entry{emery2000administrative}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=dc79408a97f194d7e09e2c65ba6a2827}{%
+           family={Emery},
+           familyi={E\bibinitperiod},
+           given={James\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=82835181a18e744baf806c7ec4987eb9}{%
+           family={Spence},
+           familyi={S\bibinitperiod},
+           given={Melvin\bibnamedelimb T\bibnamedelima Jr},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cb7642fd409f1c2eefe7f19dbb9f91cb}{%
+           family={Wells},
+           familyi={W\bibinitperiod},
+           given={Louis\bibnamedelimb T\bibnamedelima Jr},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f503fad799f695d44982cc6f3d176547}{%
+           family={Buehrer},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima S},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The World Bank}%
+      }
+      \strng{namehash}{6273a9048a1e738f7ad048e9be13faea}
+      \strng{fullhash}{f894d869b679193a88f0d37b9313b37d}
+      \strng{bibnamehash}{f894d869b679193a88f0d37b9313b37d}
+      \strng{authorbibnamehash}{f894d869b679193a88f0d37b9313b37d}
+      \strng{authornamehash}{6273a9048a1e738f7ad048e9be13faea}
+      \strng{authorfullhash}{f894d869b679193a88f0d37b9313b37d}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Administrative barriers to foreign investment: Reducing red tape in Africa}
+      \field{year}{2000}
+      \verb{urlraw}
+      \verb https://bit.ly/2xgutAo
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xgutAo
+      \endverb
+    \endentry
+    \entry{fp2018khanmarketsealing}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=623aa077d204e71ed8528e86fcd497ea}{%
+           family={{Firstpost}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{623aa077d204e71ed8528e86fcd497ea}
+      \strng{fullhash}{623aa077d204e71ed8528e86fcd497ea}
+      \strng{bibnamehash}{623aa077d204e71ed8528e86fcd497ea}
+      \strng{authorbibnamehash}{623aa077d204e71ed8528e86fcd497ea}
+      \strng{authornamehash}{623aa077d204e71ed8528e86fcd497ea}
+      \strng{authorfullhash}{623aa077d204e71ed8528e86fcd497ea}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{journaltitle}{Firstpost}
+      \field{month}{1}
+      \field{title}{In Kamala Mills fire aftermath, NDMC to seal 30 restaurants in Delhi's Khan Market today for misuse of land}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2xiDuJr
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xiDuJr
+      \endverb
+    \endentry
+    \entry{hertog2010}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=17bdd807940cc685111401730d0a4ce9}{%
+           family={Hertog},
+           familyi={H\bibinitperiod},
+           given={Johan\bibnamedelima de.},
+           giveni={J\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Utrecht University}%
+      }
+      \strng{namehash}{17bdd807940cc685111401730d0a4ce9}
+      \strng{fullhash}{17bdd807940cc685111401730d0a4ce9}
+      \strng{bibnamehash}{17bdd807940cc685111401730d0a4ce9}
+      \strng{authorbibnamehash}{17bdd807940cc685111401730d0a4ce9}
+      \strng{authornamehash}{17bdd807940cc685111401730d0a4ce9}
+      \strng{authorfullhash}{17bdd807940cc685111401730d0a4ce9}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{note}{Discussion Paper}
+      \field{title}{Review of Economic Theories of Regulations}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://bit.ly/2xI3gHb
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xI3gHb
+      \endverb
+    \endentry
+    \entry{ht2017delhkvsealing}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=99971f10cd792446173a197631779f65}{%
+           family={{Hindustan Times}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{99971f10cd792446173a197631779f65}
+      \strng{fullhash}{99971f10cd792446173a197631779f65}
+      \strng{bibnamehash}{99971f10cd792446173a197631779f65}
+      \strng{authorbibnamehash}{99971f10cd792446173a197631779f65}
+      \strng{authornamehash}{99971f10cd792446173a197631779f65}
+      \strng{authorfullhash}{99971f10cd792446173a197631779f65}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{journaltitle}{Hindustan Times}
+      \field{month}{9}
+      \field{title}{21 ‘Polluting’ Restaurants Sealed In South Delhi’s Popular Hauz Khas Village}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2p9aIY3
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2p9aIY3
+      \endverb
+    \endentry
+    \entry{goitourismstats}{report}{}
+      \list{institution}{1}{%
+        {Market Research Division, Ministry of Tourism, Government of India}%
+      }
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{India Tourism Statistics}
+      \field{urlday}{18}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2jQ3hSM
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2jQ3hSM
+      \endverb
+    \endentry
+    \entry{jacobs2005good}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f89c2bbeebc5a24732ba15df46c8a9f6}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=71cbae7d271b0f8309472e2eafde2740}{%
+           family={Cordova},
+           familyi={C\bibinitperiod},
+           given={C{é}sar},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6b471477e178a01f9766f65b6caa7e0f}
+      \strng{fullhash}{6b471477e178a01f9766f65b6caa7e0f}
+      \strng{bibnamehash}{6b471477e178a01f9766f65b6caa7e0f}
+      \strng{authorbibnamehash}{6b471477e178a01f9766f65b6caa7e0f}
+      \strng{authornamehash}{6b471477e178a01f9766f65b6caa7e0f}
+      \strng{authorfullhash}{6b471477e178a01f9766f65b6caa7e0f}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Report prepared for World Bank Group, Small and Medium Enterprise Department, Washington, DC}
+      \field{title}{Good Practices for regulatory inspections: Guidelines for reformers}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://bit.ly/2QBJ4Q7
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2QBJ4Q7
+      \endverb
+    \endentry
+    \entry{week2018delhirecordedmusicban}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=40f5387cbf71ed13be3414878a0a8df6}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Snigdha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{40f5387cbf71ed13be3414878a0a8df6}
+      \strng{fullhash}{40f5387cbf71ed13be3414878a0a8df6}
+      \strng{bibnamehash}{40f5387cbf71ed13be3414878a0a8df6}
+      \strng{authorbibnamehash}{40f5387cbf71ed13be3414878a0a8df6}
+      \strng{authornamehash}{40f5387cbf71ed13be3414878a0a8df6}
+      \strng{authorfullhash}{40f5387cbf71ed13be3414878a0a8df6}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{journaltitle}{The Week}
+      \field{month}{5}
+      \field{title}{The ban on recorded music in Delhi pubs is as shortsighted as it is useless}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2NO9AHd
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NO9AHd
+      \endverb
+    \endentry
+    \entry{dnahkvsealingdrive}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c959aa07ab5c8ec5d7a7f034a8d2b681}{%
+           family={Javaid},
+           familyi={J\bibinitperiod},
+           given={Sarwat},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c959aa07ab5c8ec5d7a7f034a8d2b681}
+      \strng{fullhash}{c959aa07ab5c8ec5d7a7f034a8d2b681}
+      \strng{bibnamehash}{c959aa07ab5c8ec5d7a7f034a8d2b681}
+      \strng{authorbibnamehash}{c959aa07ab5c8ec5d7a7f034a8d2b681}
+      \strng{authornamehash}{c959aa07ab5c8ec5d7a7f034a8d2b681}
+      \strng{authorfullhash}{c959aa07ab5c8ec5d7a7f034a8d2b681}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{25}
+      \field{journaltitle}{DNA India}
+      \field{month}{9}
+      \field{title}{HKV Loses Sheen After Outlets' Sealing}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2OpYSUv
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2OpYSUv
+      \endverb
+    \endentry
+    \entry{toi2015hkvterraceshut}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=180f6b92473272459dcfede4a66d649e}{%
+           family={Kaushik},
+           familyi={K\bibinitperiod},
+           given={Divya},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{180f6b92473272459dcfede4a66d649e}
+      \strng{fullhash}{180f6b92473272459dcfede4a66d649e}
+      \strng{bibnamehash}{180f6b92473272459dcfede4a66d649e}
+      \strng{authorbibnamehash}{180f6b92473272459dcfede4a66d649e}
+      \strng{authornamehash}{180f6b92473272459dcfede4a66d649e}
+      \strng{authorfullhash}{180f6b92473272459dcfede4a66d649e}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{journaltitle}{The Times of India}
+      \field{month}{8}
+      \field{title}{HKV eateries shut terrace areas after SDMC warning}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2pc7xi4
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2pc7xi4
+      \endverb
+    \endentry
+    \entry{kaushikpd2013formalinformal}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=5621614685920a7fe8df749c0c8ea047}{%
+           family={Kaushik},
+           familyi={K\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {New Delhi}%
+      }
+      \list{publisher}{1}{%
+        {Liberty Institution}%
+      }
+      \strng{namehash}{5621614685920a7fe8df749c0c8ea047}
+      \strng{fullhash}{5621614685920a7fe8df749c0c8ea047}
+      \strng{bibnamehash}{5621614685920a7fe8df749c0c8ea047}
+      \strng{authorbibnamehash}{5621614685920a7fe8df749c0c8ea047}
+      \strng{authornamehash}{5621614685920a7fe8df749c0c8ea047}
+      \strng{authorfullhash}{5621614685920a7fe8df749c0c8ea047}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Formal And Informal Entrepreneurship}
+      \field{year}{2013}
+    \endentry
+    \entry{ie2017delliqlicensebanlifted}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=18582a946a6773c98f6bdb7a488e82ea}{%
+           family={Kaushika},
+           familyi={K\bibinitperiod},
+           given={Pragya},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18582a946a6773c98f6bdb7a488e82ea}
+      \strng{fullhash}{18582a946a6773c98f6bdb7a488e82ea}
+      \strng{bibnamehash}{18582a946a6773c98f6bdb7a488e82ea}
+      \strng{authorbibnamehash}{18582a946a6773c98f6bdb7a488e82ea}
+      \strng{authornamehash}{18582a946a6773c98f6bdb7a488e82ea}
+      \strng{authorfullhash}{18582a946a6773c98f6bdb7a488e82ea}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{journaltitle}{The Indian Express}
+      \field{month}{6}
+      \field{title}{Delhi govt lifts ban on issuing new liquor licences}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2MyJT8Q
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2MyJT8Q
+      \endverb
+    \endentry
+    \entry{dhc2016_kmwavndmc}{report}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{number}{W.P.(C) 3107/2013}
+      \field{title}{Khan Market Welfare Association v New Delhi Municipal Council \& Ors.}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://bit.ly/2p9aT5t
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2p9aT5t
+      \endverb
+    \endentry
+    \entry{kpmg2016foodservindustry}{report}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,uniquepart=base,hash=6bd5bb95d5be8fbd8adacf214432805e}{%
+           family={Maheshwari},
+           familyi={M\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8bb6537a1c3c58e36b48786e199342bd}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Suvasis},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=93bd532c8981c771530489eaad08c46e}{%
+           family={Marwah},
+           familyi={M\bibinitperiod},
+           given={Damandeep},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c98648667dfa6b809da9bc7a1105e63a}{%
+           family={Verma},
+           familyi={V\bibinitperiod},
+           given={Bhavesh},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ec7fd4b672e13722cdd35714cbe6c3cf}{%
+           family={Kapoor},
+           familyi={K\bibinitperiod},
+           given={Ankit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=351b94ab0a814c3509c6c6d5898d9ef9}{%
+           family={Saxena},
+           familyi={S\bibinitperiod},
+           given={Ankit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=193536d17a3e9de8d4233a7fbc42af9d}{%
+           family={Narula},
+           familyi={N\bibinitperiod},
+           given={Jigyasa},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0bbe0937f5a5b8dbf839e5351b2b0dc6}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Shivam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {KPMG}%
+      }
+      \strng{namehash}{085a8259513911cf51e704b72590a2be}
+      \strng{fullhash}{eb0aadf53de4202b3876298137687e7c}
+      \strng{bibnamehash}{eb0aadf53de4202b3876298137687e7c}
+      \strng{authorbibnamehash}{eb0aadf53de4202b3876298137687e7c}
+      \strng{authornamehash}{085a8259513911cf51e704b72590a2be}
+      \strng{authorfullhash}{eb0aadf53de4202b3876298137687e7c}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{India's Food Service Industry}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://bit.ly/2GDGiaS
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2GDGiaS
+      \endverb
+    \endentry
+    \entry{nrai1}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=617a852b0013465869c6d5b9140b2f05}{%
+           family={NRAI},
+           familyi={N\bibinitperiod},
+           given={Team},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{fullhash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{bibnamehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{authorbibnamehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{authornamehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{authorfullhash}{617a852b0013465869c6d5b9140b2f05}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{month}{2}
+      \field{title}{Less licences: Mumbai delivering on promise to make restaurant biz easier}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2MEVeo8
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2MEVeo8
+      \endverb
+    \endentry
+    \entry{nrai2}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=617a852b0013465869c6d5b9140b2f05}{%
+           family={NRAI},
+           familyi={N\bibinitperiod},
+           given={Team},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{fullhash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{bibnamehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{authorbibnamehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{authornamehash}{617a852b0013465869c6d5b9140b2f05}
+      \strng{authorfullhash}{617a852b0013465869c6d5b9140b2f05}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{7}
+      \field{title}{NRAI India Food Services Report (IFSR) 2016 launched by Shri Amitabh Kant in New Delhi}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2xev9XT
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xev9XT
+      \endverb
+    \endentry
+    \entry{toi2016nonewliqlicense}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=01197444b0e44c86f8e18558e3d18d1d}{%
+           family={Pandit},
+           familyi={P\bibinitperiod},
+           given={Ambika},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01197444b0e44c86f8e18558e3d18d1d}
+      \strng{fullhash}{01197444b0e44c86f8e18558e3d18d1d}
+      \strng{bibnamehash}{01197444b0e44c86f8e18558e3d18d1d}
+      \strng{authorbibnamehash}{01197444b0e44c86f8e18558e3d18d1d}
+      \strng{authornamehash}{01197444b0e44c86f8e18558e3d18d1d}
+      \strng{authorfullhash}{01197444b0e44c86f8e18558e3d18d1d}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{6}
+      \field{journaltitle}{The Times of India}
+      \field{month}{10}
+      \field{title}{Delhi Govt Halts Issue Of New Liquor Licences}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2NKaJPZ
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NKaJPZ
+      \endverb
+    \endentry
+    \entry{et2015fbooverregn}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=219596d3a1173fb513a0818d52e8468b}{%
+           family={Philip},
+           familyi={P\bibinitperiod},
+           given={Lijee},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{219596d3a1173fb513a0818d52e8468b}
+      \strng{fullhash}{219596d3a1173fb513a0818d52e8468b}
+      \strng{bibnamehash}{219596d3a1173fb513a0818d52e8468b}
+      \strng{authorbibnamehash}{219596d3a1173fb513a0818d52e8468b}
+      \strng{authornamehash}{219596d3a1173fb513a0818d52e8468b}
+      \strng{authorfullhash}{219596d3a1173fb513a0818d52e8468b}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{The Economic Times}
+      \field{month}{11}
+      \field{title}{Ease of Doing Business: Food and beverages bitten by over regulations}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2QwcK0R
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2QwcK0R
+      \endverb
+    \endentry
+    \entry{rose2008corruption}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4adea73d07c2316585926d5d4f7e1b72}{%
+           family={Rose-Ackerman},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{4adea73d07c2316585926d5d4f7e1b72}
+      \strng{fullhash}{4adea73d07c2316585926d5d4f7e1b72}
+      \strng{bibnamehash}{4adea73d07c2316585926d5d4f7e1b72}
+      \strng{authorbibnamehash}{4adea73d07c2316585926d5d4f7e1b72}
+      \strng{authornamehash}{4adea73d07c2316585926d5d4f7e1b72}
+      \strng{authorfullhash}{4adea73d07c2316585926d5d4f7e1b72}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International peacekeeping}
+      \field{number}{3}
+      \field{title}{Corruption and government}
+      \field{volume}{15}
+      \field{year}{2008}
+      \field{pages}{328\bibrangedash 343}
+      \range{pages}{16}
+      \verb{urlraw}
+      \verb https://bit.ly/2xnY0bu
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xnY0bu
+      \endverb
+    \endentry
+    \entry{shleifer1993corruption}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=73d7bf2d3105674f373111fc7356eec3}{%
+           family={Shleifer},
+           familyi={S\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6567bc0bc604a3e21431ea79708260c9}{%
+           family={Vishny},
+           familyi={V\bibinitperiod},
+           given={Robert\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{1aebefa36cf6ca224efd4e2ddb78c5be}
+      \strng{fullhash}{1aebefa36cf6ca224efd4e2ddb78c5be}
+      \strng{bibnamehash}{1aebefa36cf6ca224efd4e2ddb78c5be}
+      \strng{authorbibnamehash}{1aebefa36cf6ca224efd4e2ddb78c5be}
+      \strng{authornamehash}{1aebefa36cf6ca224efd4e2ddb78c5be}
+      \strng{authorfullhash}{1aebefa36cf6ca224efd4e2ddb78c5be}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The quarterly journal of economics}
+      \field{number}{3}
+      \field{title}{Corruption}
+      \field{volume}{108}
+      \field{year}{1993}
+      \field{pages}{599\bibrangedash 617}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb https://bit.ly/2wBpj0d
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2wBpj0d
+      \endverb
+    \endentry
+    \entry{sri1999}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=075eb227d59afafc424a34eb83e54212}{%
+           family={SRI},
+           familyi={S\bibinitperiod},
+           given={International},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {SRI International}%
+      }
+      \strng{namehash}{075eb227d59afafc424a34eb83e54212}
+      \strng{fullhash}{075eb227d59afafc424a34eb83e54212}
+      \strng{bibnamehash}{075eb227d59afafc424a34eb83e54212}
+      \strng{authorbibnamehash}{075eb227d59afafc424a34eb83e54212}
+      \strng{authornamehash}{075eb227d59afafc424a34eb83e54212}
+      \strng{authorfullhash}{075eb227d59afafc424a34eb83e54212}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{International Practices and Experiences in Business Startup Procedures}
+      \field{type}{techreport}
+      \field{year}{1999}
+    \endentry
+    \entry{guidemehk}{report}{}
+      \list{institution}{1}{%
+        {Guide Me Hong Kong, Hawksford}%
+      }
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{Starting A Restaurant In Hong Kong}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2CZSySj
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2CZSySj
+      \endverb
+    \endentry
+    \entry{stigler1971theory}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=80b01bda3e48bf0fd0146c53d8fd7894}{%
+           family={Stigler},
+           familyi={S\bibinitperiod},
+           given={George\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{80b01bda3e48bf0fd0146c53d8fd7894}
+      \strng{fullhash}{80b01bda3e48bf0fd0146c53d8fd7894}
+      \strng{bibnamehash}{80b01bda3e48bf0fd0146c53d8fd7894}
+      \strng{authorbibnamehash}{80b01bda3e48bf0fd0146c53d8fd7894}
+      \strng{authornamehash}{80b01bda3e48bf0fd0146c53d8fd7894}
+      \strng{authorfullhash}{80b01bda3e48bf0fd0146c53d8fd7894}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Bell journal of economics and management science}
+      \field{title}{The theory of economic regulation}
+      \field{year}{1971}
+      \field{pages}{3\bibrangedash 21}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb https://bit.ly/2NiECrp
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NiECrp
+      \endverb
+    \endentry
+    \entry{hindu2018recordedmusicnoban}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4a7f51602abe32a9ccbe95c3f8c27bf2}{%
+           family={{The Hindu}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{fullhash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{bibnamehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{authorbibnamehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{authornamehash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \strng{authorfullhash}{4a7f51602abe32a9ccbe95c3f8c27bf2}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{journaltitle}{The Hindu}
+      \field{month}{5}
+      \field{title}{No ban on recorded music in restaurants}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2MzrCrZ
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2MzrCrZ
+      \endverb
+    \endentry
+    \entry{toi2017rooftopbanCP}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5ae29786629f3fe4fa8365a0c76c8a2f}{%
+           family={{The Times of India}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{fullhash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{bibnamehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{authorbibnamehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{authornamehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{authorfullhash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{journaltitle}{The Times of India}
+      \field{month}{2}
+      \field{title}{NDMC bans rooftop meals at Connaught Place eateries}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2On5hzH
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2On5hzH
+      \endverb
+    \endentry
+    \entry{toi2018ehl}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5ae29786629f3fe4fa8365a0c76c8a2f}{%
+           family={{The Times of India}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{fullhash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{bibnamehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{authorbibnamehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{authornamehash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \strng{authorfullhash}{5ae29786629f3fe4fa8365a0c76c8a2f}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{journaltitle}{The Times of India}
+      \field{month}{3}
+      \field{title}{Eateries don't need police licence now}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2Qwf5sF
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2Qwf5sF
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

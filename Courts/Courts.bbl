@@ -1,0 +1,674 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{applebaumpapers}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0589c5531e038630e314a354e4f0700a}{%
+           family={Applebaum},
+           familyi={A\bibinitperiod},
+           given={Lee},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0589c5531e038630e314a354e4f0700a}
+      \strng{fullhash}{0589c5531e038630e314a354e4f0700a}
+      \strng{bibnamehash}{0589c5531e038630e314a354e4f0700a}
+      \strng{authorbibnamehash}{0589c5531e038630e314a354e4f0700a}
+      \strng{authornamehash}{0589c5531e038630e314a354e4f0700a}
+      \strng{authorfullhash}{0589c5531e038630e314a354e4f0700a}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Future Trends in State Courts}
+      \field{year}{2011}
+      \field{pages}{70\bibrangedash 75}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://bit.ly/2QV6q2Z
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2QV6q2Z
+      \endverb
+    \endentry
+    \entry{balmerreport}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b226757316a79c54771198d4c47dbb6a}{%
+           family={Balmer},
+           familyi={B\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0456d1aa3e0682a21f7c1e777f79b73e}{%
+           family={Genn},
+           familyi={G\bibinitperiod},
+           given={Dame\bibnamedelima Hazel},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {UCL Judicial Institute}%
+      }
+      \strng{namehash}{533a9ae32dd30c57e832febb82ddc48a}
+      \strng{fullhash}{533a9ae32dd30c57e832febb82ddc48a}
+      \strng{bibnamehash}{533a9ae32dd30c57e832febb82ddc48a}
+      \strng{authorbibnamehash}{533a9ae32dd30c57e832febb82ddc48a}
+      \strng{authornamehash}{533a9ae32dd30c57e832febb82ddc48a}
+      \strng{authorfullhash}{533a9ae32dd30c57e832febb82ddc48a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Court of Appeal: T\&M Data Analysis}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://bit.ly/2yqdD3p
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2yqdD3p
+      \endverb
+    \endentry
+    \entry{dakoliapapers}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6a9822ef61081c8c90032c4969d6be16}{%
+           family={Dakolias},
+           familyi={D\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a9822ef61081c8c90032c4969d6be16}
+      \strng{fullhash}{6a9822ef61081c8c90032c4969d6be16}
+      \strng{bibnamehash}{6a9822ef61081c8c90032c4969d6be16}
+      \strng{authorbibnamehash}{6a9822ef61081c8c90032c4969d6be16}
+      \strng{authornamehash}{6a9822ef61081c8c90032c4969d6be16}
+      \strng{authorfullhash}{6a9822ef61081c8c90032c4969d6be16}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Yale Human Rights and Development Journal}
+      \field{title}{Court Performance Around the World: A Comparative Perspective}
+      \field{volume}{2}
+      \field{year}{1999}
+      \verb{urlraw}
+      \verb http://bit.ly/2xyPkA9
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xyPkA9
+      \endverb
+    \endentry
+    \entry{buscagliareport}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6a9822ef61081c8c90032c4969d6be16}{%
+           family={Dakolias},
+           familyi={D\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0a5a802e29d73f57221f0448b4f9930e}{%
+           family={Buscaglia},
+           familyi={B\bibinitperiod},
+           given={Edgardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {World Bank}%
+      }
+      \strng{namehash}{267db2467f6f8ce849b9949bfde711cb}
+      \strng{fullhash}{267db2467f6f8ce849b9949bfde711cb}
+      \strng{bibnamehash}{267db2467f6f8ce849b9949bfde711cb}
+      \strng{authorbibnamehash}{267db2467f6f8ce849b9949bfde711cb}
+      \strng{authornamehash}{267db2467f6f8ce849b9949bfde711cb}
+      \strng{authorfullhash}{267db2467f6f8ce849b9949bfde711cb}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Judicial Reform in Latin American Courts: The Experience in Argentina and Ecuador}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb https://bit.ly/2S1FmzI
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2S1FmzI
+      \endverb
+    \endentry
+    \entry{WBreport}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=6a9822ef61081c8c90032c4969d6be16}{%
+           family={Dakolias},
+           familyi={D\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6d357469d6a6e45d2f8e279982aba36e}{%
+           family={Freestone},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6118c44ad93841a86937120fd642e4a1}{%
+           family={Kyle},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {World Bank}%
+      }
+      \strng{namehash}{b9b30ece3fc0013ded7b5d3259cf0bcf}
+      \strng{fullhash}{b9b30ece3fc0013ded7b5d3259cf0bcf}
+      \strng{bibnamehash}{b9b30ece3fc0013ded7b5d3259cf0bcf}
+      \strng{authorbibnamehash}{b9b30ece3fc0013ded7b5d3259cf0bcf}
+      \strng{authornamehash}{b9b30ece3fc0013ded7b5d3259cf0bcf}
+      \strng{authorfullhash}{b9b30ece3fc0013ded7b5d3259cf0bcf}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Legal and Judicial Reform: Strategic Directions}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2MXxaNk
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2MXxaNk
+      \endverb
+    \endentry
+    \entry{dakshpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7085ab3fc8d8fadfb83c56fea0c0918c}{%
+           family={DAKSH},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7085ab3fc8d8fadfb83c56fea0c0918c}
+      \strng{fullhash}{7085ab3fc8d8fadfb83c56fea0c0918c}
+      \strng{bibnamehash}{7085ab3fc8d8fadfb83c56fea0c0918c}
+      \strng{authorbibnamehash}{7085ab3fc8d8fadfb83c56fea0c0918c}
+      \strng{authornamehash}{7085ab3fc8d8fadfb83c56fea0c0918c}
+      \strng{authorfullhash}{7085ab3fc8d8fadfb83c56fea0c0918c}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time and Motion Study of Four District and Session Courts in Bangalore, Karnataka}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb http://bit.ly/2xzLO8t
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xzLO8t
+      \endverb
+    \endentry
+    \entry{kennethpaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=07dfdb3e62e4162a8c213dbc659b5580}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Kenneth\bibnamedelima W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07dfdb3e62e4162a8c213dbc659b5580}
+      \strng{fullhash}{07dfdb3e62e4162a8c213dbc659b5580}
+      \strng{bibnamehash}{07dfdb3e62e4162a8c213dbc659b5580}
+      \strng{authorbibnamehash}{07dfdb3e62e4162a8c213dbc659b5580}
+      \strng{authornamehash}{07dfdb3e62e4162a8c213dbc659b5580}
+      \strng{authorfullhash}{07dfdb3e62e4162a8c213dbc659b5580}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{John M. Olin Law \& Economics (Second Series), Working Paper}
+      \field{title}{The Judiciary and Economic Development}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb http://bit.ly/2DrF3Lh
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2DrF3Lh
+      \endverb
+    \endentry
+    \entry{enfcontractreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5095712f30afb0014f459d353af1fa12}{%
+           family={{Department of Industrial Policy and Promotion}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5095712f30afb0014f459d353af1fa12}
+      \strng{fullhash}{5095712f30afb0014f459d353af1fa12}
+      \strng{bibnamehash}{5095712f30afb0014f459d353af1fa12}
+      \strng{authorbibnamehash}{5095712f30afb0014f459d353af1fa12}
+      \strng{authornamehash}{5095712f30afb0014f459d353af1fa12}
+      \strng{authorfullhash}{5095712f30afb0014f459d353af1fa12}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enforcing Contracts}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://bit.ly/2O81DwH
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2O81DwH
+      \endverb
+    \endentry
+    \entry{espositopaper}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=990c8094f6b5542c7db19085107f9825}{%
+           family={Esposito},
+           familyi={E\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=53e40f9e3b95a9c9bb4e0908365d75a1}{%
+           family={Lanau},
+           familyi={L\bibinitperiod},
+           given={Sergi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3278b1a56a245e04d0d6d39abccf55c4}{%
+           family={Pompe},
+           familyi={P\bibinitperiod},
+           given={Sebastiaan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f27ed8ec1dc6596d3d56259c8e964e2f}
+      \strng{fullhash}{f27ed8ec1dc6596d3d56259c8e964e2f}
+      \strng{bibnamehash}{f27ed8ec1dc6596d3d56259c8e964e2f}
+      \strng{authorbibnamehash}{f27ed8ec1dc6596d3d56259c8e964e2f}
+      \strng{authornamehash}{f27ed8ec1dc6596d3d56259c8e964e2f}
+      \strng{authorfullhash}{f27ed8ec1dc6596d3d56259c8e964e2f}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{32}
+      \field{journaltitle}{IMF Working Paper}
+      \field{title}{Judicial System Reform in Italy: A Key to Growth}
+      \field{volume}{14}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb http://bit.ly/2I8eoBU
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2I8eoBU
+      \endverb
+    \endentry
+    \entry{ugandapaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f0f67970b81de43ee636b5a6a0574a79}{%
+           family={{Hon Justice B. J. Odoki}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0f67970b81de43ee636b5a6a0574a79}
+      \strng{fullhash}{f0f67970b81de43ee636b5a6a0574a79}
+      \strng{bibnamehash}{f0f67970b81de43ee636b5a6a0574a79}
+      \strng{authorbibnamehash}{f0f67970b81de43ee636b5a6a0574a79}
+      \strng{authornamehash}{f0f67970b81de43ee636b5a6a0574a79}
+      \strng{authorfullhash}{f0f67970b81de43ee636b5a6a0574a79}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Relevance of Commercial Courts to the Modern Judiciary: A case study from Uganda}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://bit.ly/2O2HgB6
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2O2HgB6
+      \endverb
+    \endentry
+    \entry{Vidhipaper}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=916ce8435ed678e871bba5f520c3e661}{%
+           family={Khaitan},
+           familyi={K\bibinitperiod},
+           given={Nitika},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4cace3e4d20be33d963850c788d3b9a7}{%
+           family={Seetharam},
+           familyi={S\bibinitperiod},
+           given={Shalini},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=431388d0e6ce94173ec90a4ba049f16b}{%
+           family={Chandrashekaran},
+           familyi={C\bibinitperiod},
+           given={Sumathi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f32e3bb20dd01a4daa5ce01771867bb4}
+      \strng{fullhash}{f32e3bb20dd01a4daa5ce01771867bb4}
+      \strng{bibnamehash}{f32e3bb20dd01a4daa5ce01771867bb4}
+      \strng{authorbibnamehash}{f32e3bb20dd01a4daa5ce01771867bb4}
+      \strng{authornamehash}{f32e3bb20dd01a4daa5ce01771867bb4}
+      \strng{authorfullhash}{f32e3bb20dd01a4daa5ce01771867bb4}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vidhi, Centre for Legal Policy}
+      \field{title}{Inefficiency and Judicial Delay: New Insights From the Delhi High Court}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://bit.ly/2xGOQai
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xGOQai
+      \endverb
+    \endentry
+    \entry{lombardreport}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0c038223ea323e3e49a0aa803e105dd2}{%
+           family={Lombard},
+           familyi={L\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cf370a81727e483fb8454d20d6826ec4}{%
+           family={Krafka},
+           familyi={K\bibinitperiod},
+           given={Carol},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Federal Judicial Institute}%
+      }
+      \strng{namehash}{92580a387cfa3362175864c44a266022}
+      \strng{fullhash}{92580a387cfa3362175864c44a266022}
+      \strng{bibnamehash}{92580a387cfa3362175864c44a266022}
+      \strng{authorbibnamehash}{92580a387cfa3362175864c44a266022}
+      \strng{authornamehash}{92580a387cfa3362175864c44a266022}
+      \strng{authorfullhash}{92580a387cfa3362175864c44a266022}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2003–2004 District Court Case-Weighting Study}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://bit.ly/2Am1le9
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2Am1le9
+      \endverb
+    \endentry
+    \entry{MOJUKreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=fab9397882eabf8cbb055cf0569962f2}{%
+           family={{Ministry of Justice}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fab9397882eabf8cbb055cf0569962f2}
+      \strng{fullhash}{fab9397882eabf8cbb055cf0569962f2}
+      \strng{bibnamehash}{fab9397882eabf8cbb055cf0569962f2}
+      \strng{authorbibnamehash}{fab9397882eabf8cbb055cf0569962f2}
+      \strng{authornamehash}{fab9397882eabf8cbb055cf0569962f2}
+      \strng{authorfullhash}{fab9397882eabf8cbb055cf0569962f2}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Civil Justice Statistics Quarterly, England and Wales (Incorporating The Royal Courts of Justice 2015)}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://bit.ly/2NSEFWd
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NSEFWd
+      \endverb
+    \endentry
+    \entry{guilianareport}{report}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=615f8115d9edf4ea3a632a3bf7465308}{%
+           family={Palumbo},
+           familyi={P\bibinitperiod},
+           given={Giuliana},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a63dc744b84e7da06a5a840602a8c304}{%
+           family={Giupponi},
+           familyi={G\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ae2400710f0c542d394eb6806509d6e9}{%
+           family={Nunziata},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a3ed3a6922a49e8bd40ee6c8043c8032}{%
+           family={Mora-Sanguinetti},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {OECD}%
+      }
+      \strng{namehash}{58537321adfecae76b090f378f5d19ef}
+      \strng{fullhash}{3b9551bfca1a4aaac822df518c9b3ebd}
+      \strng{bibnamehash}{3b9551bfca1a4aaac822df518c9b3ebd}
+      \strng{authorbibnamehash}{3b9551bfca1a4aaac822df518c9b3ebd}
+      \strng{authornamehash}{58537321adfecae76b090f378f5d19ef}
+      \strng{authorfullhash}{3b9551bfca1a4aaac822df518c9b3ebd}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Judicial Performance and its determinants: A Cross Country Perspective}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb http://bit.ly/2xKequV
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xKequV
+      \endverb
+    \endentry
+    \entry{circularnews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=22b386e2e730f0fb327ce4483d37b0e0}{%
+           family={{Press Information Bureau}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{fullhash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{bibnamehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{authorbibnamehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{authornamehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{authorfullhash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{journaltitle}{Gazette of India}
+      \field{month}{11}
+      \field{title}{Circular of the High Court of Delhi}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://bit.ly/2xO5QLE
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2xO5QLE
+      \endverb
+    \endentry
+    \entry{shubhopaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=b154b2dbf16d54be7bf888b60758962d}{%
+           family={Regy},
+           familyi={R\bibinitperiod},
+           given={Prasanth\bibnamedelima V.},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d7955df5a99c58d1da544044c38318ea}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Shubho},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9bc7ee2a04d9a1bde31d0af8e1de4785}
+      \strng{fullhash}{9bc7ee2a04d9a1bde31d0af8e1de4785}
+      \strng{bibnamehash}{9bc7ee2a04d9a1bde31d0af8e1de4785}
+      \strng{authorbibnamehash}{9bc7ee2a04d9a1bde31d0af8e1de4785}
+      \strng{authornamehash}{9bc7ee2a04d9a1bde31d0af8e1de4785}
+      \strng{authorfullhash}{9bc7ee2a04d9a1bde31d0af8e1de4785}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NIPFP}
+      \field{title}{Understanding Judicial Delays in Debt Tribunals}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb http://bit.ly/2Q0Cy43
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2Q0Cy43
+      \endverb
+    \endentry
+    \entry{tallaricoreport}{report}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=cb6624a3f9f563723dc5854cec95f2d7}{%
+           family={Tallarico},
+           familyi={T\bibinitperiod},
+           given={Suzanne},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3d1f53b69419031c0b769a61ca8eaba1}{%
+           family={Douglas},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0821643221800e0b3fdb2cc9a6157387}{%
+           family={Friess},
+           familyi={F\bibinitperiod},
+           given={Erika},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NCSC}%
+      }
+      \strng{namehash}{e7106259a3399581054af4bd18e4470e}
+      \strng{fullhash}{e7106259a3399581054af4bd18e4470e}
+      \strng{bibnamehash}{e7106259a3399581054af4bd18e4470e}
+      \strng{authorbibnamehash}{e7106259a3399581054af4bd18e4470e}
+      \strng{authornamehash}{e7106259a3399581054af4bd18e4470e}
+      \strng{authorfullhash}{e7106259a3399581054af4bd18e4470e}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Montana District Court Judicial Weighted Caseload Study}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://bit.ly/2ECIEqG
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2ECIEqG
+      \endverb
+    \endentry
+    \entry{DBreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b7b1392937b89054ef8d8bf494c8dae0}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Bank}%
+      }
+      \strng{namehash}{b7b1392937b89054ef8d8bf494c8dae0}
+      \strng{fullhash}{b7b1392937b89054ef8d8bf494c8dae0}
+      \strng{bibnamehash}{b7b1392937b89054ef8d8bf494c8dae0}
+      \strng{authorbibnamehash}{b7b1392937b89054ef8d8bf494c8dae0}
+      \strng{authornamehash}{b7b1392937b89054ef8d8bf494c8dae0}
+      \strng{authorfullhash}{b7b1392937b89054ef8d8bf494c8dae0}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Enforcing Contracts Questionnaire - New Delhi}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://bit.ly/2O2HUP2
+      \endverb
+      \verb{url}
+      \verb http://bit.ly/2O2HUP2
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

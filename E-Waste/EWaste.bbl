@@ -1,0 +1,1302 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{ahmednews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a502c600a44a86b6af36d3c26f493397}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Syed\bibnamedelima Faraz},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a502c600a44a86b6af36d3c26f493397}
+      \strng{fullhash}{a502c600a44a86b6af36d3c26f493397}
+      \strng{bibnamehash}{a502c600a44a86b6af36d3c26f493397}
+      \strng{authorbibnamehash}{a502c600a44a86b6af36d3c26f493397}
+      \strng{authornamehash}{a502c600a44a86b6af36d3c26f493397}
+      \strng{authorfullhash}{a502c600a44a86b6af36d3c26f493397}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{29}
+      \field{journaltitle}{The Atlantic}
+      \field{month}{9}
+      \field{title}{The Global Cost of Electronic Waste}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2kXWf0L
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2kXWf0L
+      \endverb
+    \endentry
+    \entry{alanews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2b05a7b2c6cf7e0a9921253d6d6e6e9b}{%
+           family={Ala-Kurikka},
+           familyi={A\bibinithyphendelim K\bibinitperiod},
+           given={Susanna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b05a7b2c6cf7e0a9921253d6d6e6e9b}
+      \strng{fullhash}{2b05a7b2c6cf7e0a9921253d6d6e6e9b}
+      \strng{bibnamehash}{2b05a7b2c6cf7e0a9921253d6d6e6e9b}
+      \strng{authorbibnamehash}{2b05a7b2c6cf7e0a9921253d6d6e6e9b}
+      \strng{authornamehash}{2b05a7b2c6cf7e0a9921253d6d6e6e9b}
+      \strng{authorfullhash}{2b05a7b2c6cf7e0a9921253d6d6e6e9b}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{3}
+      \field{journaltitle}{The Guardian}
+      \field{month}{3}
+      \field{title}{Lifespand of Consumer Electronics Is Getting Shorter, Study Finds}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2NsGGNG
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NsGGNG
+      \endverb
+    \endentry
+    \entry{alevphd}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=852f97f2e683c14ecf77af0d64479844}{%
+           family={Alev},
+           familyi={A\bibinitperiod},
+           given={Isil},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Georgia Institue of Technology}%
+      }
+      \strng{namehash}{852f97f2e683c14ecf77af0d64479844}
+      \strng{fullhash}{852f97f2e683c14ecf77af0d64479844}
+      \strng{bibnamehash}{852f97f2e683c14ecf77af0d64479844}
+      \strng{authorbibnamehash}{852f97f2e683c14ecf77af0d64479844}
+      \strng{authornamehash}{852f97f2e683c14ecf77af0d64479844}
+      \strng{authorfullhash}{852f97f2e683c14ecf77af0d64479844}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Operational Perspectives on Extended Producer Responsibility for Durable and Consumable Products}
+      \field{type}{{PhD} dissertation}
+      \field{year}{2015}
+    \endentry
+    \entry{assochamchild}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a96afdb9e5ad9f61eb05354dd687c768}{%
+           family={ASSOCHAM},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{fullhash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{bibnamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authorbibnamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authornamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authorfullhash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{month}{4}
+      \field{title}{Over 4.5 Lakhs Child Labours Engaged in Various E-Waste Activities in India: ASSOCHAM Study; India’s Capital Produces 67,000 MT of Electronic Waste a Year}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2018}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2MJE0Wp
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2MJE0Wp
+      \endverb
+    \endentry
+    \entry{assochamdelhi}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a96afdb9e5ad9f61eb05354dd687c768}{%
+           family={ASSOCHAM},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{fullhash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{bibnamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authorbibnamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authornamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authorfullhash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{9}
+      \field{month}{1}
+      \field{title}{Delhi-NCR will Generate 1,50,000 MT E-Waste by 2020: ASSOCHAM Study}
+      \field{urlday}{19}
+      \field{urlmonth}{6}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2NnIBD8
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NnIBD8
+      \endverb
+    \endentry
+    \entry{assochamstats}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a96afdb9e5ad9f61eb05354dd687c768}{%
+           family={ASSOCHAM},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{fullhash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{bibnamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authorbibnamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authornamehash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \strng{authorfullhash}{a96afdb9e5ad9f61eb05354dd687c768}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{6}
+      \field{title}{India among the top five countries in e-waste generation: ASSOCHAM-NEC study}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2Qf7CNw
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2Qf7CNw
+      \endverb
+    \endentry
+    \entry{assochameyreport}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=a96afdb9e5ad9f61eb05354dd687c768}{%
+           family={ASSOCHAM},
+           familyi={A\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=df1f754d479221cf2b14df8023244f36}{%
+           family={{Ernst \& Young}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7502e38c334a96f30e041b51c9328131}
+      \strng{fullhash}{7502e38c334a96f30e041b51c9328131}
+      \strng{bibnamehash}{7502e38c334a96f30e041b51c9328131}
+      \strng{authorbibnamehash}{7502e38c334a96f30e041b51c9328131}
+      \strng{authornamehash}{7502e38c334a96f30e041b51c9328131}
+      \strng{authorfullhash}{7502e38c334a96f30e041b51c9328131}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Turning the "Make in India" Dream into a Reality for the Electronics and Hardware Industry}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://go.ey.com/2DdFGrN
+      \endverb
+      \verb{url}
+      \verb https://go.ey.com/2DdFGrN
+      \endverb
+    \endentry
+    \entry{assochamnecreport}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=a96afdb9e5ad9f61eb05354dd687c768}{%
+           family={ASSOCHAM},
+           familyi={A\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=7e70c0503999340437163065dbd1b1b7}{%
+           family={NEC},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f0c7646106832ebedd69f2c821b8b7d}
+      \strng{fullhash}{7f0c7646106832ebedd69f2c821b8b7d}
+      \strng{bibnamehash}{7f0c7646106832ebedd69f2c821b8b7d}
+      \strng{authorbibnamehash}{7f0c7646106832ebedd69f2c821b8b7d}
+      \strng{authornamehash}{7f0c7646106832ebedd69f2c821b8b7d}
+      \strng{authorfullhash}{7f0c7646106832ebedd69f2c821b8b7d}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electricals and Electronics Manufacturing in India}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2xBS2DY
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xBS2DY
+      \endverb
+    \endentry
+    \entry{baldereport}{report}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=592fe8cd44a639c421115af782de9d91}{%
+           family={Baldé},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ef51367f2c26757eace73f6041d65e45}{%
+           family={Forti},
+           familyi={F\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8575b4dbce65026697fcb5667bc228aa}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fb6709ff476b39f3bc4a17e017e8f4b1}{%
+           family={Kuehr},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=74e2541721b7df145931b180b3640006}{%
+           family={Stegmann},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {United Nations University (UTU), International Telecommunication Union (ITU), International Solid Waste Association (ISWA)}%
+      }
+      \list{location}{1}{%
+        {Bonn, Geneva, Vienna}%
+      }
+      \strng{namehash}{771c2a730d983e080ce00ca78e62e0eb}
+      \strng{fullhash}{456f7f38edb122c1fe1af8fe1e54b9c4}
+      \strng{bibnamehash}{456f7f38edb122c1fe1af8fe1e54b9c4}
+      \strng{authorbibnamehash}{456f7f38edb122c1fe1af8fe1e54b9c4}
+      \strng{authornamehash}{771c2a730d983e080ce00ca78e62e0eb}
+      \strng{authorfullhash}{456f7f38edb122c1fe1af8fe1e54b9c4}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Global E-Waste Monitor 2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2AnDRmm
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2AnDRmm
+      \endverb
+    \endentry
+    \entry{bhadurinews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dddd30970060269cbea673bab6fae3cc}{%
+           family={Bhaduri},
+           familyi={B\bibinitperiod},
+           given={Amita},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dddd30970060269cbea673bab6fae3cc}
+      \strng{fullhash}{dddd30970060269cbea673bab6fae3cc}
+      \strng{bibnamehash}{dddd30970060269cbea673bab6fae3cc}
+      \strng{authorbibnamehash}{dddd30970060269cbea673bab6fae3cc}
+      \strng{authornamehash}{dddd30970060269cbea673bab6fae3cc}
+      \strng{authorfullhash}{dddd30970060269cbea673bab6fae3cc}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{journaltitle}{YourStory}
+      \field{month}{11}
+      \field{title}{Why Does the World's E-Waste Reach India?}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2AMuWhA
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2AMuWhA
+      \endverb
+    \endentry
+    \entry{bhaskarturagapaperb}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ce0894a037a7002095e4fa4b1c08929e}{%
+           family={Bhaskar},
+           familyi={B\bibinitperiod},
+           given={Kalyan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b22b14433c7e71e96ee7f49b01c8bb8}{%
+           family={Turaga},
+           familyi={T\bibinitperiod},
+           given={Rama\bibnamedelimb Mohana\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{fullhash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{bibnamehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{authorbibnamehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{authornamehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{authorfullhash}{625fca30397cd251e173ba057ec6f8df}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Working Paper, Indian Institute of Management, Ahmedabad}
+      \field{title}{Extended Producer Responsibility as an Instrument for Electronic Waste Management: A Critical Analysis of India’s E-Waste Rules}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2QJgLzd
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2QJgLzd
+      \endverb
+    \endentry
+    \entry{bhaskarturagapapera}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ce0894a037a7002095e4fa4b1c08929e}{%
+           family={Bhaskar},
+           familyi={B\bibinitperiod},
+           given={Kalyan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b22b14433c7e71e96ee7f49b01c8bb8}{%
+           family={Turaga},
+           familyi={T\bibinitperiod},
+           given={Rama\bibnamedelimb Mohana\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{fullhash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{bibnamehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{authorbibnamehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{authornamehash}{625fca30397cd251e173ba057ec6f8df}
+      \strng{authorfullhash}{625fca30397cd251e173ba057ec6f8df}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Journal of Industrial Ecology}
+      \field{title}{India's E‐Waste Rules and Their Impact on E‐Waste Management Practices: A Case Study}
+      \field{volume}{22}
+      \field{year}{2017}
+      \field{pages}{930\bibrangedash 942}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/jiec.12619
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/jiec.12619
+      \endverb
+    \endentry
+    \entry{bhowmicknews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1637788a80162b70fad4867e537fa3b0}{%
+           family={Bhowmick},
+           familyi={B\bibinitperiod},
+           given={Nilanjana},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1637788a80162b70fad4867e537fa3b0}
+      \strng{fullhash}{1637788a80162b70fad4867e537fa3b0}
+      \strng{bibnamehash}{1637788a80162b70fad4867e537fa3b0}
+      \strng{authorbibnamehash}{1637788a80162b70fad4867e537fa3b0}
+      \strng{authornamehash}{1637788a80162b70fad4867e537fa3b0}
+      \strng{authorfullhash}{1637788a80162b70fad4867e537fa3b0}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{journaltitle}{Time}
+      \field{month}{5}
+      \field{title}{Is India's E-Waste Problem Spiraling Out of Control?}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://ti.me/1OhR01W
+      \endverb
+      \verb{url}
+      \verb https://ti.me/1OhR01W
+      \endverb
+    \endentry
+    \entry{cpcbrecyclersreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=892ac5a37ca7339bb0da66b0b6fdf7fd}{%
+           family={{Central Pollution Control Board}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{fullhash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{bibnamehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{authorbibnamehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{authornamehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{authorfullhash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{List of Registered E-Waste Dismantlers/Recyclers in the Country, 2016}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://bit.ly/2D9J1YU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2D9J1YU
+      \endverb
+    \endentry
+    \entry{cpcbproreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=892ac5a37ca7339bb0da66b0b6fdf7fd}{%
+           family={{Central Pollution Control Board}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{fullhash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{bibnamehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{authorbibnamehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{authornamehash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \strng{authorfullhash}{892ac5a37ca7339bb0da66b0b6fdf7fd}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guidelines for Producer Responsibility Organisation (PRO), 2018}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://bit.ly/2NlMicm
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NlMicm
+      \endverb
+    \endentry
+    \entry{csereport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=27a692c0e0334795cf6f4377ef8701e2}{%
+           family={{Centre for Science and Environment}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{27a692c0e0334795cf6f4377ef8701e2}
+      \strng{fullhash}{27a692c0e0334795cf6f4377ef8701e2}
+      \strng{bibnamehash}{27a692c0e0334795cf6f4377ef8701e2}
+      \strng{authorbibnamehash}{27a692c0e0334795cf6f4377ef8701e2}
+      \strng{authornamehash}{27a692c0e0334795cf6f4377ef8701e2}
+      \strng{authorfullhash}{27a692c0e0334795cf6f4377ef8701e2}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Recommendations to Address the Issues of Informal Sector Involved in E-Waste Handling}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2PNXTO4
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2PNXTO4
+      \endverb
+    \endentry
+    \entry{chintanreport}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3cca321d7da4154d9a9a4dedf4808852}{%
+           family={Chaturvedi},
+           familyi={C\bibinitperiod},
+           given={Bharati},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=56656fec156b2570db8c656e339c05bc}{%
+           family={Bharadwaj},
+           familyi={B\bibinitperiod},
+           given={Supriya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {Chintan Environmental Research}%
+        {Action Group}%
+      }
+      \strng{namehash}{625e447e9cb45ea072f73365e3237774}
+      \strng{fullhash}{625e447e9cb45ea072f73365e3237774}
+      \strng{bibnamehash}{625e447e9cb45ea072f73365e3237774}
+      \strng{authorbibnamehash}{625e447e9cb45ea072f73365e3237774}
+      \strng{authornamehash}{625e447e9cb45ea072f73365e3237774}
+      \strng{authorfullhash}{625e447e9cb45ea072f73365e3237774}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning to Re-E-Cycle}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2pmFKeU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2pmFKeU
+      \endverb
+    \endentry
+    \entry{chidambarampaper}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=c165b04af7eeeeeb00fe938a7db85edb}{%
+           family={Chidambaram},
+           familyi={C\bibinitperiod},
+           given={Ramalingam},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=371ebc5860beaa122710a5282817b778}{%
+           family={Samuel},
+           familyi={S\bibinitperiod},
+           given={Melvin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dc54dc340b70e7a1bff333cfb637576f}{%
+           family={Needhidasan},
+           familyi={N\bibinitperiod},
+           given={Santhanam},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7eb42f5e8958f93be4de8383090c87e1}
+      \strng{fullhash}{7eb42f5e8958f93be4de8383090c87e1}
+      \strng{bibnamehash}{7eb42f5e8958f93be4de8383090c87e1}
+      \strng{authorbibnamehash}{7eb42f5e8958f93be4de8383090c87e1}
+      \strng{authornamehash}{7eb42f5e8958f93be4de8383090c87e1}
+      \strng{authorfullhash}{7eb42f5e8958f93be4de8383090c87e1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{36}
+      \field{journaltitle}{Journal of Environmental Health Science and Engineering}
+      \field{title}{Electronic waste—an emerging threat to the environment of urban India}
+      \field{volume}{12}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://bit.ly/2o3RUsE
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2o3RUsE
+      \endverb
+    \endentry
+    \entry{chungchapter}{incollection}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=15bab7fba234b98697bc0617873caf8e}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Sung-Woo},
+           giveni={S\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ec7b6cb41d3cda1aae623d4c6881c2bc}{%
+           family={Murakami-Suzuki},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Rie},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=64deb2b736f5e8cf8af90079d560d6c3}{%
+           family={Kojima},
+           familyi={K\bibinitperiod},
+           given={Michikazu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {IGES}%
+      }
+      \list{location}{1}{%
+        {Japan}%
+      }
+      \strng{namehash}{e0b9d61c44f657c01916dc660961eaf9}
+      \strng{fullhash}{e0b9d61c44f657c01916dc660961eaf9}
+      \strng{bibnamehash}{e0b9d61c44f657c01916dc660961eaf9}
+      \strng{authorbibnamehash}{e0b9d61c44f657c01916dc660961eaf9}
+      \strng{authornamehash}{e0b9d61c44f657c01916dc660961eaf9}
+      \strng{authorfullhash}{e0b9d61c44f657c01916dc660961eaf9}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Extended Producer Responsibility Policy in East Asia}
+      \field{title}{Application of EPR to Recycling Policies in Japan, Korea and Taiwan}
+      \field{year}{2009}
+      \field{pages}{13\bibrangedash 35}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb https://bit.ly/2MJEDPS
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2MJEDPS
+      \endverb
+    \endentry
+    \entry{duflopaper}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=7e6b0ea4eee38822cdb0a4361e98752c}{%
+           family={Duflo},
+           familyi={D\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=23e2201fd0a08bee5f8f929d238f6472}{%
+           family={Greenstone},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f94d9f78f17d3f4d86c9f2826197827}{%
+           family={Pande},
+           familyi={P\bibinitperiod},
+           given={Rohini},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=31a9f17ad26097dc163742971236ea11}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75827442f1b18803d785753869909641}
+      \strng{fullhash}{f9f4be28bb062152c3ae5e571ec50f28}
+      \strng{bibnamehash}{f9f4be28bb062152c3ae5e571ec50f28}
+      \strng{authorbibnamehash}{f9f4be28bb062152c3ae5e571ec50f28}
+      \strng{authornamehash}{75827442f1b18803d785753869909641}
+      \strng{authorfullhash}{f9f4be28bb062152c3ae5e571ec50f28}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{American Economic Review: Papers \& Proceedings}
+      \field{month}{5}
+      \field{title}{What Does Reputation Buy? Differentiation in a Market for Third-Party Auditors}
+      \field{volume}{103}
+      \field{year}{2013}
+      \field{pages}{314\bibrangedash 319}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1257/aer.103.3.314
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1257/aer.103.3.314
+      \endverb
+    \endentry
+    \entry{gidwanicorwinpaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0003c07cdb2e45a6f9ebf49db80883a4}{%
+           family={Gidwani},
+           familyi={G\bibinitperiod},
+           given={Vinay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cf14d9006aa5410ca845fcacefea6ec9}{%
+           family={Corwin},
+           familyi={C\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{371ca4743c3e3b8e0eaeb63f17857337}
+      \strng{fullhash}{371ca4743c3e3b8e0eaeb63f17857337}
+      \strng{bibnamehash}{371ca4743c3e3b8e0eaeb63f17857337}
+      \strng{authorbibnamehash}{371ca4743c3e3b8e0eaeb63f17857337}
+      \strng{authornamehash}{371ca4743c3e3b8e0eaeb63f17857337}
+      \strng{authorfullhash}{371ca4743c3e3b8e0eaeb63f17857337}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{31}
+      \field{journaltitle}{Economic \& Political Weekly}
+      \field{title}{Governance of Waste}
+      \field{volume}{52}
+      \field{year}{2017}
+      \field{pages}{44\bibrangedash 54}
+      \range{pages}{11}
+    \endentry
+    \entry{kumarnews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a695c393b6815b89be7b12cb2c406814}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Rakesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a695c393b6815b89be7b12cb2c406814}
+      \strng{fullhash}{a695c393b6815b89be7b12cb2c406814}
+      \strng{bibnamehash}{a695c393b6815b89be7b12cb2c406814}
+      \strng{authorbibnamehash}{a695c393b6815b89be7b12cb2c406814}
+      \strng{authornamehash}{a695c393b6815b89be7b12cb2c406814}
+      \strng{authorfullhash}{a695c393b6815b89be7b12cb2c406814}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{journaltitle}{The Telegraph}
+      \field{month}{4}
+      \field{title}{The Problem of Electronic Waste}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2NUYXST
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NUYXST
+      \endverb
+    \endentry
+    \entry{kumarsinghpaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6ee89f37be9569c6a82353bf5076e84b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Umesh},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=34e5248e6d37ca0c7d563ebdbcc41c3b}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={D.N.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c05c0e676332699771a6de4da3c297cc}
+      \strng{fullhash}{c05c0e676332699771a6de4da3c297cc}
+      \strng{bibnamehash}{c05c0e676332699771a6de4da3c297cc}
+      \strng{authorbibnamehash}{c05c0e676332699771a6de4da3c297cc}
+      \strng{authornamehash}{c05c0e676332699771a6de4da3c297cc}
+      \strng{authorfullhash}{c05c0e676332699771a6de4da3c297cc}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{International Journal of Engineering Solutions}
+      \field{title}{E-Waste Management through Regulations}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{pages}{06\bibrangedash 14}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://bit.ly/2plcHIX
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2plcHIX
+      \endverb
+    \endentry
+    \entry{mcallisterreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=73ad1acafbd15b222f8a0daa22b4448d}{%
+           family={McAllister},
+           familyi={M\bibinitperiod},
+           given={Lesley\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Administrative Conference of the United States}%
+      }
+      \strng{namehash}{73ad1acafbd15b222f8a0daa22b4448d}
+      \strng{fullhash}{73ad1acafbd15b222f8a0daa22b4448d}
+      \strng{bibnamehash}{73ad1acafbd15b222f8a0daa22b4448d}
+      \strng{authorbibnamehash}{73ad1acafbd15b222f8a0daa22b4448d}
+      \strng{authornamehash}{73ad1acafbd15b222f8a0daa22b4448d}
+      \strng{authorfullhash}{73ad1acafbd15b222f8a0daa22b4448d}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Third-Party Programs to Assess Regulatory Compliance}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://bit.ly/2pn8jcm
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2pn8jcm
+      \endverb
+    \endentry
+    \entry{pibreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=22b386e2e730f0fb327ce4483d37b0e0}{%
+           family={{Press Information Bureau}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{fullhash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{bibnamehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{authorbibnamehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{authornamehash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \strng{authorfullhash}{22b386e2e730f0fb327ce4483d37b0e0}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Salient Features of the E-Waste (Management) Rules, 2016 and Its Likely Implication}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://bit.ly/2xusAQU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xusAQU
+      \endverb
+    \endentry
+    \entry{sahanews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=07c3686dc6d2a1d7f16eae0265957ebc}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={Susmita},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07c3686dc6d2a1d7f16eae0265957ebc}
+      \strng{fullhash}{07c3686dc6d2a1d7f16eae0265957ebc}
+      \strng{bibnamehash}{07c3686dc6d2a1d7f16eae0265957ebc}
+      \strng{authorbibnamehash}{07c3686dc6d2a1d7f16eae0265957ebc}
+      \strng{authornamehash}{07c3686dc6d2a1d7f16eae0265957ebc}
+      \strng{authorfullhash}{07c3686dc6d2a1d7f16eae0265957ebc}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{journaltitle}{Down To Earth}
+      \field{month}{1}
+      \field{title}{E-Waste Contaminating Delhi's Groundwater and Soil}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2xBtevM
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xBtevM
+      \endverb
+    \endentry
+    \entry{shenoynews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=25f06b85a18569e29b25eef8af7b42c0}{%
+           family={Shenoy},
+           familyi={S\bibinitperiod},
+           given={Jaideep},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{25f06b85a18569e29b25eef8af7b42c0}
+      \strng{fullhash}{25f06b85a18569e29b25eef8af7b42c0}
+      \strng{bibnamehash}{25f06b85a18569e29b25eef8af7b42c0}
+      \strng{authorbibnamehash}{25f06b85a18569e29b25eef8af7b42c0}
+      \strng{authornamehash}{25f06b85a18569e29b25eef8af7b42c0}
+      \strng{authorfullhash}{25f06b85a18569e29b25eef8af7b42c0}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{journaltitle}{The Times of India}
+      \field{month}{6}
+      \field{title}{India Among the Top Five Countries in E-Waste Generation: ASSOCHAM-NEC Study}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2xFve9Q
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xFve9Q
+      \endverb
+    \endentry
+    \entry{shorttoffelpaper}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=545d1de3306c33076608601e59974d1c}{%
+           family={Short},
+           familyi={S\bibinitperiod},
+           given={Jodi\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7287b2d6598ade519551d0e558b53cdb}{%
+           family={Toffel},
+           familyi={T\bibinitperiod},
+           given={Michael\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{78594460e58bb4a9d772e9fc26846e14}
+      \strng{fullhash}{78594460e58bb4a9d772e9fc26846e14}
+      \strng{bibnamehash}{78594460e58bb4a9d772e9fc26846e14}
+      \strng{authorbibnamehash}{78594460e58bb4a9d772e9fc26846e14}
+      \strng{authornamehash}{78594460e58bb4a9d772e9fc26846e14}
+      \strng{authorfullhash}{78594460e58bb4a9d772e9fc26846e14}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SSRN}
+      \field{title}{The Integrity of Private Third-Party Compliance Monitoring}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.2139/ssrn.2695429.
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.2139/ssrn.2695429.
+      \endverb
+    \endentry
+    \entry{thakurnews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=9249a246534cc9674258a6d390ea5551}{%
+           family={Thakur},
+           familyi={T\bibinitperiod},
+           given={Joydeep},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9249a246534cc9674258a6d390ea5551}
+      \strng{fullhash}{9249a246534cc9674258a6d390ea5551}
+      \strng{bibnamehash}{9249a246534cc9674258a6d390ea5551}
+      \strng{authorbibnamehash}{9249a246534cc9674258a6d390ea5551}
+      \strng{authornamehash}{9249a246534cc9674258a6d390ea5551}
+      \strng{authorfullhash}{9249a246534cc9674258a6d390ea5551}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{2}
+      \field{journaltitle}{Hindustan Times}
+      \field{month}{11}
+      \field{title}{What Happens to E-Waste: Your Junked Gadgets Come Back to You as Toxic Fumes}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2pjGdP1
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2pjGdP1
+      \endverb
+    \endentry
+    \entry{toxicspaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4a95427428d0d99888ceb65788e49f02}{%
+           family={{Toxics Link}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{fullhash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{bibnamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authorbibnamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authornamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authorfullhash}{4a95427428d0d99888ceb65788e49f02}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{30}
+      \field{journaltitle}{Toxics Dispatch}
+      \field{title}{EPR: A Solution for the E-Waste Problem in India}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://bit.ly/2O0SMwY
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2O0SMwY
+      \endverb
+    \endentry
+    \entry{toxicsreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4a95427428d0d99888ceb65788e49f02}{%
+           family={{Toxics Link}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Toxics Link}%
+      }
+      \list{location}{1}{%
+        {New Delhi}%
+      }
+      \strng{namehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{fullhash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{bibnamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authorbibnamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authornamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authorfullhash}{4a95427428d0d99888ceb65788e49f02}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Impact of E-Waste Recycling on Water and Soil}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://bit.ly/2xvi4Ja
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2xvi4Ja
+      \endverb
+    \endentry
+    \entry{toxicsreportb}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4a95427428d0d99888ceb65788e49f02}{%
+           family={{Toxics Link}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Toxics Link}%
+      }
+      \list{location}{1}{%
+        {New Delhi}%
+      }
+      \strng{namehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{fullhash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{bibnamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authorbibnamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authornamehash}{4a95427428d0d99888ceb65788e49f02}
+      \strng{authorfullhash}{4a95427428d0d99888ceb65788e49f02}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time to Reboot II}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://bit.ly/2N8fb6L
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2N8fb6L
+      \endverb
+    \endentry
+    \entry{veitreport}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4cf4dbe878ed7f30cc51423a7f5a61d5}{%
+           family={Veit},
+           familyi={V\bibinitperiod},
+           given={Ralph},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {SAGIS EPR}%
+      }
+      \strng{namehash}{4cf4dbe878ed7f30cc51423a7f5a61d5}
+      \strng{fullhash}{4cf4dbe878ed7f30cc51423a7f5a61d5}
+      \strng{bibnamehash}{4cf4dbe878ed7f30cc51423a7f5a61d5}
+      \strng{authorbibnamehash}{4cf4dbe878ed7f30cc51423a7f5a61d5}
+      \strng{authornamehash}{4cf4dbe878ed7f30cc51423a7f5a61d5}
+      \strng{authorfullhash}{4cf4dbe878ed7f30cc51423a7f5a61d5}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Evolution of Producer Responsibility and Product Stewardship}
+      \field{urlday}{6}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2MIRf9P
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2MIRf9P
+      \endverb
+    \endentry
+    \entry{wallschapter}{incollection}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3bce1fb64aeab1d7685a32fa1d980822}{%
+           family={Walls},
+           familyi={W\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {OECD}%
+      }
+      \strng{namehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{fullhash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{bibnamehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{authorbibnamehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{authornamehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{authorfullhash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Economic Aspects of Extended Producer Responsibility}
+      \field{title}{EPR Policy Goals and Policy Choices: What Does Economics Tell Us?}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://bit.ly/2Dd6f0i
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2Dd6f0i
+      \endverb
+    \endentry
+    \entry{wallspaper}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3bce1fb64aeab1d7685a32fa1d980822}{%
+           family={Walls},
+           familyi={W\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{fullhash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{bibnamehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{authorbibnamehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{authornamehash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \strng{authorfullhash}{3bce1fb64aeab1d7685a32fa1d980822}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Resources for the Future, Discussion Paper}
+      \field{title}{Deposit-Refund Systems in Practice and Theory}
+      \field{year}{2011}
+      \field{pages}{11\bibrangedash 47}
+      \range{pages}{37}
+      \verb{urlraw}
+      \verb https://bit.ly/2MN6U82
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2MN6U82
+      \endverb
+    \endentry
+    \entry{worstallnews}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=f216ab99cbebced062fa99fa21306674}{%
+           family={Worstall},
+           familyi={W\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f216ab99cbebced062fa99fa21306674}
+      \strng{fullhash}{f216ab99cbebced062fa99fa21306674}
+      \strng{bibnamehash}{f216ab99cbebced062fa99fa21306674}
+      \strng{authorbibnamehash}{f216ab99cbebced062fa99fa21306674}
+      \strng{authornamehash}{f216ab99cbebced062fa99fa21306674}
+      \strng{authorfullhash}{f216ab99cbebced062fa99fa21306674}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{journaltitle}{Forbes}
+      \field{month}{3}
+      \field{title}{India Almost Gets E-Waste Recycling Right But Not Quite}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://bit.ly/2NqYgkU
+      \endverb
+      \verb{url}
+      \verb https://bit.ly/2NqYgkU
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,131 @@
+% !TEX TS?program = pdflatexmk
+\documentclass[a4paper, 12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+
+
+%\renewcommand{\baselinestretch}{1.0} 
+                    
+                    
+%Margins
+\usepackage[left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm, includefoot]{geometry}
+%geometry{a4paper, total={170mm,257mm}, left=25.4mm, right = 25.4mm, top=25.4mm, bottom=25.4mm}
+\setlength{\parindent}{0in}
+\usepackage{enumitem}
+       
+                   
+%Adding Pictures
+\usepackage{graphicx}
+\usepackage{float}
+          
+                    
+%Header and Footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{ \thepage\ }
+\renewcommand{\headrulewidth}{0pt} %change the pt width to insert header line
+\renewcommand{\footrulewidth}{0pt} %change the pt width to insert footer line
+\usepackage{amsmath}
+\fancyhf{}
+               
+                    
+%\rhead{\leftmark}
+%\lhead{Guides and tutorials}
+%\rfoot{Centre for Civil Society \hspace{1mm} \textbar \hspace{1mm} www.ccs.in \hspace{2mm}  \thepage}
+%\lfoot{\leftmark}% get the section heading on the footer 
+            
+                                      
+%Tables
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{subfig}
+\captionsetup{aboveskip=14pt,}
+\captionsetup[table]{singlelinecheck = false}
+	
+                    
+%Coloured Boxes
+\usepackage{xcolor}
+\usepackage{mdframed}
+           
+                    
+%Custom Spacing
+\usepackage{setspace}
+         
+                    
+%Defining Colours
+\definecolor{CCSbrown}{RGB}{163, 86, 37}
+\definecolor{CCSgrey}{RGB}{105, 105, 105}
+\definecolor{CCSblack}{RGB}{64, 64, 65} 
+             
+             
+%Heading Colours                  
+\usepackage{sectsty}
+\usepackage{titlesec}
+\chapterfont{\color{blue}}  %sets colour of chapters font
+\sectionfont{\color{CCSbrown}}  %sets colour of section font
+\subsectionfont{\color{CCSblack}} %sets colour of subsection font
+\subsubsectionfont{\color{black}} %sets colour of subsubsection font
+		
+    				
+%Bibliography
+\usepackage[authordate, backend=biber]{biblatex-chicago}
+\addbibresource{EWaste.bib}
+\usepackage{hyperref} %activates links 
+\hypersetup{
+colorlinks,
+linkcolor = CCSbrown,
+citecolor = CCSbrown,
+urlcolor = CCSbrown}
+\usepackage{blindtext}
+		
+              
+\begin{document}
+                    
+
+\newpage
+\newlist{abbrv}{itemize}{1}
+\setlist[abbrv,1]{label=,labelwidth=1in,align=parleft,itemsep=0.1\baselineskip,leftmargin=!}
+
+%Executive Summary
+\newpage
+\section*{Acknowledgements}
+
+
+\textit{Doing Business in Delhi: A Compendium} is the result of the dedication and enthusiasm of the 2018 cohort of the Researching Reality Summer Programme of Centre for Civil Society (CCS). \\
+
+Over 14 weeks, 22 research interns worked tirelessly to find information from putrid meat shops, dusty record rooms, grim alleys and sometimes, air-conditioned radio cabs. We congratulate Aastha Sood, Adarsh Ranjan, Akshat Singh, Aryan Aggarwal, Ayesha Selwyn, C. K. Pushyami, Jayana Bedi, Jibin Joseph. Kruthika Jerome, Parth Gupta, Parth Singh, Prajwal Seth, Pujeet Manot, Retika Vijay, Rutvi Vadera, Sanjari Kalantri, Shivani Pandey, Shivank Singh, Shruti Gupta, Shubham Singh, Tarini Sudhakar and Vatsal Bajaj for all the hard work and the seven research papers!\\
+
+We are especially grateful to C. K. Pushyami, Jayana Bedi, Shruti Gupta and Tarini Sudhakar for taking the compendium over the finish line. Thanks to Archit Puri for coordinating and supervising the internship. Credits are due to Usha Sondhi Kundu for designing the layout and Bushra Rashid for her diligent work in proofreading the volume. \\
+
+Special thanks to Parth J Shah, Shagata Mukherjee, Luis Miranda, Barun Mitra and Nimish Adhia for their time in teaching the values, skills and tools required for policy-making. We are also grateful to Shefali Malhotra, Shubho Roy, and Devendra Damle for sector-specific inputs and research guidance. \\
+
+We would also like acknowledge and thank the organisations that provided funding for this volume, Friedrich Naumann Foundation for Freedom and Atlas Network. This edition of the internship was jointly executed by the Academy and Research team of CCS. \\
+
+Finally, we are grateful to all enterprises, government officers at the centre and state, activists and individual survey respondents who wish to remain anonymous for patiently providing all the information. The study would not have been possible without their cooperation. \\
+
+
+
+
+\setlength{\columnsep}{0.4pt}
+
+\begin{multicols}{3}
+
+\textbf{Bhuvana Anand} \\ \textit{Principal Investigator}\\
+
+\textbf{Ritika Shah} \\ \textit{Research Manager} \\
+
+\textbf{Alston D’Souza} \\ \textit{Senior Research Associate} \\
+
+\end{multicols}
+
+
+
+
+
+
+                  
+                                                 
+\end{document}
